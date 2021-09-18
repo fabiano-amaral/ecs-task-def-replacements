@@ -1,21 +1,96 @@
-const core = require('@actions/core');
-const wait = require('./wait');
+const core = require('@actions/core')
+const {
+  ECSClient,
+  DescribeTaskDefinitionCommand,
+  DescribeServicesCommand,
+} = require('@aws-sdk/client-ecs')
+const { merge, head, omit } = require('lodash')
+const tmp = require('tmp')
+const fs = require('fs')
 
+const IGNORED_TASK_DEFINITION_ATTRIBUTES = [
+  'compatibilities',
+  'taskDefinitionArn',
+  'requiresAttributes',
+  'revision',
+  'status',
+  'registeredAt',
+  'deregisteredAt',
+  'registeredBy'
+]
 
-// most @actions toolkit packages have async methods
-async function run() {
+const getTaskDefinition = async ({
+taskDefinition,
+client,
+}) => {
+  const command = new DescribeTaskDefinitionCommand({
+    taskDefinition,
+    client
+  })
+
   try {
-    const ms = core.getInput('milliseconds');
-    core.info(`Waiting ${ms} milliseconds ...`);
-
-    core.debug((new Date()).toTimeString()); // debug is only output if you set the secret `ACTIONS_RUNNER_DEBUG` to true
-    await wait(parseInt(ms));
-    core.info((new Date()).toTimeString());
-
-    core.setOutput('time', new Date().toTimeString());
+    const { taskDefinition } = await client.send(command)
+    return taskDefinition
   } catch (error) {
-    core.setFailed(error.message);
+    core.setFailed(error.message)
+    return null
   }
 }
 
-run();
+const getECSService = async ({
+  cluster,
+  service,
+  client
+}) => {
+  const command = new DescribeServicesCommand({
+    services: [service],
+    cluster
+  })
+
+  const { services } = await client.send(command)
+  if (services.length < 1) {
+    throw new ReferenceError('Service not found')
+  }
+  return services
+}
+
+
+async function run() {
+
+  const client = new ECSClient()
+
+  const cluster = core.getInput('cluster-name')
+  const service = core.getInput('service-name')
+  try {
+    const services = await getECSService({
+      cluster,
+      service,
+      client
+    })
+    const { taskDefinition } = head(services)
+    const taskDef = await getTaskDefinition({
+    taskDefinition,
+    client,
+    })
+    const replacements = core.getInput('replacements') || '{}'
+    const taskDefMerged = merge(taskDef, JSON.parse(replacements))
+
+    const newTaskDef = omit(taskDefMerged, IGNORED_TASK_DEFINITION_ATTRIBUTES)
+
+    // create a a file for task def
+    const taskDefFile = tmp.fileSync({
+      tmpdir: process.env.RUNNER_TEMP,
+      prefix: 'task-definition-',
+      postfix: '.json',
+      keep: true,
+      discardDescriptor: true
+    })
+
+    fs.writeFileSync(taskDefFile.name, JSON.stringify(newTaskDef))
+    core.setOutput('taskDef', taskDefFile.name)
+  } catch (error) {
+    core.setFailed(error.message)
+  }
+}
+
+run()

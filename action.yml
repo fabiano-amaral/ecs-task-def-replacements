@@ -1,12 +1,18 @@
 name: 'ecs task def render'
 description: 'get the currently running task definition, replace values (like image) and create a new revision'
 inputs:
-  milliseconds:  # id of input
-    description: 'number of milliseconds to wait'
+  cluster-name:  # id of input
+    description: cluster that service is running
     required: true
-    default: '1000'
+  service-name:  # id of input
+    description: service to get task definition
+    required: true
+  replacements:  # id of input
+    description: "JSON between '' eg '{\"name\": \"Andrew\"}'"
+    required: true
+
 outputs:
-  time: # output will be available to future steps
+  taskDef: # output will be available to future steps
     description: 'The message to output'
 runs:
   using: 'node12'
