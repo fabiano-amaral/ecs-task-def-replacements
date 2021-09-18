@@ -1,5 +1,5 @@
-name: 'Wait'
-description: 'Wait a designated number of milliseconds'
+name: 'ecs task def render'
+description: 'get the currently running task definition, replace values (like image) and create a new revision'
 inputs:
   milliseconds:  # id of input
     description: 'number of milliseconds to wait'
