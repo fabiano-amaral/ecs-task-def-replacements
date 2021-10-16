@@ -14,3 +14,6 @@ jobs:
       - uses: release-drafter/release-drafter@v5
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          publish: ${{ github.ref == 'refs/heads/master' || github.ref == 'refs/heads/develop' }}
+          prerelease: ${{ github.ref != 'refs/heads/master' }}
