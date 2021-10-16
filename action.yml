@@ -1,5 +1,8 @@
 name: 'ecs task definition replacements'
 description: 'get the currently running task definition, replace values (like image)'
+branding:
+  icon: arrow-up-circle
+  color: purple
 inputs:
   cluster-name:
     description: cluster that service is running
