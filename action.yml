@@ -1,19 +1,22 @@
-name: 'ecs task def render'
-description: 'get the currently running task definition, replace values (like image) and create a new revision'
+name: 'ecs task definition replacements'
+description: 'get the currently running task definition, replace values (like image)'
 inputs:
-  cluster-name:  # id of input
+  cluster-name:
     description: cluster that service is running
     required: true
-  service-name:  # id of input
-    description: service to get task definition
-    required: true
-  replacements:  # id of input
+  service-name:
+    description: service to get current running task definition
+    required: false
+  task-name:
+    description: task family to get the latest task definition revision
+    required: false
+  replacements:
     description: "JSON between '' eg '{\"name\": \"Andrew\"}'"
     required: true
 
 outputs:
-  taskDef: # output will be available to future steps
-    description: 'The message to output'
+  taskDef:
+    description: 'Path to the new json file'
 runs:
   using: 'node12'
   main: 'dist/index.js'
