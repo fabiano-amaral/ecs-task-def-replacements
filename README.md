@@ -105,3 +105,17 @@ jobs:
           cluster: my-cluster
           wait-for-service-stability: true
 ```
+## Inputs
+
+|Input|required|Description|
+|---|---|---|
+|cluster-name|true|Cluster that service is running|
+|service-name|false*|Service to get current running task definition|
+|task-name|false*|Task family to get the latest task definition revision|
+|replacements|true|JSON (stringified, see examples above) to be merged with the data retrieved|
+
+*you **must** to pass one of service-name or task-name
+
+## Outputs
+
+taskDef (file path): Path to the json file that contains the merges output
