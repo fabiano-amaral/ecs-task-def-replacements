@@ -33,7 +33,6 @@ client,
     return taskDefinition
   } catch (error) {
     core.setFailed(error.message)
-    return null
   }
 }
 
@@ -57,37 +56,66 @@ const getECSService = async ({
 
 async function run() {
 
-  const client = new ECSClient()
+  const client = new ECSClient({ region: 'us-east-1' })
 
   const cluster = core.getInput('cluster-name')
   const service = core.getInput('service-name')
+  const task = core.getInput('task-name')
+
   try {
-    const services = await getECSService({
-      cluster,
-      service,
-      client
-    })
-    const { taskDefinition } = head(services)
-    const taskDef = await getTaskDefinition({
-    taskDefinition,
-    client,
-    })
-    const replacements = core.getInput('replacements') || '{}'
-    const taskDefMerged = merge(taskDef, JSON.parse(replacements))
+    if(service !== '') {
+      const services = await getECSService({
+        cluster,
+        service,
+        client
+      })
+      const { taskDefinition } = head(services)
+      const taskDef = await getTaskDefinition({
+      taskDefinition,
+      client,
+      })
 
-    const newTaskDef = omit(taskDefMerged, IGNORED_TASK_DEFINITION_ATTRIBUTES)
+      const replacements = core.getInput('replacements') || '{}'
+      const taskDefMerged = merge(taskDef, JSON.parse(replacements))
 
-    // create a a file for task def
-    const taskDefFile = tmp.fileSync({
-      tmpdir: process.env.RUNNER_TEMP,
-      prefix: 'task-definition-',
-      postfix: '.json',
-      keep: true,
-      discardDescriptor: true
-    })
+      const newTaskDef = omit(taskDefMerged, IGNORED_TASK_DEFINITION_ATTRIBUTES)
 
-    fs.writeFileSync(taskDefFile.name, JSON.stringify(newTaskDef))
-    core.setOutput('taskDef', taskDefFile.name)
+      // create a a file for task def
+      const taskDefFile = tmp.fileSync({
+        tmpdir: process.env.RUNNER_TEMP,
+        prefix: 'task-definition-',
+        postfix: '.json',
+        keep: true,
+        discardDescriptor: true
+      })
+
+      fs.writeFileSync(taskDefFile.name, JSON.stringify(newTaskDef))
+      core.setOutput('taskDef', taskDefFile.name)
+    } else {
+
+      const taskDef = await getTaskDefinition({
+        taskDefinition: task,
+        client,
+      })
+
+      const replacements = core.getInput('replacements') || '{}'
+      const taskDefMerged = merge(taskDef, JSON.parse(replacements))
+
+      const newTaskDef = omit(taskDefMerged, IGNORED_TASK_DEFINITION_ATTRIBUTES)
+
+      console.dir(newTaskDef)
+
+      const taskDefFile = tmp.fileSync({
+        tmpdir: process.env.RUNNER_TEMP,
+        prefix: 'task-definition-',
+        postfix: '.json',
+        keep: true,
+        discardDescriptor: true
+      })
+
+      fs.writeFileSync(taskDefFile.name, JSON.stringify(newTaskDef))
+      core.setOutput('taskDef', taskDefFile.name)
+    }
   } catch (error) {
     core.setFailed(error.message)
   }

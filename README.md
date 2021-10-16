@@ -1,116 +1,107 @@
-# Create a JavaScript Action
+## ecs-task-def-replacements
 
-<p align="center">
-  <a href="https://github.com/actions/javascript-action/actions"><img alt="javscript-action status" src="https://github.com/actions/javascript-action/workflows/units-test/badge.svg"></a>
-</p>
+Help on aws ECS deploy, getting the current task running on a service, or the latest revision from a task definition family, replacing any field on the running/latest task definition.
 
-Use this template to bootstrap the creation of a JavaScript action.:rocket:
+Plays nice with:
 
-This template includes tests, linting, a validation workflow, publishing, and versioning guidance.
+- https://github.com/marketplace/actions/amazon-ecs-deploy-task-definition-action-for-github-actions
 
-If you are new, there's also a simpler introduction.  See the [Hello World JavaScript Action](https://github.com/actions/hello-world-javascript-action)
+- https://github.com/marketplace/actions/configure-aws-credentials-action-for-github-actions
 
-## Create an action from this template
+- https://github.com/marketplace/actions/amazon-ecr-login-action-for-github-actions
 
-Click the `Use this Template` and provide the new repo details for your action
+## Usage for ECS service
 
-## Code in Main
+Case you are using for get the currently running task definition (**not** the last revision, this is very useful when the last task definition isn't running on serive, maybe because a rollback), you need to specify the cluster name and service name
 
-Install the dependencies
-
-```bash
-npm install
+```yml
+- name: Retrieve trask def
+  uses: fabiano-amaral/ecs-task-def-replacements@main
+  id: task
+  with:
+    cluster-name: my-ecs-cluster
+    service-name: my-service-name
+    replacements: |
+      {
+        "containerDefinitions": [{
+          "image": "my-new-image"
+        }]
+      }
 ```
 
-Run the tests :heavy_check_mark:
+If you are interested to get the last revision of a task definition, you can use in this way
 
-```bash
-$ npm test
-
- PASS  ./index.test.js
-  ✓ throws invalid number (3ms)
-  ✓ wait 500 ms (504ms)
-  ✓ test runs (95ms)
-...
+```yml
+- name: Retrieve trask def
+  uses: fabiano-amaral/ecs-task-def-replacements@main
+  id: task
+  with:
+    task-name: my-task-name
+    replacements: |
+      {
+        "containerDefinitions": [{
+          "image": "my-new-image"
+        }]
+      }
 ```
 
-## Change action.yml
+## Pipeline that use this Action
 
-The action.yml defines the inputs and output for your action.
+```yml
+name: Build and Deploy
+on:
+  push:
+    branches:
+      - main
+jobs:
+  build_and_deploy:
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Checkout and set Output
+        id: checkout_code
+        uses: actions/checkout@v2
 
-Update the action.yml with your name, description, inputs and outputs for your action.
+      - name: Configure AWS credentials
+        id: login_aws_credentials
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: us-east-1
+          mask-aws-account-id: 'no'
 
-See the [documentation](https://help.github.com/en/articles/metadata-syntax-for-github-actions)
+      - name: Login to Amazon ECR
+        id: login-ecr
+        uses: aws-actions/amazon-ecr-login@v1
 
-## Change the Code
+      - name: Build, tag, and push image to Amazon ECR
+        id: build
+        env:
+          ECR_REGISTRY: ${{ steps.login-ecr.outputs.registry }}
+          ECR_REPOSITORY: my-service-repository
+        run: |
+          docker build -t $ECR_REGISTRY/$ECR_REPOSITORY:${GITHUB_SHA::7} --build-arg DD_VERSION=${GITHUB_SHA::7} .
+          docker push $ECR_REGISTRY/$ECR_REPOSITORY:${GITHUB_SHA::7}
+          echo "::set-output name=image::$ECR_REGISTRY/$ECR_REPOSITORY:${GITHUB_SHA::7}"
 
-Most toolkit and CI/CD operations involve async operations so the action is run in an async function.
+      - name: Retrieve trask def
+        uses: fabiano-amaral/ecs-task-def-replacements@main
+        id: task
+        with:
+          cluster-name: my-cluster
+          service-name: my-service
+          replacements: |
+            {
+              "containerDefinitions": [{
+                "image": "${{ steps.build.outputs.image }}"
+              }]
+            }
 
-```javascript
-const core = require('@actions/core');
-...
-
-async function run() {
-  try {
-      ...
-  }
-  catch (error) {
-    core.setFailed(error.message);
-  }
-}
-
-run()
+      - name: Deploy to Amazon ECS
+        uses: aws-actions/amazon-ecs-deploy-task-definition@v1
+        with:
+          task-definition: ${{ steps.task.outputs.taskDef }}
+          service: my-service
+          cluster: my-cluster
+          wait-for-service-stability: true
 ```
-
-See the [toolkit documentation](https://github.com/actions/toolkit/blob/master/README.md#packages) for the various packages.
-
-## Package for distribution
-
-GitHub Actions will run the entry point from the action.yml. Packaging assembles the code into one file that can be checked in to Git, enabling fast and reliable execution and preventing the need to check in node_modules.
-
-Actions are run from GitHub repos.  Packaging the action will create a packaged action in the dist folder.
-
-Run prepare
-
-```bash
-npm run prepare
-```
-
-Since the packaged index.js is run from the dist folder.
-
-```bash
-git add dist
-```
-
-## Create a release branch
-
-Users shouldn't consume the action from master since that would be latest code and actions can break compatibility between major versions.
-
-Checkin to the v1 release branch
-
-```bash
-git checkout -b v1
-git commit -a -m "v1 release"
-```
-
-```bash
-git push origin v1
-```
-
-Note: We recommend using the `--license` option for ncc, which will create a license file for all of the production node modules used in your project.
-
-Your action is now published! :rocket:
-
-See the [versioning documentation](https://github.com/actions/toolkit/blob/master/docs/action-versioning.md)
-
-## Usage
-
-You can now consume the action by referencing the v1 branch
-
-```yaml
-uses: actions/javascript-action@v1
-with:
-  milliseconds: 1000
-```
-
-See the [actions tab](https://github.com/actions/javascript-action/actions) for runs of this action! :rocket:
