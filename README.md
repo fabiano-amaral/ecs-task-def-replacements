@@ -80,7 +80,7 @@ jobs:
           ECR_REGISTRY: ${{ steps.login-ecr.outputs.registry }}
           ECR_REPOSITORY: my-service-repository
         run: |
-          docker build -t $ECR_REGISTRY/$ECR_REPOSITORY:${GITHUB_SHA::7} --build-arg DD_VERSION=${GITHUB_SHA::7} .
+          docker build -t $ECR_REGISTRY/$ECR_REPOSITORY:${GITHUB_SHA::7} .
           docker push $ECR_REGISTRY/$ECR_REPOSITORY:${GITHUB_SHA::7}
           echo "::set-output name=image::$ECR_REGISTRY/$ECR_REPOSITORY:${GITHUB_SHA::7}"
 
