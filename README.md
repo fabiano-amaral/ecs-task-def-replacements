@@ -109,7 +109,8 @@ jobs:
 
 |Input|required|Description|
 |---|---|---|
-|cluster-name|true|Cluster that service is running|
+|cluster-name|false|Cluster that service is running (you can omit this parameter if you are using task-name|
+|aws-region|false|AWS region to be used (default: us-east-1)|
 |service-name|false*|Service to get current running task definition|
 |task-name|false*|Task family to get the latest task definition revision|
 |replacements|true|JSON (stringified, see examples above) to be merged with the data retrieved|

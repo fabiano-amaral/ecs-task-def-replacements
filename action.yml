@@ -4,9 +4,12 @@ branding:
   icon: arrow-up-circle
   color: purple
 inputs:
+  aws-region:
+    description: aws region to be used
+    required: false
   cluster-name:
     description: cluster that service is running
-    required: true
+    required: false
   service-name:
     description: service to get current running task definition
     required: false
