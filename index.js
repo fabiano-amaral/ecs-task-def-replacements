@@ -56,11 +56,13 @@ const getECSService = async ({
 
 async function run() {
 
-  const client = new ECSClient({ region: 'us-east-1' })
 
   const cluster = core.getInput('cluster-name')
   const service = core.getInput('service-name')
   const task = core.getInput('task-name')
+  const region = core.getInput('aws-region') || 'us-east-1'
+
+  const client = new ECSClient({ region })
 
   try {
     if(service !== '') {
