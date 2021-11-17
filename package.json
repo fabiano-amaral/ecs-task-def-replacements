@@ -31,7 +31,7 @@
     "tmp": "^0.2.1"
   },
   "devDependencies": {
-    "@vercel/ncc": "^0.31.1",
+    "@vercel/ncc": "^0.32.0",
     "eslint": "^8.2.0",
     "jest": "^27.3.1"
   }
