@@ -1,30 +1,6 @@
 require('./sourcemap-register.js');/******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ 7247:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_from":"@aws-sdk/client-ecs@^3.32.0","_id":"@aws-sdk/client-ecs@3.37.0","_inBundle":false,"_integrity":"sha512-VY5X/8Cz2IVt0iu4pZNF7V+qkc+yVv74kyaN4CKGrq0XsFTxeqgUW68itnsiTnGcS5qHzgKk0Es4/g/00MdYMA==","_location":"/@aws-sdk/client-ecs","_phantomChildren":{},"_requested":{"type":"range","registry":true,"raw":"@aws-sdk/client-ecs@^3.32.0","name":"@aws-sdk/client-ecs","escapedName":"@aws-sdk%2fclient-ecs","scope":"@aws-sdk","rawSpec":"^3.32.0","saveSpec":null,"fetchSpec":"^3.32.0"},"_requiredBy":["/"],"_resolved":"https://registry.npmjs.org/@aws-sdk/client-ecs/-/client-ecs-3.37.0.tgz","_shasum":"6206a9cdc16246e96fcbbf5b909b491bbe9ceb6c","_spec":"@aws-sdk/client-ecs@^3.32.0","_where":"/Users/fabiano/git/ecs-task-def-replacements","author":{"name":"AWS SDK for JavaScript Team","url":"https://aws.amazon.com/javascript/"},"browser":{"./dist-es/runtimeConfig":"./dist-es/runtimeConfig.browser"},"bugs":{"url":"https://github.com/aws/aws-sdk-js-v3/issues"},"bundleDependencies":false,"dependencies":{"@aws-crypto/sha256-browser":"^1.0.0","@aws-crypto/sha256-js":"^1.0.0","@aws-sdk/client-sts":"3.37.0","@aws-sdk/config-resolver":"3.37.0","@aws-sdk/credential-provider-node":"3.37.0","@aws-sdk/fetch-http-handler":"3.37.0","@aws-sdk/hash-node":"3.37.0","@aws-sdk/invalid-dependency":"3.37.0","@aws-sdk/middleware-content-length":"3.37.0","@aws-sdk/middleware-host-header":"3.37.0","@aws-sdk/middleware-logger":"3.37.0","@aws-sdk/middleware-retry":"3.37.0","@aws-sdk/middleware-serde":"3.37.0","@aws-sdk/middleware-signing":"3.37.0","@aws-sdk/middleware-stack":"3.37.0","@aws-sdk/middleware-user-agent":"3.37.0","@aws-sdk/node-config-provider":"3.37.0","@aws-sdk/node-http-handler":"3.37.0","@aws-sdk/protocol-http":"3.37.0","@aws-sdk/smithy-client":"3.37.0","@aws-sdk/types":"3.37.0","@aws-sdk/url-parser":"3.37.0","@aws-sdk/util-base64-browser":"3.37.0","@aws-sdk/util-base64-node":"3.37.0","@aws-sdk/util-body-length-browser":"3.37.0","@aws-sdk/util-body-length-node":"3.37.0","@aws-sdk/util-user-agent-browser":"3.37.0","@aws-sdk/util-user-agent-node":"3.37.0","@aws-sdk/util-utf8-browser":"3.37.0","@aws-sdk/util-utf8-node":"3.37.0","@aws-sdk/util-waiter":"3.37.0","tslib":"^2.3.0"},"deprecated":false,"description":"AWS SDK for JavaScript Ecs Client for Node.js, Browser and React Native","devDependencies":{"@aws-sdk/client-documentation-generator":"3.37.0","@types/node":"^12.7.5","downlevel-dts":"0.7.0","jest":"^26.1.0","rimraf":"^3.0.0","ts-jest":"^26.4.1","typedoc":"^0.19.2","typescript":"~4.3.5"},"engines":{"node":">=10.0.0"},"files":["dist-*"],"homepage":"https://github.com/aws/aws-sdk-js-v3/tree/main/clients/client-ecs","license":"Apache-2.0","main":"./dist-cjs/index.js","module":"./dist-es/index.js","name":"@aws-sdk/client-ecs","react-native":{"./dist-es/runtimeConfig":"./dist-es/runtimeConfig.native"},"repository":{"type":"git","url":"git+https://github.com/aws/aws-sdk-js-v3.git","directory":"clients/client-ecs"},"scripts":{"build":"yarn build:cjs && yarn build:es && yarn build:types","build:cjs":"tsc -p tsconfig.json","build:docs":"yarn clean:docs && typedoc ./","build:es":"tsc -p tsconfig.es.json","build:types":"tsc -p tsconfig.types.json","clean":"yarn clean:dist && yarn clean:docs","clean:dist":"rimraf ./dist","clean:docs":"rimraf ./docs","downlevel-dts":"downlevel-dts dist-types dist-types/ts3.4","test":"exit 0"},"sideEffects":false,"types":"./dist-types/index.d.ts","typesVersions":{"<4.0":{"dist-types/*":["dist-types/ts3.4/*"]}},"version":"3.37.0"}');
-
-/***/ }),
-
-/***/ 3966:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_from":"@aws-sdk/client-sso@3.37.0","_id":"@aws-sdk/client-sso@3.37.0","_inBundle":false,"_integrity":"sha512-nD3dbPQvgfB54U1zf0xqdrKimS5mbzYhEldsGq/6yDrE+PsU3p/+PK3IV1sy4K84jLaWkaHo8e/cJBtw28xfzQ==","_location":"/@aws-sdk/client-sso","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"@aws-sdk/client-sso@3.37.0","name":"@aws-sdk/client-sso","escapedName":"@aws-sdk%2fclient-sso","scope":"@aws-sdk","rawSpec":"3.37.0","saveSpec":null,"fetchSpec":"3.37.0"},"_requiredBy":["/@aws-sdk/credential-provider-sso"],"_resolved":"https://registry.npmjs.org/@aws-sdk/client-sso/-/client-sso-3.37.0.tgz","_shasum":"535d20a94eb8e366c72b41cb761e384bba553908","_spec":"@aws-sdk/client-sso@3.37.0","_where":"/Users/fabiano/git/ecs-task-def-replacements/node_modules/@aws-sdk/credential-provider-sso","author":{"name":"AWS SDK for JavaScript Team","url":"https://aws.amazon.com/javascript/"},"browser":{"./dist-es/runtimeConfig":"./dist-es/runtimeConfig.browser"},"bugs":{"url":"https://github.com/aws/aws-sdk-js-v3/issues"},"bundleDependencies":false,"dependencies":{"@aws-crypto/sha256-browser":"^1.0.0","@aws-crypto/sha256-js":"^1.0.0","@aws-sdk/config-resolver":"3.37.0","@aws-sdk/fetch-http-handler":"3.37.0","@aws-sdk/hash-node":"3.37.0","@aws-sdk/invalid-dependency":"3.37.0","@aws-sdk/middleware-content-length":"3.37.0","@aws-sdk/middleware-host-header":"3.37.0","@aws-sdk/middleware-logger":"3.37.0","@aws-sdk/middleware-retry":"3.37.0","@aws-sdk/middleware-serde":"3.37.0","@aws-sdk/middleware-stack":"3.37.0","@aws-sdk/middleware-user-agent":"3.37.0","@aws-sdk/node-config-provider":"3.37.0","@aws-sdk/node-http-handler":"3.37.0","@aws-sdk/protocol-http":"3.37.0","@aws-sdk/smithy-client":"3.37.0","@aws-sdk/types":"3.37.0","@aws-sdk/url-parser":"3.37.0","@aws-sdk/util-base64-browser":"3.37.0","@aws-sdk/util-base64-node":"3.37.0","@aws-sdk/util-body-length-browser":"3.37.0","@aws-sdk/util-body-length-node":"3.37.0","@aws-sdk/util-user-agent-browser":"3.37.0","@aws-sdk/util-user-agent-node":"3.37.0","@aws-sdk/util-utf8-browser":"3.37.0","@aws-sdk/util-utf8-node":"3.37.0","tslib":"^2.3.0"},"deprecated":false,"description":"AWS SDK for JavaScript Sso Client for Node.js, Browser and React Native","devDependencies":{"@aws-sdk/client-documentation-generator":"3.37.0","@types/node":"^12.7.5","downlevel-dts":"0.7.0","jest":"^26.1.0","rimraf":"^3.0.0","ts-jest":"^26.4.1","typedoc":"^0.19.2","typescript":"~4.3.5"},"engines":{"node":">=10.0.0"},"files":["dist-*"],"homepage":"https://github.com/aws/aws-sdk-js-v3/tree/main/clients/client-sso","license":"Apache-2.0","main":"./dist-cjs/index.js","module":"./dist-es/index.js","name":"@aws-sdk/client-sso","react-native":{"./dist-es/runtimeConfig":"./dist-es/runtimeConfig.native"},"repository":{"type":"git","url":"git+https://github.com/aws/aws-sdk-js-v3.git","directory":"clients/client-sso"},"scripts":{"build":"yarn build:cjs && yarn build:es && yarn build:types","build:cjs":"tsc -p tsconfig.json","build:docs":"yarn clean:docs && typedoc ./","build:es":"tsc -p tsconfig.es.json","build:types":"tsc -p tsconfig.types.json","clean":"yarn clean:dist && yarn clean:docs","clean:dist":"rimraf ./dist","clean:docs":"rimraf ./docs","downlevel-dts":"downlevel-dts dist-types dist-types/ts3.4","test":"exit 0"},"sideEffects":false,"types":"./dist-types/index.d.ts","typesVersions":{"<4.0":{"dist-types/*":["dist-types/ts3.4/*"]}},"version":"3.37.0"}');
-
-/***/ }),
-
-/***/ 1121:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"_from":"@aws-sdk/client-sts@3.37.0","_id":"@aws-sdk/client-sts@3.37.0","_inBundle":false,"_integrity":"sha512-BiKf2YCW4rhn9UIBhZdzdDsCYWFYsWtRm71budsVaRmdY263g5wpCd4v0PCbyO69dbScllOrR8qrUuWW8YZ2IQ==","_location":"/@aws-sdk/client-sts","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"@aws-sdk/client-sts@3.37.0","name":"@aws-sdk/client-sts","escapedName":"@aws-sdk%2fclient-sts","scope":"@aws-sdk","rawSpec":"3.37.0","saveSpec":null,"fetchSpec":"3.37.0"},"_requiredBy":["/@aws-sdk/client-ecs"],"_resolved":"https://registry.npmjs.org/@aws-sdk/client-sts/-/client-sts-3.37.0.tgz","_shasum":"5c99cca48fec18c2f45bbae1372caceca666f00e","_spec":"@aws-sdk/client-sts@3.37.0","_where":"/Users/fabiano/git/ecs-task-def-replacements/node_modules/@aws-sdk/client-ecs","author":{"name":"AWS SDK for JavaScript Team","url":"https://aws.amazon.com/javascript/"},"browser":{"./dist-es/runtimeConfig":"./dist-es/runtimeConfig.browser"},"bugs":{"url":"https://github.com/aws/aws-sdk-js-v3/issues"},"bundleDependencies":false,"dependencies":{"@aws-crypto/sha256-browser":"^1.0.0","@aws-crypto/sha256-js":"^1.0.0","@aws-sdk/config-resolver":"3.37.0","@aws-sdk/credential-provider-node":"3.37.0","@aws-sdk/fetch-http-handler":"3.37.0","@aws-sdk/hash-node":"3.37.0","@aws-sdk/invalid-dependency":"3.37.0","@aws-sdk/middleware-content-length":"3.37.0","@aws-sdk/middleware-host-header":"3.37.0","@aws-sdk/middleware-logger":"3.37.0","@aws-sdk/middleware-retry":"3.37.0","@aws-sdk/middleware-sdk-sts":"3.37.0","@aws-sdk/middleware-serde":"3.37.0","@aws-sdk/middleware-signing":"3.37.0","@aws-sdk/middleware-stack":"3.37.0","@aws-sdk/middleware-user-agent":"3.37.0","@aws-sdk/node-config-provider":"3.37.0","@aws-sdk/node-http-handler":"3.37.0","@aws-sdk/protocol-http":"3.37.0","@aws-sdk/smithy-client":"3.37.0","@aws-sdk/types":"3.37.0","@aws-sdk/url-parser":"3.37.0","@aws-sdk/util-base64-browser":"3.37.0","@aws-sdk/util-base64-node":"3.37.0","@aws-sdk/util-body-length-browser":"3.37.0","@aws-sdk/util-body-length-node":"3.37.0","@aws-sdk/util-user-agent-browser":"3.37.0","@aws-sdk/util-user-agent-node":"3.37.0","@aws-sdk/util-utf8-browser":"3.37.0","@aws-sdk/util-utf8-node":"3.37.0","entities":"2.2.0","fast-xml-parser":"3.19.0","tslib":"^2.3.0"},"deprecated":false,"description":"AWS SDK for JavaScript Sts Client for Node.js, Browser and React Native","devDependencies":{"@aws-sdk/client-documentation-generator":"3.37.0","@types/node":"^12.7.5","downlevel-dts":"0.7.0","jest":"^26.1.0","rimraf":"^3.0.0","ts-jest":"^26.4.1","typedoc":"^0.19.2","typescript":"~4.3.5"},"engines":{"node":">=10.0.0"},"files":["dist-*"],"homepage":"https://github.com/aws/aws-sdk-js-v3/tree/main/clients/client-sts","license":"Apache-2.0","main":"./dist-cjs/index.js","module":"./dist-es/index.js","name":"@aws-sdk/client-sts","react-native":{"./dist-es/runtimeConfig":"./dist-es/runtimeConfig.native"},"repository":{"type":"git","url":"git+https://github.com/aws/aws-sdk-js-v3.git","directory":"clients/client-sts"},"scripts":{"build":"yarn build:cjs && yarn build:es && yarn build:types","build:cjs":"tsc -p tsconfig.json","build:docs":"yarn clean:docs && typedoc ./","build:es":"tsc -p tsconfig.es.json","build:types":"tsc -p tsconfig.types.json","clean":"yarn clean:dist && yarn clean:docs","clean:dist":"rimraf ./dist","clean:docs":"rimraf ./docs","downlevel-dts":"downlevel-dts dist-types dist-types/ts3.4","test":"exit 0"},"sideEffects":false,"types":"./dist-types/index.d.ts","typesVersions":{"<4.0":{"dist-types/*":["dist-types/ts3.4/*"]}},"version":"3.37.0"}');
-
-/***/ }),
-
 /***/ 7351:
 /***/ (function(__unused_webpack_module, exports, __nccwpck_require__) {
 
@@ -51,7 +27,7 @@ var __importStar = (this && this.__importStar) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.issue = exports.issueCommand = void 0;
-const os = __importStar(__nccwpck_require__(2087));
+const os = __importStar(__nccwpck_require__(2037));
 const utils_1 = __nccwpck_require__(5278);
 /**
  * Commands
@@ -162,8 +138,8 @@ exports.getIDToken = exports.getState = exports.saveState = exports.group = expo
 const command_1 = __nccwpck_require__(7351);
 const file_command_1 = __nccwpck_require__(717);
 const utils_1 = __nccwpck_require__(5278);
-const os = __importStar(__nccwpck_require__(2087));
-const path = __importStar(__nccwpck_require__(5622));
+const os = __importStar(__nccwpck_require__(2037));
+const path = __importStar(__nccwpck_require__(1017));
 const oidc_utils_1 = __nccwpck_require__(8041);
 /**
  * The code to exit an action
@@ -472,8 +448,8 @@ Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.issueCommand = void 0;
 // We use any as a valid input type
 /* eslint-disable @typescript-eslint/no-explicit-any */
-const fs = __importStar(__nccwpck_require__(5747));
-const os = __importStar(__nccwpck_require__(2087));
+const fs = __importStar(__nccwpck_require__(7147));
+const os = __importStar(__nccwpck_require__(2037));
 const utils_1 = __nccwpck_require__(5278);
 function issueCommand(command, message) {
     const filePath = process.env[`GITHUB_${command}`];
@@ -695,8 +671,8 @@ exports.PersonalAccessTokenCredentialHandler = PersonalAccessTokenCredentialHand
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
-const http = __nccwpck_require__(8605);
-const https = __nccwpck_require__(7211);
+const http = __nccwpck_require__(3685);
+const https = __nccwpck_require__(5687);
 const pm = __nccwpck_require__(6443);
 let tunnel;
 var HttpCodes;
@@ -1356,7 +1332,7 @@ const UpdateClusterSettingsCommand_1 = __nccwpck_require__(6288);
 const UpdateContainerAgentCommand_1 = __nccwpck_require__(2759);
 const UpdateContainerInstancesStateCommand_1 = __nccwpck_require__(1453);
 const UpdateServiceCommand_1 = __nccwpck_require__(7075);
-const UpdateServicePrimaryTaskSetCommand_1 = __nccwpck_require__(5953);
+const UpdateServicePrimaryTaskSetCommand_1 = __nccwpck_require__(4016);
 const UpdateTaskSetCommand_1 = __nccwpck_require__(5753);
 const ECSClient_1 = __nccwpck_require__(5714);
 class ECS extends ECSClient_1.ECSClient {
@@ -4337,7 +4313,7 @@ exports.UpdateServiceCommand = UpdateServiceCommand;
 
 /***/ }),
 
-/***/ 5953:
+/***/ 4016:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
@@ -4425,108 +4401,13 @@ exports.UpdateTaskSetCommand = UpdateTaskSetCommand;
 
 /***/ }),
 
-/***/ 4142:
-/***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
-
-"use strict";
-
-Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.defaultRegionInfoProvider = void 0;
-const config_resolver_1 = __nccwpck_require__(6153);
-const regionHash = {
-    "fips-us-east-1": {
-        hostname: "ecs-fips.us-east-1.amazonaws.com",
-        signingRegion: "us-east-1",
-    },
-    "fips-us-east-2": {
-        hostname: "ecs-fips.us-east-2.amazonaws.com",
-        signingRegion: "us-east-2",
-    },
-    "fips-us-gov-east-1": {
-        hostname: "ecs-fips.us-gov-east-1.amazonaws.com",
-        signingRegion: "us-gov-east-1",
-    },
-    "fips-us-gov-west-1": {
-        hostname: "ecs-fips.us-gov-west-1.amazonaws.com",
-        signingRegion: "us-gov-west-1",
-    },
-    "fips-us-west-1": {
-        hostname: "ecs-fips.us-west-1.amazonaws.com",
-        signingRegion: "us-west-1",
-    },
-    "fips-us-west-2": {
-        hostname: "ecs-fips.us-west-2.amazonaws.com",
-        signingRegion: "us-west-2",
-    },
-};
-const partitionHash = {
-    aws: {
-        regions: [
-            "af-south-1",
-            "ap-east-1",
-            "ap-northeast-1",
-            "ap-northeast-2",
-            "ap-northeast-3",
-            "ap-south-1",
-            "ap-southeast-1",
-            "ap-southeast-2",
-            "ca-central-1",
-            "eu-central-1",
-            "eu-north-1",
-            "eu-south-1",
-            "eu-west-1",
-            "eu-west-2",
-            "eu-west-3",
-            "fips-us-east-1",
-            "fips-us-east-2",
-            "fips-us-west-1",
-            "fips-us-west-2",
-            "me-south-1",
-            "sa-east-1",
-            "us-east-1",
-            "us-east-2",
-            "us-west-1",
-            "us-west-2",
-        ],
-        hostname: "ecs.{region}.amazonaws.com",
-    },
-    "aws-cn": {
-        regions: ["cn-north-1", "cn-northwest-1"],
-        hostname: "ecs.{region}.amazonaws.com.cn",
-    },
-    "aws-iso": {
-        regions: ["us-iso-east-1", "us-iso-west-1"],
-        hostname: "ecs.{region}.c2s.ic.gov",
-    },
-    "aws-iso-b": {
-        regions: ["us-isob-east-1"],
-        hostname: "ecs.{region}.sc2s.sgov.gov",
-    },
-    "aws-us-gov": {
-        regions: ["fips-us-gov-east-1", "fips-us-gov-west-1", "us-gov-east-1", "us-gov-west-1"],
-        hostname: "ecs.{region}.amazonaws.com",
-    },
-};
-const defaultRegionInfoProvider = async (region, options) => config_resolver_1.getRegionInfo(region, {
-    ...options,
-    signingService: "ecs",
-    regionHash,
-    partitionHash,
-});
-exports.defaultRegionInfoProvider = defaultRegionInfoProvider;
-
-
-/***/ }),
-
-/***/ 8209:
+/***/ 5233:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 const tslib_1 = __nccwpck_require__(4351);
-tslib_1.__exportStar(__nccwpck_require__(5714), exports);
-tslib_1.__exportStar(__nccwpck_require__(9074), exports);
 tslib_1.__exportStar(__nccwpck_require__(4286), exports);
 tslib_1.__exportStar(__nccwpck_require__(9837), exports);
 tslib_1.__exportStar(__nccwpck_require__(897), exports);
@@ -4543,31 +4424,20 @@ tslib_1.__exportStar(__nccwpck_require__(2171), exports);
 tslib_1.__exportStar(__nccwpck_require__(4863), exports);
 tslib_1.__exportStar(__nccwpck_require__(8965), exports);
 tslib_1.__exportStar(__nccwpck_require__(1000), exports);
-tslib_1.__exportStar(__nccwpck_require__(5853), exports);
 tslib_1.__exportStar(__nccwpck_require__(991), exports);
-tslib_1.__exportStar(__nccwpck_require__(9793), exports);
-tslib_1.__exportStar(__nccwpck_require__(3464), exports);
-tslib_1.__exportStar(__nccwpck_require__(1497), exports);
 tslib_1.__exportStar(__nccwpck_require__(105), exports);
+tslib_1.__exportStar(__nccwpck_require__(9793), exports);
 tslib_1.__exportStar(__nccwpck_require__(1923), exports);
 tslib_1.__exportStar(__nccwpck_require__(9414), exports);
 tslib_1.__exportStar(__nccwpck_require__(9726), exports);
-tslib_1.__exportStar(__nccwpck_require__(2183), exports);
 tslib_1.__exportStar(__nccwpck_require__(1415), exports);
-tslib_1.__exportStar(__nccwpck_require__(2008), exports);
 tslib_1.__exportStar(__nccwpck_require__(2960), exports);
-tslib_1.__exportStar(__nccwpck_require__(4484), exports);
 tslib_1.__exportStar(__nccwpck_require__(5133), exports);
-tslib_1.__exportStar(__nccwpck_require__(4984), exports);
 tslib_1.__exportStar(__nccwpck_require__(1752), exports);
-tslib_1.__exportStar(__nccwpck_require__(9383), exports);
 tslib_1.__exportStar(__nccwpck_require__(9786), exports);
 tslib_1.__exportStar(__nccwpck_require__(2735), exports);
-tslib_1.__exportStar(__nccwpck_require__(3812), exports);
 tslib_1.__exportStar(__nccwpck_require__(7068), exports);
-tslib_1.__exportStar(__nccwpck_require__(2161), exports);
 tslib_1.__exportStar(__nccwpck_require__(7517), exports);
-tslib_1.__exportStar(__nccwpck_require__(2648), exports);
 tslib_1.__exportStar(__nccwpck_require__(5364), exports);
 tslib_1.__exportStar(__nccwpck_require__(4597), exports);
 tslib_1.__exportStar(__nccwpck_require__(7327), exports);
@@ -4588,10 +4458,217 @@ tslib_1.__exportStar(__nccwpck_require__(6288), exports);
 tslib_1.__exportStar(__nccwpck_require__(2759), exports);
 tslib_1.__exportStar(__nccwpck_require__(1453), exports);
 tslib_1.__exportStar(__nccwpck_require__(7075), exports);
-tslib_1.__exportStar(__nccwpck_require__(5953), exports);
+tslib_1.__exportStar(__nccwpck_require__(4016), exports);
 tslib_1.__exportStar(__nccwpck_require__(5753), exports);
-tslib_1.__exportStar(__nccwpck_require__(1147), exports);
+
+
+/***/ }),
+
+/***/ 4142:
+/***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.defaultRegionInfoProvider = void 0;
+const config_resolver_1 = __nccwpck_require__(6153);
+const regionHash = {
+    "us-east-1": {
+        variants: [
+            {
+                hostname: "ecs-fips.us-east-1.amazonaws.com",
+                tags: ["fips"],
+            },
+        ],
+    },
+    "us-east-2": {
+        variants: [
+            {
+                hostname: "ecs-fips.us-east-2.amazonaws.com",
+                tags: ["fips"],
+            },
+        ],
+    },
+    "us-gov-east-1": {
+        variants: [
+            {
+                hostname: "ecs-fips.us-gov-east-1.amazonaws.com",
+                tags: ["fips"],
+            },
+        ],
+    },
+    "us-gov-west-1": {
+        variants: [
+            {
+                hostname: "ecs-fips.us-gov-west-1.amazonaws.com",
+                tags: ["fips"],
+            },
+        ],
+    },
+    "us-west-1": {
+        variants: [
+            {
+                hostname: "ecs-fips.us-west-1.amazonaws.com",
+                tags: ["fips"],
+            },
+        ],
+    },
+    "us-west-2": {
+        variants: [
+            {
+                hostname: "ecs-fips.us-west-2.amazonaws.com",
+                tags: ["fips"],
+            },
+        ],
+    },
+};
+const partitionHash = {
+    aws: {
+        regions: [
+            "af-south-1",
+            "ap-east-1",
+            "ap-northeast-1",
+            "ap-northeast-2",
+            "ap-northeast-3",
+            "ap-south-1",
+            "ap-southeast-1",
+            "ap-southeast-2",
+            "ap-southeast-3",
+            "ca-central-1",
+            "eu-central-1",
+            "eu-north-1",
+            "eu-south-1",
+            "eu-west-1",
+            "eu-west-2",
+            "eu-west-3",
+            "fips-us-east-1",
+            "fips-us-east-2",
+            "fips-us-west-1",
+            "fips-us-west-2",
+            "me-south-1",
+            "sa-east-1",
+            "us-east-1",
+            "us-east-2",
+            "us-west-1",
+            "us-west-2",
+        ],
+        regionRegex: "^(us|eu|ap|sa|ca|me|af)\\-\\w+\\-\\d+$",
+        variants: [
+            {
+                hostname: "ecs.{region}.amazonaws.com",
+                tags: [],
+            },
+            {
+                hostname: "ecs-fips.{region}.amazonaws.com",
+                tags: ["fips"],
+            },
+            {
+                hostname: "ecs-fips.{region}.api.aws",
+                tags: ["dualstack", "fips"],
+            },
+            {
+                hostname: "ecs.{region}.api.aws",
+                tags: ["dualstack"],
+            },
+        ],
+    },
+    "aws-cn": {
+        regions: ["cn-north-1", "cn-northwest-1"],
+        regionRegex: "^cn\\-\\w+\\-\\d+$",
+        variants: [
+            {
+                hostname: "ecs.{region}.amazonaws.com.cn",
+                tags: [],
+            },
+            {
+                hostname: "ecs-fips.{region}.amazonaws.com.cn",
+                tags: ["fips"],
+            },
+            {
+                hostname: "ecs-fips.{region}.api.amazonwebservices.com.cn",
+                tags: ["dualstack", "fips"],
+            },
+            {
+                hostname: "ecs.{region}.api.amazonwebservices.com.cn",
+                tags: ["dualstack"],
+            },
+        ],
+    },
+    "aws-iso": {
+        regions: ["us-iso-east-1", "us-iso-west-1"],
+        regionRegex: "^us\\-iso\\-\\w+\\-\\d+$",
+        variants: [
+            {
+                hostname: "ecs.{region}.c2s.ic.gov",
+                tags: [],
+            },
+            {
+                hostname: "ecs-fips.{region}.c2s.ic.gov",
+                tags: ["fips"],
+            },
+        ],
+    },
+    "aws-iso-b": {
+        regions: ["us-isob-east-1"],
+        regionRegex: "^us\\-isob\\-\\w+\\-\\d+$",
+        variants: [
+            {
+                hostname: "ecs.{region}.sc2s.sgov.gov",
+                tags: [],
+            },
+            {
+                hostname: "ecs-fips.{region}.sc2s.sgov.gov",
+                tags: ["fips"],
+            },
+        ],
+    },
+    "aws-us-gov": {
+        regions: ["fips-us-gov-east-1", "fips-us-gov-west-1", "us-gov-east-1", "us-gov-west-1"],
+        regionRegex: "^us\\-gov\\-\\w+\\-\\d+$",
+        variants: [
+            {
+                hostname: "ecs.{region}.amazonaws.com",
+                tags: [],
+            },
+            {
+                hostname: "ecs-fips.{region}.amazonaws.com",
+                tags: ["fips"],
+            },
+            {
+                hostname: "ecs-fips.{region}.api.aws",
+                tags: ["dualstack", "fips"],
+            },
+            {
+                hostname: "ecs.{region}.api.aws",
+                tags: ["dualstack"],
+            },
+        ],
+    },
+};
+const defaultRegionInfoProvider = async (region, options) => config_resolver_1.getRegionInfo(region, {
+    ...options,
+    signingService: "ecs",
+    regionHash,
+    partitionHash,
+});
+exports.defaultRegionInfoProvider = defaultRegionInfoProvider;
+
+
+/***/ }),
+
+/***/ 8209:
+/***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+const tslib_1 = __nccwpck_require__(4351);
+tslib_1.__exportStar(__nccwpck_require__(9074), exports);
+tslib_1.__exportStar(__nccwpck_require__(5714), exports);
+tslib_1.__exportStar(__nccwpck_require__(5233), exports);
 tslib_1.__exportStar(__nccwpck_require__(2040), exports);
+tslib_1.__exportStar(__nccwpck_require__(4488), exports);
+tslib_1.__exportStar(__nccwpck_require__(4379), exports);
 
 
 /***/ }),
@@ -4614,19 +4691,12 @@ tslib_1.__exportStar(__nccwpck_require__(9402), exports);
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.ServiceEvent = exports.Deployment = exports.DeploymentRolloutState = exports.CreateServiceRequest = exports.ServiceRegistry = exports.SchedulingStrategy = exports.PropagateTags = exports.PlacementStrategy = exports.PlacementStrategyType = exports.PlacementConstraint = exports.PlacementConstraintType = exports.NetworkConfiguration = exports.AwsVpcConfiguration = exports.AssignPublicIp = exports.LoadBalancer = exports.LaunchType = exports.DeploymentController = exports.DeploymentControllerType = exports.DeploymentConfiguration = exports.DeploymentCircuitBreaker = exports.ClusterNotFoundException = exports.CreateClusterResponse = exports.Cluster = exports.Attachment = exports.KeyValuePair = exports.CreateClusterRequest = exports.ClusterSetting = exports.ClusterSettingName = exports.CapacityProviderStrategyItem = exports.ClusterConfiguration = exports.ExecuteCommandConfiguration = exports.ExecuteCommandLogging = exports.ExecuteCommandLogConfiguration = exports.UpdateInProgressException = exports.ServerException = exports.LimitExceededException = exports.InvalidParameterException = exports.CreateCapacityProviderResponse = exports.CapacityProvider = exports.CapacityProviderUpdateStatus = exports.CapacityProviderStatus = exports.CreateCapacityProviderRequest = exports.Tag = exports.AutoScalingGroupProvider = exports.ManagedTerminationProtection = exports.ManagedScaling = exports.ManagedScalingStatus = exports.ClientException = exports.AgentUpdateStatus = exports.AccessDeniedException = void 0;
-exports.KernelCapabilities = exports.HealthCheck = exports.FirelensConfiguration = exports.FirelensConfigurationType = exports.HostEntry = exports.EnvironmentFile = exports.EnvironmentFileType = exports.ContainerDependency = exports.ContainerCondition = exports.Compatibility = exports.DeregisterTaskDefinitionRequest = exports.DeregisterContainerInstanceResponse = exports.ContainerInstance = exports.VersionInfo = exports.Resource = exports.DeregisterContainerInstanceRequest = exports.TaskSetNotFoundException = exports.DeleteTaskSetResponse = exports.DeleteTaskSetRequest = exports.DeleteServiceResponse = exports.DeleteServiceRequest = exports.DeleteClusterResponse = exports.DeleteClusterRequest = exports.ClusterContainsTasksException = exports.ClusterContainsServicesException = exports.ClusterContainsContainerInstancesException = exports.DeleteCapacityProviderResponse = exports.DeleteCapacityProviderRequest = exports.TargetNotFoundException = exports.DeleteAttributesResponse = exports.DeleteAttributesRequest = exports.Attribute = exports.TargetType = exports.DeleteAccountSettingResponse = exports.Setting = exports.DeleteAccountSettingRequest = exports.SettingName = exports.ServiceNotFoundException = exports.ServiceNotActiveException = exports.CreateTaskSetResponse = exports.CreateTaskSetRequest = exports.UnsupportedFeatureException = exports.PlatformUnknownException = exports.PlatformTaskDefinitionIncompatibilityException = exports.CreateServiceResponse = exports.Service = exports.TaskSet = exports.StabilityStatus = exports.Scale = exports.ScaleUnit = void 0;
-exports.DescribeContainerInstancesResponse = exports.DescribeContainerInstancesRequest = exports.ContainerInstanceField = exports.DescribeClustersResponse = exports.DescribeClustersRequest = exports.ClusterField = exports.DescribeCapacityProvidersResponse = exports.Failure = exports.DescribeCapacityProvidersRequest = exports.CapacityProviderField = exports.DeregisterTaskDefinitionResponse = exports.TaskDefinition = exports.Volume = exports.HostVolumeProperties = exports.FSxWindowsFileServerVolumeConfiguration = exports.FSxWindowsFileServerAuthorizationConfig = exports.EFSVolumeConfiguration = exports.EFSTransitEncryption = exports.EFSAuthorizationConfig = exports.EFSAuthorizationConfigIAM = exports.DockerVolumeConfiguration = exports.Scope = exports.TaskDefinitionStatus = exports.ProxyConfiguration = exports.ProxyConfigurationType = exports.TaskDefinitionPlacementConstraint = exports.TaskDefinitionPlacementConstraintType = exports.PidMode = exports.NetworkMode = exports.IpcMode = exports.InferenceAccelerator = exports.EphemeralStorage = exports.ContainerDefinition = exports.VolumeFrom = exports.Ulimit = exports.UlimitName = exports.SystemControl = exports.ResourceRequirement = exports.ResourceType = exports.RepositoryCredentials = exports.PortMapping = exports.TransportProtocol = exports.MountPoint = exports.LogConfiguration = exports.Secret = exports.LogDriver = exports.LinuxParameters = exports.Tmpfs = exports.Device = exports.DeviceCgroupPermission = void 0;
-exports.DesiredStatus = exports.ListTaskDefinitionsResponse = exports.ListTaskDefinitionsRequest = exports.SortOrder = exports.ListTaskDefinitionFamiliesResponse = exports.ListTaskDefinitionFamiliesRequest = exports.TaskDefinitionFamilyStatus = exports.ListTagsForResourceResponse = exports.ListTagsForResourceRequest = exports.ListServicesResponse = exports.ListServicesRequest = exports.ListContainerInstancesResponse = exports.ListContainerInstancesRequest = exports.ContainerInstanceStatus = exports.ListClustersResponse = exports.ListClustersRequest = exports.ListAttributesResponse = exports.ListAttributesRequest = exports.ListAccountSettingsResponse = exports.ListAccountSettingsRequest = exports.TargetNotConnectedException = exports.ExecuteCommandResponse = exports.Session = exports.ExecuteCommandRequest = exports.DiscoverPollEndpointResponse = exports.DiscoverPollEndpointRequest = exports.DescribeTaskSetsResponse = exports.DescribeTaskSetsRequest = exports.TaskSetField = exports.DescribeTasksResponse = exports.Task = exports.TaskStopCode = exports.TaskOverride = exports.InferenceAcceleratorOverride = exports.ContainerOverride = exports.Container = exports.NetworkInterface = exports.NetworkBinding = exports.ManagedAgent = exports.ManagedAgentName = exports.HealthStatus = exports.Connectivity = exports.DescribeTasksRequest = exports.TaskField = exports.DescribeTaskDefinitionResponse = exports.DescribeTaskDefinitionRequest = exports.TaskDefinitionField = exports.DescribeServicesResponse = exports.DescribeServicesRequest = exports.ServiceField = void 0;
-exports.UpdateContainerAgentResponse = exports.UpdateContainerAgentRequest = exports.NoUpdateAvailableException = exports.MissingVersionException = exports.UpdateClusterSettingsResponse = exports.UpdateClusterSettingsRequest = exports.UpdateClusterResponse = exports.UpdateClusterRequest = exports.UpdateCapacityProviderResponse = exports.UpdateCapacityProviderRequest = exports.AutoScalingGroupProviderUpdate = exports.UntagResourceResponse = exports.UntagResourceRequest = exports.TagResourceResponse = exports.TagResourceRequest = exports.ResourceNotFoundException = exports.SubmitTaskStateChangeResponse = exports.SubmitTaskStateChangeRequest = exports.ManagedAgentStateChange = exports.ContainerStateChange = exports.SubmitContainerStateChangeResponse = exports.SubmitContainerStateChangeRequest = exports.SubmitAttachmentStateChangesResponse = exports.SubmitAttachmentStateChangesRequest = exports.AttachmentStateChange = exports.StopTaskResponse = exports.StopTaskRequest = exports.StartTaskResponse = exports.StartTaskRequest = exports.RunTaskResponse = exports.RunTaskRequest = exports.BlockedException = exports.RegisterTaskDefinitionResponse = exports.RegisterTaskDefinitionRequest = exports.RegisterContainerInstanceResponse = exports.RegisterContainerInstanceRequest = exports.PlatformDevice = exports.PlatformDeviceType = exports.ResourceInUseException = exports.PutClusterCapacityProvidersResponse = exports.PutClusterCapacityProvidersRequest = exports.PutAttributesResponse = exports.PutAttributesRequest = exports.AttributeLimitExceededException = exports.PutAccountSettingDefaultResponse = exports.PutAccountSettingDefaultRequest = exports.PutAccountSettingResponse = exports.PutAccountSettingRequest = exports.ListTasksResponse = exports.ListTasksRequest = void 0;
-exports.UpdateTaskSetResponse = exports.UpdateTaskSetRequest = exports.UpdateServicePrimaryTaskSetResponse = exports.UpdateServicePrimaryTaskSetRequest = exports.UpdateServiceResponse = exports.UpdateServiceRequest = exports.UpdateContainerInstancesStateResponse = exports.UpdateContainerInstancesStateRequest = void 0;
+exports.CreateTaskSetRequest = exports.CreateServiceResponse = exports.Service = exports.TaskSet = exports.StabilityStatus = exports.Scale = exports.ScaleUnit = exports.ServiceEvent = exports.Deployment = exports.DeploymentRolloutState = exports.CreateServiceRequest = exports.ServiceRegistry = exports.SchedulingStrategy = exports.PropagateTags = exports.PlacementStrategy = exports.PlacementStrategyType = exports.PlacementConstraint = exports.PlacementConstraintType = exports.NetworkConfiguration = exports.AwsVpcConfiguration = exports.AssignPublicIp = exports.LoadBalancer = exports.LaunchType = exports.DeploymentController = exports.DeploymentControllerType = exports.DeploymentConfiguration = exports.DeploymentCircuitBreaker = exports.CreateClusterResponse = exports.Cluster = exports.Attachment = exports.KeyValuePair = exports.CreateClusterRequest = exports.ClusterSetting = exports.ClusterSettingName = exports.CapacityProviderStrategyItem = exports.ClusterConfiguration = exports.ExecuteCommandConfiguration = exports.ExecuteCommandLogging = exports.ExecuteCommandLogConfiguration = exports.CreateCapacityProviderResponse = exports.CapacityProvider = exports.CapacityProviderUpdateStatus = exports.CapacityProviderStatus = exports.CreateCapacityProviderRequest = exports.Tag = exports.AutoScalingGroupProvider = exports.ManagedTerminationProtection = exports.ManagedScaling = exports.ManagedScalingStatus = exports.AgentUpdateStatus = void 0;
+exports.ResourceRequirement = exports.ResourceType = exports.RepositoryCredentials = exports.PortMapping = exports.TransportProtocol = exports.MountPoint = exports.LogConfiguration = exports.Secret = exports.LogDriver = exports.LinuxParameters = exports.Tmpfs = exports.Device = exports.DeviceCgroupPermission = exports.KernelCapabilities = exports.HealthCheck = exports.FirelensConfiguration = exports.FirelensConfigurationType = exports.HostEntry = exports.EnvironmentFile = exports.EnvironmentFileType = exports.ContainerDependency = exports.ContainerCondition = exports.Compatibility = exports.DeregisterTaskDefinitionRequest = exports.DeregisterContainerInstanceResponse = exports.ContainerInstance = exports.VersionInfo = exports.Resource = exports.ContainerInstanceHealthStatus = exports.InstanceHealthCheckResult = exports.InstanceHealthCheckType = exports.InstanceHealthCheckState = exports.DeregisterContainerInstanceRequest = exports.DeleteTaskSetResponse = exports.DeleteTaskSetRequest = exports.DeleteServiceResponse = exports.DeleteServiceRequest = exports.DeleteClusterResponse = exports.DeleteClusterRequest = exports.DeleteCapacityProviderResponse = exports.DeleteCapacityProviderRequest = exports.DeleteAttributesResponse = exports.DeleteAttributesRequest = exports.Attribute = exports.TargetType = exports.DeleteAccountSettingResponse = exports.Setting = exports.DeleteAccountSettingRequest = exports.SettingName = exports.CreateTaskSetResponse = void 0;
+exports.HealthStatus = exports.Connectivity = exports.DescribeTasksRequest = exports.TaskField = exports.DescribeTaskDefinitionResponse = exports.DescribeTaskDefinitionRequest = exports.TaskDefinitionField = exports.DescribeServicesResponse = exports.DescribeServicesRequest = exports.ServiceField = exports.DescribeContainerInstancesResponse = exports.DescribeContainerInstancesRequest = exports.ContainerInstanceField = exports.DescribeClustersResponse = exports.DescribeClustersRequest = exports.ClusterField = exports.DescribeCapacityProvidersResponse = exports.Failure = exports.DescribeCapacityProvidersRequest = exports.CapacityProviderField = exports.DeregisterTaskDefinitionResponse = exports.TaskDefinition = exports.Volume = exports.HostVolumeProperties = exports.FSxWindowsFileServerVolumeConfiguration = exports.FSxWindowsFileServerAuthorizationConfig = exports.EFSVolumeConfiguration = exports.EFSTransitEncryption = exports.EFSAuthorizationConfig = exports.EFSAuthorizationConfigIAM = exports.DockerVolumeConfiguration = exports.Scope = exports.TaskDefinitionStatus = exports.RuntimePlatform = exports.OSFamily = exports.CPUArchitecture = exports.ProxyConfiguration = exports.ProxyConfigurationType = exports.TaskDefinitionPlacementConstraint = exports.TaskDefinitionPlacementConstraintType = exports.PidMode = exports.NetworkMode = exports.IpcMode = exports.InferenceAccelerator = exports.EphemeralStorage = exports.ContainerDefinition = exports.VolumeFrom = exports.Ulimit = exports.UlimitName = exports.SystemControl = void 0;
+exports.PlatformDeviceType = exports.PutClusterCapacityProvidersResponse = exports.PutClusterCapacityProvidersRequest = exports.PutAttributesResponse = exports.PutAttributesRequest = exports.PutAccountSettingDefaultResponse = exports.PutAccountSettingDefaultRequest = exports.PutAccountSettingResponse = exports.PutAccountSettingRequest = exports.ListTasksResponse = exports.ListTasksRequest = exports.DesiredStatus = exports.ListTaskDefinitionsResponse = exports.ListTaskDefinitionsRequest = exports.SortOrder = exports.ListTaskDefinitionFamiliesResponse = exports.ListTaskDefinitionFamiliesRequest = exports.TaskDefinitionFamilyStatus = exports.ListTagsForResourceResponse = exports.ListTagsForResourceRequest = exports.ListServicesResponse = exports.ListServicesRequest = exports.ListContainerInstancesResponse = exports.ListContainerInstancesRequest = exports.ContainerInstanceStatus = exports.ListClustersResponse = exports.ListClustersRequest = exports.ListAttributesResponse = exports.ListAttributesRequest = exports.ListAccountSettingsResponse = exports.ListAccountSettingsRequest = exports.ExecuteCommandResponse = exports.Session = exports.ExecuteCommandRequest = exports.DiscoverPollEndpointResponse = exports.DiscoverPollEndpointRequest = exports.DescribeTaskSetsResponse = exports.DescribeTaskSetsRequest = exports.TaskSetField = exports.DescribeTasksResponse = exports.Task = exports.TaskStopCode = exports.TaskOverride = exports.InferenceAcceleratorOverride = exports.ContainerOverride = exports.Container = exports.NetworkInterface = exports.NetworkBinding = exports.ManagedAgent = exports.ManagedAgentName = void 0;
+exports.UpdateTaskSetResponse = exports.UpdateTaskSetRequest = exports.UpdateServicePrimaryTaskSetResponse = exports.UpdateServicePrimaryTaskSetRequest = exports.UpdateServiceResponse = exports.UpdateServiceRequest = exports.UpdateContainerInstancesStateResponse = exports.UpdateContainerInstancesStateRequest = exports.UpdateContainerAgentResponse = exports.UpdateContainerAgentRequest = exports.UpdateClusterSettingsResponse = exports.UpdateClusterSettingsRequest = exports.UpdateClusterResponse = exports.UpdateClusterRequest = exports.UpdateCapacityProviderResponse = exports.UpdateCapacityProviderRequest = exports.AutoScalingGroupProviderUpdate = exports.UntagResourceResponse = exports.UntagResourceRequest = exports.TagResourceResponse = exports.TagResourceRequest = exports.SubmitTaskStateChangeResponse = exports.SubmitTaskStateChangeRequest = exports.ManagedAgentStateChange = exports.ContainerStateChange = exports.SubmitContainerStateChangeResponse = exports.SubmitContainerStateChangeRequest = exports.SubmitAttachmentStateChangesResponse = exports.SubmitAttachmentStateChangesRequest = exports.AttachmentStateChange = exports.StopTaskResponse = exports.StopTaskRequest = exports.StartTaskResponse = exports.StartTaskRequest = exports.RunTaskResponse = exports.RunTaskRequest = exports.RegisterTaskDefinitionResponse = exports.RegisterTaskDefinitionRequest = exports.RegisterContainerInstanceResponse = exports.RegisterContainerInstanceRequest = exports.PlatformDevice = void 0;
 const smithy_client_1 = __nccwpck_require__(4963);
-var AccessDeniedException;
-(function (AccessDeniedException) {
-    AccessDeniedException.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(AccessDeniedException = exports.AccessDeniedException || (exports.AccessDeniedException = {}));
 var AgentUpdateStatus;
 (function (AgentUpdateStatus) {
     AgentUpdateStatus["FAILED"] = "FAILED";
@@ -4636,12 +4706,6 @@ var AgentUpdateStatus;
     AgentUpdateStatus["UPDATED"] = "UPDATED";
     AgentUpdateStatus["UPDATING"] = "UPDATING";
 })(AgentUpdateStatus = exports.AgentUpdateStatus || (exports.AgentUpdateStatus = {}));
-var ClientException;
-(function (ClientException) {
-    ClientException.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(ClientException = exports.ClientException || (exports.ClientException = {}));
 var ManagedScalingStatus;
 (function (ManagedScalingStatus) {
     ManagedScalingStatus["DISABLED"] = "DISABLED";
@@ -4702,30 +4766,6 @@ var CreateCapacityProviderResponse;
         ...obj,
     });
 })(CreateCapacityProviderResponse = exports.CreateCapacityProviderResponse || (exports.CreateCapacityProviderResponse = {}));
-var InvalidParameterException;
-(function (InvalidParameterException) {
-    InvalidParameterException.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(InvalidParameterException = exports.InvalidParameterException || (exports.InvalidParameterException = {}));
-var LimitExceededException;
-(function (LimitExceededException) {
-    LimitExceededException.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(LimitExceededException = exports.LimitExceededException || (exports.LimitExceededException = {}));
-var ServerException;
-(function (ServerException) {
-    ServerException.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(ServerException = exports.ServerException || (exports.ServerException = {}));
-var UpdateInProgressException;
-(function (UpdateInProgressException) {
-    UpdateInProgressException.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(UpdateInProgressException = exports.UpdateInProgressException || (exports.UpdateInProgressException = {}));
 var ExecuteCommandLogConfiguration;
 (function (ExecuteCommandLogConfiguration) {
     ExecuteCommandLogConfiguration.filterSensitiveLog = (obj) => ({
@@ -4796,12 +4836,6 @@ var CreateClusterResponse;
         ...obj,
     });
 })(CreateClusterResponse = exports.CreateClusterResponse || (exports.CreateClusterResponse = {}));
-var ClusterNotFoundException;
-(function (ClusterNotFoundException) {
-    ClusterNotFoundException.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(ClusterNotFoundException = exports.ClusterNotFoundException || (exports.ClusterNotFoundException = {}));
 var DeploymentCircuitBreaker;
 (function (DeploymentCircuitBreaker) {
     DeploymentCircuitBreaker.filterSensitiveLog = (obj) => ({
@@ -4951,24 +4985,6 @@ var CreateServiceResponse;
         ...obj,
     });
 })(CreateServiceResponse = exports.CreateServiceResponse || (exports.CreateServiceResponse = {}));
-var PlatformTaskDefinitionIncompatibilityException;
-(function (PlatformTaskDefinitionIncompatibilityException) {
-    PlatformTaskDefinitionIncompatibilityException.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(PlatformTaskDefinitionIncompatibilityException = exports.PlatformTaskDefinitionIncompatibilityException || (exports.PlatformTaskDefinitionIncompatibilityException = {}));
-var PlatformUnknownException;
-(function (PlatformUnknownException) {
-    PlatformUnknownException.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(PlatformUnknownException = exports.PlatformUnknownException || (exports.PlatformUnknownException = {}));
-var UnsupportedFeatureException;
-(function (UnsupportedFeatureException) {
-    UnsupportedFeatureException.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(UnsupportedFeatureException = exports.UnsupportedFeatureException || (exports.UnsupportedFeatureException = {}));
 var CreateTaskSetRequest;
 (function (CreateTaskSetRequest) {
     CreateTaskSetRequest.filterSensitiveLog = (obj) => ({
@@ -4981,18 +4997,6 @@ var CreateTaskSetResponse;
         ...obj,
     });
 })(CreateTaskSetResponse = exports.CreateTaskSetResponse || (exports.CreateTaskSetResponse = {}));
-var ServiceNotActiveException;
-(function (ServiceNotActiveException) {
-    ServiceNotActiveException.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(ServiceNotActiveException = exports.ServiceNotActiveException || (exports.ServiceNotActiveException = {}));
-var ServiceNotFoundException;
-(function (ServiceNotFoundException) {
-    ServiceNotFoundException.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(ServiceNotFoundException = exports.ServiceNotFoundException || (exports.ServiceNotFoundException = {}));
 var SettingName;
 (function (SettingName) {
     SettingName["AWSVPC_TRUNKING"] = "awsvpcTrunking";
@@ -5041,12 +5045,6 @@ var DeleteAttributesResponse;
         ...obj,
     });
 })(DeleteAttributesResponse = exports.DeleteAttributesResponse || (exports.DeleteAttributesResponse = {}));
-var TargetNotFoundException;
-(function (TargetNotFoundException) {
-    TargetNotFoundException.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(TargetNotFoundException = exports.TargetNotFoundException || (exports.TargetNotFoundException = {}));
 var DeleteCapacityProviderRequest;
 (function (DeleteCapacityProviderRequest) {
     DeleteCapacityProviderRequest.filterSensitiveLog = (obj) => ({
@@ -5059,24 +5057,6 @@ var DeleteCapacityProviderResponse;
         ...obj,
     });
 })(DeleteCapacityProviderResponse = exports.DeleteCapacityProviderResponse || (exports.DeleteCapacityProviderResponse = {}));
-var ClusterContainsContainerInstancesException;
-(function (ClusterContainsContainerInstancesException) {
-    ClusterContainsContainerInstancesException.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(ClusterContainsContainerInstancesException = exports.ClusterContainsContainerInstancesException || (exports.ClusterContainsContainerInstancesException = {}));
-var ClusterContainsServicesException;
-(function (ClusterContainsServicesException) {
-    ClusterContainsServicesException.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(ClusterContainsServicesException = exports.ClusterContainsServicesException || (exports.ClusterContainsServicesException = {}));
-var ClusterContainsTasksException;
-(function (ClusterContainsTasksException) {
-    ClusterContainsTasksException.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(ClusterContainsTasksException = exports.ClusterContainsTasksException || (exports.ClusterContainsTasksException = {}));
 var DeleteClusterRequest;
 (function (DeleteClusterRequest) {
     DeleteClusterRequest.filterSensitiveLog = (obj) => ({
@@ -5113,18 +5093,35 @@ var DeleteTaskSetResponse;
         ...obj,
     });
 })(DeleteTaskSetResponse = exports.DeleteTaskSetResponse || (exports.DeleteTaskSetResponse = {}));
-var TaskSetNotFoundException;
-(function (TaskSetNotFoundException) {
-    TaskSetNotFoundException.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(TaskSetNotFoundException = exports.TaskSetNotFoundException || (exports.TaskSetNotFoundException = {}));
 var DeregisterContainerInstanceRequest;
 (function (DeregisterContainerInstanceRequest) {
     DeregisterContainerInstanceRequest.filterSensitiveLog = (obj) => ({
         ...obj,
     });
 })(DeregisterContainerInstanceRequest = exports.DeregisterContainerInstanceRequest || (exports.DeregisterContainerInstanceRequest = {}));
+var InstanceHealthCheckState;
+(function (InstanceHealthCheckState) {
+    InstanceHealthCheckState["IMPAIRED"] = "IMPAIRED";
+    InstanceHealthCheckState["INITIALIZING"] = "INITIALIZING";
+    InstanceHealthCheckState["INSUFFICIENT_DATA"] = "INSUFFICIENT_DATA";
+    InstanceHealthCheckState["OK"] = "OK";
+})(InstanceHealthCheckState = exports.InstanceHealthCheckState || (exports.InstanceHealthCheckState = {}));
+var InstanceHealthCheckType;
+(function (InstanceHealthCheckType) {
+    InstanceHealthCheckType["CONTAINER_RUNTIME"] = "CONTAINER_RUNTIME";
+})(InstanceHealthCheckType = exports.InstanceHealthCheckType || (exports.InstanceHealthCheckType = {}));
+var InstanceHealthCheckResult;
+(function (InstanceHealthCheckResult) {
+    InstanceHealthCheckResult.filterSensitiveLog = (obj) => ({
+        ...obj,
+    });
+})(InstanceHealthCheckResult = exports.InstanceHealthCheckResult || (exports.InstanceHealthCheckResult = {}));
+var ContainerInstanceHealthStatus;
+(function (ContainerInstanceHealthStatus) {
+    ContainerInstanceHealthStatus.filterSensitiveLog = (obj) => ({
+        ...obj,
+    });
+})(ContainerInstanceHealthStatus = exports.ContainerInstanceHealthStatus || (exports.ContainerInstanceHealthStatus = {}));
 var Resource;
 (function (Resource) {
     Resource.filterSensitiveLog = (obj) => ({
@@ -5386,6 +5383,28 @@ var ProxyConfiguration;
         ...obj,
     });
 })(ProxyConfiguration = exports.ProxyConfiguration || (exports.ProxyConfiguration = {}));
+var CPUArchitecture;
+(function (CPUArchitecture) {
+    CPUArchitecture["ARM64"] = "ARM64";
+    CPUArchitecture["X86_64"] = "X86_64";
+})(CPUArchitecture = exports.CPUArchitecture || (exports.CPUArchitecture = {}));
+var OSFamily;
+(function (OSFamily) {
+    OSFamily["LINUX"] = "LINUX";
+    OSFamily["WINDOWS_SERVER_2004_CORE"] = "WINDOWS_SERVER_2004_CORE";
+    OSFamily["WINDOWS_SERVER_2016_FULL"] = "WINDOWS_SERVER_2016_FULL";
+    OSFamily["WINDOWS_SERVER_2019_CORE"] = "WINDOWS_SERVER_2019_CORE";
+    OSFamily["WINDOWS_SERVER_2019_FULL"] = "WINDOWS_SERVER_2019_FULL";
+    OSFamily["WINDOWS_SERVER_2022_CORE"] = "WINDOWS_SERVER_2022_CORE";
+    OSFamily["WINDOWS_SERVER_2022_FULL"] = "WINDOWS_SERVER_2022_FULL";
+    OSFamily["WINDOWS_SERVER_20H2_CORE"] = "WINDOWS_SERVER_20H2_CORE";
+})(OSFamily = exports.OSFamily || (exports.OSFamily = {}));
+var RuntimePlatform;
+(function (RuntimePlatform) {
+    RuntimePlatform.filterSensitiveLog = (obj) => ({
+        ...obj,
+    });
+})(RuntimePlatform = exports.RuntimePlatform || (exports.RuntimePlatform = {}));
 var TaskDefinitionStatus;
 (function (TaskDefinitionStatus) {
     TaskDefinitionStatus["ACTIVE"] = "ACTIVE";
@@ -5504,6 +5523,7 @@ var DescribeClustersResponse;
 })(DescribeClustersResponse = exports.DescribeClustersResponse || (exports.DescribeClustersResponse = {}));
 var ContainerInstanceField;
 (function (ContainerInstanceField) {
+    ContainerInstanceField["CONTAINER_INSTANCE_HEALTH"] = "CONTAINER_INSTANCE_HEALTH";
     ContainerInstanceField["TAGS"] = "TAGS";
 })(ContainerInstanceField = exports.ContainerInstanceField || (exports.ContainerInstanceField = {}));
 var DescribeContainerInstancesRequest;
@@ -5683,12 +5703,6 @@ var ExecuteCommandResponse;
         ...(obj.session && { session: Session.filterSensitiveLog(obj.session) }),
     });
 })(ExecuteCommandResponse = exports.ExecuteCommandResponse || (exports.ExecuteCommandResponse = {}));
-var TargetNotConnectedException;
-(function (TargetNotConnectedException) {
-    TargetNotConnectedException.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(TargetNotConnectedException = exports.TargetNotConnectedException || (exports.TargetNotConnectedException = {}));
 var ListAccountSettingsRequest;
 (function (ListAccountSettingsRequest) {
     ListAccountSettingsRequest.filterSensitiveLog = (obj) => ({
@@ -5846,12 +5860,6 @@ var PutAccountSettingDefaultResponse;
         ...obj,
     });
 })(PutAccountSettingDefaultResponse = exports.PutAccountSettingDefaultResponse || (exports.PutAccountSettingDefaultResponse = {}));
-var AttributeLimitExceededException;
-(function (AttributeLimitExceededException) {
-    AttributeLimitExceededException.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(AttributeLimitExceededException = exports.AttributeLimitExceededException || (exports.AttributeLimitExceededException = {}));
 var PutAttributesRequest;
 (function (PutAttributesRequest) {
     PutAttributesRequest.filterSensitiveLog = (obj) => ({
@@ -5876,12 +5884,6 @@ var PutClusterCapacityProvidersResponse;
         ...obj,
     });
 })(PutClusterCapacityProvidersResponse = exports.PutClusterCapacityProvidersResponse || (exports.PutClusterCapacityProvidersResponse = {}));
-var ResourceInUseException;
-(function (ResourceInUseException) {
-    ResourceInUseException.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(ResourceInUseException = exports.ResourceInUseException || (exports.ResourceInUseException = {}));
 var PlatformDeviceType;
 (function (PlatformDeviceType) {
     PlatformDeviceType["GPU"] = "GPU";
@@ -5916,12 +5918,6 @@ var RegisterTaskDefinitionResponse;
         ...obj,
     });
 })(RegisterTaskDefinitionResponse = exports.RegisterTaskDefinitionResponse || (exports.RegisterTaskDefinitionResponse = {}));
-var BlockedException;
-(function (BlockedException) {
-    BlockedException.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(BlockedException = exports.BlockedException || (exports.BlockedException = {}));
 var RunTaskRequest;
 (function (RunTaskRequest) {
     RunTaskRequest.filterSensitiveLog = (obj) => ({
@@ -6012,12 +6008,6 @@ var SubmitTaskStateChangeResponse;
         ...obj,
     });
 })(SubmitTaskStateChangeResponse = exports.SubmitTaskStateChangeResponse || (exports.SubmitTaskStateChangeResponse = {}));
-var ResourceNotFoundException;
-(function (ResourceNotFoundException) {
-    ResourceNotFoundException.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(ResourceNotFoundException = exports.ResourceNotFoundException || (exports.ResourceNotFoundException = {}));
 var TagResourceRequest;
 (function (TagResourceRequest) {
     TagResourceRequest.filterSensitiveLog = (obj) => ({
@@ -6084,18 +6074,6 @@ var UpdateClusterSettingsResponse;
         ...obj,
     });
 })(UpdateClusterSettingsResponse = exports.UpdateClusterSettingsResponse || (exports.UpdateClusterSettingsResponse = {}));
-var MissingVersionException;
-(function (MissingVersionException) {
-    MissingVersionException.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(MissingVersionException = exports.MissingVersionException || (exports.MissingVersionException = {}));
-var NoUpdateAvailableException;
-(function (NoUpdateAvailableException) {
-    NoUpdateAvailableException.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(NoUpdateAvailableException = exports.NoUpdateAvailableException || (exports.NoUpdateAvailableException = {}));
 var UpdateContainerAgentRequest;
 (function (UpdateContainerAgentRequest) {
     UpdateContainerAgentRequest.filterSensitiveLog = (obj) => ({
@@ -6510,6 +6488,26 @@ async function* paginateListTasks(config, input, ...additionalArguments) {
     return undefined;
 }
 exports.paginateListTasks = paginateListTasks;
+
+
+/***/ }),
+
+/***/ 4488:
+/***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+const tslib_1 = __nccwpck_require__(4351);
+tslib_1.__exportStar(__nccwpck_require__(1147), exports);
+tslib_1.__exportStar(__nccwpck_require__(2183), exports);
+tslib_1.__exportStar(__nccwpck_require__(2008), exports);
+tslib_1.__exportStar(__nccwpck_require__(4484), exports);
+tslib_1.__exportStar(__nccwpck_require__(4984), exports);
+tslib_1.__exportStar(__nccwpck_require__(9383), exports);
+tslib_1.__exportStar(__nccwpck_require__(3812), exports);
+tslib_1.__exportStar(__nccwpck_require__(2161), exports);
+tslib_1.__exportStar(__nccwpck_require__(2648), exports);
 
 
 /***/ }),
@@ -12508,6 +12506,10 @@ const serializeAws_json1_1RegisterTaskDefinitionRequest = (input, context) => {
             input.requiresCompatibilities !== null && {
             requiresCompatibilities: serializeAws_json1_1CompatibilityList(input.requiresCompatibilities, context),
         }),
+        ...(input.runtimePlatform !== undefined &&
+            input.runtimePlatform !== null && {
+            runtimePlatform: serializeAws_json1_1RuntimePlatform(input.runtimePlatform, context),
+        }),
         ...(input.tags !== undefined && input.tags !== null && { tags: serializeAws_json1_1Tags(input.tags, context) }),
         ...(input.taskRoleArn !== undefined && input.taskRoleArn !== null && { taskRoleArn: input.taskRoleArn }),
         ...(input.volumes !== undefined &&
@@ -12596,6 +12598,14 @@ const serializeAws_json1_1RunTaskRequest = (input, context) => {
         ...(input.tags !== undefined && input.tags !== null && { tags: serializeAws_json1_1Tags(input.tags, context) }),
         ...(input.taskDefinition !== undefined &&
             input.taskDefinition !== null && { taskDefinition: input.taskDefinition }),
+    };
+};
+const serializeAws_json1_1RuntimePlatform = (input, context) => {
+    return {
+        ...(input.cpuArchitecture !== undefined &&
+            input.cpuArchitecture !== null && { cpuArchitecture: input.cpuArchitecture }),
+        ...(input.operatingSystemFamily !== undefined &&
+            input.operatingSystemFamily !== null && { operatingSystemFamily: input.operatingSystemFamily }),
     };
 };
 const serializeAws_json1_1Scale = (input, context) => {
@@ -13443,6 +13453,9 @@ const deserializeAws_json1_1ContainerInstance = (output, context) => {
         capacityProviderName: smithy_client_1.expectString(output.capacityProviderName),
         containerInstanceArn: smithy_client_1.expectString(output.containerInstanceArn),
         ec2InstanceId: smithy_client_1.expectString(output.ec2InstanceId),
+        healthStatus: output.healthStatus !== undefined && output.healthStatus !== null
+            ? deserializeAws_json1_1ContainerInstanceHealthStatus(output.healthStatus, context)
+            : undefined,
         pendingTasksCount: smithy_client_1.expectInt32(output.pendingTasksCount),
         registeredAt: output.registeredAt !== undefined && output.registeredAt !== null
             ? smithy_client_1.expectNonNull(smithy_client_1.parseEpochTimestamp(smithy_client_1.expectNumber(output.registeredAt)))
@@ -13461,6 +13474,14 @@ const deserializeAws_json1_1ContainerInstance = (output, context) => {
         versionInfo: output.versionInfo !== undefined && output.versionInfo !== null
             ? deserializeAws_json1_1VersionInfo(output.versionInfo, context)
             : undefined,
+    };
+};
+const deserializeAws_json1_1ContainerInstanceHealthStatus = (output, context) => {
+    return {
+        details: output.details !== undefined && output.details !== null
+            ? deserializeAws_json1_1InstanceHealthCheckResultList(output.details, context)
+            : undefined,
+        overallStatus: smithy_client_1.expectString(output.overallStatus),
     };
 };
 const deserializeAws_json1_1ContainerInstances = (output, context) => {
@@ -13599,6 +13620,7 @@ const deserializeAws_json1_1Deployment = (output, context) => {
             ? deserializeAws_json1_1NetworkConfiguration(output.networkConfiguration, context)
             : undefined,
         pendingCount: smithy_client_1.expectInt32(output.pendingCount),
+        platformFamily: smithy_client_1.expectString(output.platformFamily),
         platformVersion: smithy_client_1.expectString(output.platformVersion),
         rolloutState: smithy_client_1.expectString(output.rolloutState),
         rolloutStateReason: smithy_client_1.expectString(output.rolloutStateReason),
@@ -13983,6 +14005,28 @@ const deserializeAws_json1_1InferenceAccelerators = (output, context) => {
             return null;
         }
         return deserializeAws_json1_1InferenceAccelerator(entry, context);
+    });
+};
+const deserializeAws_json1_1InstanceHealthCheckResult = (output, context) => {
+    return {
+        lastStatusChange: output.lastStatusChange !== undefined && output.lastStatusChange !== null
+            ? smithy_client_1.expectNonNull(smithy_client_1.parseEpochTimestamp(smithy_client_1.expectNumber(output.lastStatusChange)))
+            : undefined,
+        lastUpdated: output.lastUpdated !== undefined && output.lastUpdated !== null
+            ? smithy_client_1.expectNonNull(smithy_client_1.parseEpochTimestamp(smithy_client_1.expectNumber(output.lastUpdated)))
+            : undefined,
+        status: smithy_client_1.expectString(output.status),
+        type: smithy_client_1.expectString(output.type),
+    };
+};
+const deserializeAws_json1_1InstanceHealthCheckResultList = (output, context) => {
+    return (output || [])
+        .filter((e) => e != null)
+        .map((entry) => {
+        if (entry === null) {
+            return null;
+        }
+        return deserializeAws_json1_1InstanceHealthCheckResult(entry, context);
     });
 };
 const deserializeAws_json1_1InvalidParameterException = (output, context) => {
@@ -14429,6 +14473,12 @@ const deserializeAws_json1_1RunTaskResponse = (output, context) => {
             : undefined,
     };
 };
+const deserializeAws_json1_1RuntimePlatform = (output, context) => {
+    return {
+        cpuArchitecture: smithy_client_1.expectString(output.cpuArchitecture),
+        operatingSystemFamily: smithy_client_1.expectString(output.operatingSystemFamily),
+    };
+};
 const deserializeAws_json1_1Scale = (output, context) => {
     return {
         unit: smithy_client_1.expectString(output.unit),
@@ -14496,6 +14546,7 @@ const deserializeAws_json1_1Service = (output, context) => {
         placementStrategy: output.placementStrategy !== undefined && output.placementStrategy !== null
             ? deserializeAws_json1_1PlacementStrategies(output.placementStrategy, context)
             : undefined,
+        platformFamily: smithy_client_1.expectString(output.platformFamily),
         platformVersion: smithy_client_1.expectString(output.platformVersion),
         propagateTags: smithy_client_1.expectString(output.propagateTags),
         roleArn: smithy_client_1.expectString(output.roleArn),
@@ -14743,6 +14794,7 @@ const deserializeAws_json1_1Task = (output, context) => {
         overrides: output.overrides !== undefined && output.overrides !== null
             ? deserializeAws_json1_1TaskOverride(output.overrides, context)
             : undefined,
+        platformFamily: smithy_client_1.expectString(output.platformFamily),
         platformVersion: smithy_client_1.expectString(output.platformVersion),
         pullStartedAt: output.pullStartedAt !== undefined && output.pullStartedAt !== null
             ? smithy_client_1.expectNonNull(smithy_client_1.parseEpochTimestamp(smithy_client_1.expectNumber(output.pullStartedAt)))
@@ -14809,6 +14861,9 @@ const deserializeAws_json1_1TaskDefinition = (output, context) => {
             ? deserializeAws_json1_1CompatibilityList(output.requiresCompatibilities, context)
             : undefined,
         revision: smithy_client_1.expectInt32(output.revision),
+        runtimePlatform: output.runtimePlatform !== undefined && output.runtimePlatform !== null
+            ? deserializeAws_json1_1RuntimePlatform(output.runtimePlatform, context)
+            : undefined,
         status: smithy_client_1.expectString(output.status),
         taskDefinitionArn: smithy_client_1.expectString(output.taskDefinitionArn),
         taskRoleArn: smithy_client_1.expectString(output.taskRoleArn),
@@ -14880,6 +14935,7 @@ const deserializeAws_json1_1TaskSet = (output, context) => {
             ? deserializeAws_json1_1NetworkConfiguration(output.networkConfiguration, context)
             : undefined,
         pendingCount: smithy_client_1.expectInt32(output.pendingCount),
+        platformFamily: smithy_client_1.expectString(output.platformFamily),
         platformVersion: smithy_client_1.expectString(output.platformVersion),
         runningCount: smithy_client_1.expectInt32(output.runningCount),
         scale: output.scale !== undefined && output.scale !== null
@@ -15153,7 +15209,7 @@ const loadRestJsonErrorCode = (output, data) => {
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.getRuntimeConfig = void 0;
 const tslib_1 = __nccwpck_require__(4351);
-const package_json_1 = tslib_1.__importDefault(__nccwpck_require__(7247));
+const package_json_1 = tslib_1.__importDefault(__nccwpck_require__(5223));
 const client_sts_1 = __nccwpck_require__(2209);
 const config_resolver_1 = __nccwpck_require__(6153);
 const credential_provider_node_1 = __nccwpck_require__(5531);
@@ -15167,14 +15223,17 @@ const util_user_agent_node_1 = __nccwpck_require__(8095);
 const util_utf8_node_1 = __nccwpck_require__(6278);
 const runtimeConfig_shared_1 = __nccwpck_require__(4516);
 const smithy_client_1 = __nccwpck_require__(4963);
+const util_defaults_mode_node_1 = __nccwpck_require__(4243);
 const getRuntimeConfig = (config) => {
-    var _a, _b, _c, _d, _e, _f, _g, _h, _j, _k, _l, _m, _o;
-    smithy_client_1.emitWarningIfUnsupportedVersion(process.version);
+    var _a, _b, _c, _d, _e, _f, _g, _h, _j, _k, _l, _m, _o, _p, _q;
+    const defaultsMode = util_defaults_mode_node_1.resolveDefaultsModeConfig(config);
+    const defaultConfigProvider = () => defaultsMode().then(smithy_client_1.loadConfigsForDefaultMode);
     const clientSharedValues = runtimeConfig_shared_1.getRuntimeConfig(config);
     return {
         ...clientSharedValues,
         ...config,
         runtime: "node",
+        defaultsMode,
         base64Decoder: (_a = config === null || config === void 0 ? void 0 : config.base64Decoder) !== null && _a !== void 0 ? _a : util_base64_node_1.fromBase64,
         base64Encoder: (_b = config === null || config === void 0 ? void 0 : config.base64Encoder) !== null && _b !== void 0 ? _b : util_base64_node_1.toBase64,
         bodyLengthChecker: (_c = config === null || config === void 0 ? void 0 : config.bodyLengthChecker) !== null && _c !== void 0 ? _c : util_body_length_node_1.calculateBodyLength,
@@ -15182,12 +15241,17 @@ const getRuntimeConfig = (config) => {
         defaultUserAgentProvider: (_e = config === null || config === void 0 ? void 0 : config.defaultUserAgentProvider) !== null && _e !== void 0 ? _e : util_user_agent_node_1.defaultUserAgent({ serviceId: clientSharedValues.serviceId, clientVersion: package_json_1.default.version }),
         maxAttempts: (_f = config === null || config === void 0 ? void 0 : config.maxAttempts) !== null && _f !== void 0 ? _f : node_config_provider_1.loadConfig(middleware_retry_1.NODE_MAX_ATTEMPT_CONFIG_OPTIONS),
         region: (_g = config === null || config === void 0 ? void 0 : config.region) !== null && _g !== void 0 ? _g : node_config_provider_1.loadConfig(config_resolver_1.NODE_REGION_CONFIG_OPTIONS, config_resolver_1.NODE_REGION_CONFIG_FILE_OPTIONS),
-        requestHandler: (_h = config === null || config === void 0 ? void 0 : config.requestHandler) !== null && _h !== void 0 ? _h : new node_http_handler_1.NodeHttpHandler(),
-        retryMode: (_j = config === null || config === void 0 ? void 0 : config.retryMode) !== null && _j !== void 0 ? _j : node_config_provider_1.loadConfig(middleware_retry_1.NODE_RETRY_MODE_CONFIG_OPTIONS),
+        requestHandler: (_h = config === null || config === void 0 ? void 0 : config.requestHandler) !== null && _h !== void 0 ? _h : new node_http_handler_1.NodeHttpHandler(defaultConfigProvider),
+        retryMode: (_j = config === null || config === void 0 ? void 0 : config.retryMode) !== null && _j !== void 0 ? _j : node_config_provider_1.loadConfig({
+            ...middleware_retry_1.NODE_RETRY_MODE_CONFIG_OPTIONS,
+            default: async () => (await defaultConfigProvider()).retryMode || middleware_retry_1.DEFAULT_RETRY_MODE,
+        }),
         sha256: (_k = config === null || config === void 0 ? void 0 : config.sha256) !== null && _k !== void 0 ? _k : hash_node_1.Hash.bind(null, "sha256"),
         streamCollector: (_l = config === null || config === void 0 ? void 0 : config.streamCollector) !== null && _l !== void 0 ? _l : node_http_handler_1.streamCollector,
-        utf8Decoder: (_m = config === null || config === void 0 ? void 0 : config.utf8Decoder) !== null && _m !== void 0 ? _m : util_utf8_node_1.fromUtf8,
-        utf8Encoder: (_o = config === null || config === void 0 ? void 0 : config.utf8Encoder) !== null && _o !== void 0 ? _o : util_utf8_node_1.toUtf8,
+        useDualstackEndpoint: (_m = config === null || config === void 0 ? void 0 : config.useDualstackEndpoint) !== null && _m !== void 0 ? _m : node_config_provider_1.loadConfig(config_resolver_1.NODE_USE_DUALSTACK_ENDPOINT_CONFIG_OPTIONS),
+        useFipsEndpoint: (_o = config === null || config === void 0 ? void 0 : config.useFipsEndpoint) !== null && _o !== void 0 ? _o : node_config_provider_1.loadConfig(config_resolver_1.NODE_USE_FIPS_ENDPOINT_CONFIG_OPTIONS),
+        utf8Decoder: (_p = config === null || config === void 0 ? void 0 : config.utf8Decoder) !== null && _p !== void 0 ? _p : util_utf8_node_1.fromUtf8,
+        utf8Encoder: (_q = config === null || config === void 0 ? void 0 : config.utf8Encoder) !== null && _q !== void 0 ? _q : util_utf8_node_1.toUtf8,
     };
 };
 exports.getRuntimeConfig = getRuntimeConfig;
@@ -15216,6 +15280,20 @@ const getRuntimeConfig = (config) => {
     });
 };
 exports.getRuntimeConfig = getRuntimeConfig;
+
+
+/***/ }),
+
+/***/ 4379:
+/***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+const tslib_1 = __nccwpck_require__(4351);
+tslib_1.__exportStar(__nccwpck_require__(5853), exports);
+tslib_1.__exportStar(__nccwpck_require__(3464), exports);
+tslib_1.__exportStar(__nccwpck_require__(1497), exports);
 
 
 /***/ }),
@@ -15429,7 +15507,7 @@ exports.SSO = void 0;
 const GetRoleCredentialsCommand_1 = __nccwpck_require__(8972);
 const ListAccountRolesCommand_1 = __nccwpck_require__(1513);
 const ListAccountsCommand_1 = __nccwpck_require__(4296);
-const LogoutCommand_1 = __nccwpck_require__(2586);
+const LogoutCommand_1 = __nccwpck_require__(4511);
 const SSOClient_1 = __nccwpck_require__(1057);
 class SSO extends SSOClient_1.SSOClient {
     getRoleCredentials(args, optionsOrCb, cb) {
@@ -15666,7 +15744,7 @@ exports.ListAccountsCommand = ListAccountsCommand;
 
 /***/ }),
 
-/***/ 2586:
+/***/ 4511:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 "use strict";
@@ -15710,6 +15788,21 @@ exports.LogoutCommand = LogoutCommand;
 
 /***/ }),
 
+/***/ 5706:
+/***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+const tslib_1 = __nccwpck_require__(4351);
+tslib_1.__exportStar(__nccwpck_require__(8972), exports);
+tslib_1.__exportStar(__nccwpck_require__(1513), exports);
+tslib_1.__exportStar(__nccwpck_require__(4296), exports);
+tslib_1.__exportStar(__nccwpck_require__(4511), exports);
+
+
+/***/ }),
+
 /***/ 3546:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
@@ -15719,40 +15812,157 @@ Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.defaultRegionInfoProvider = void 0;
 const config_resolver_1 = __nccwpck_require__(6153);
 const regionHash = {
+    "ap-northeast-1": {
+        variants: [
+            {
+                hostname: "portal.sso.ap-northeast-1.amazonaws.com",
+                tags: [],
+            },
+        ],
+        signingRegion: "ap-northeast-1",
+    },
+    "ap-northeast-2": {
+        variants: [
+            {
+                hostname: "portal.sso.ap-northeast-2.amazonaws.com",
+                tags: [],
+            },
+        ],
+        signingRegion: "ap-northeast-2",
+    },
+    "ap-south-1": {
+        variants: [
+            {
+                hostname: "portal.sso.ap-south-1.amazonaws.com",
+                tags: [],
+            },
+        ],
+        signingRegion: "ap-south-1",
+    },
     "ap-southeast-1": {
-        hostname: "portal.sso.ap-southeast-1.amazonaws.com",
+        variants: [
+            {
+                hostname: "portal.sso.ap-southeast-1.amazonaws.com",
+                tags: [],
+            },
+        ],
         signingRegion: "ap-southeast-1",
     },
     "ap-southeast-2": {
-        hostname: "portal.sso.ap-southeast-2.amazonaws.com",
+        variants: [
+            {
+                hostname: "portal.sso.ap-southeast-2.amazonaws.com",
+                tags: [],
+            },
+        ],
         signingRegion: "ap-southeast-2",
     },
     "ca-central-1": {
-        hostname: "portal.sso.ca-central-1.amazonaws.com",
+        variants: [
+            {
+                hostname: "portal.sso.ca-central-1.amazonaws.com",
+                tags: [],
+            },
+        ],
         signingRegion: "ca-central-1",
     },
     "eu-central-1": {
-        hostname: "portal.sso.eu-central-1.amazonaws.com",
+        variants: [
+            {
+                hostname: "portal.sso.eu-central-1.amazonaws.com",
+                tags: [],
+            },
+        ],
         signingRegion: "eu-central-1",
     },
+    "eu-north-1": {
+        variants: [
+            {
+                hostname: "portal.sso.eu-north-1.amazonaws.com",
+                tags: [],
+            },
+        ],
+        signingRegion: "eu-north-1",
+    },
     "eu-west-1": {
-        hostname: "portal.sso.eu-west-1.amazonaws.com",
+        variants: [
+            {
+                hostname: "portal.sso.eu-west-1.amazonaws.com",
+                tags: [],
+            },
+        ],
         signingRegion: "eu-west-1",
     },
     "eu-west-2": {
-        hostname: "portal.sso.eu-west-2.amazonaws.com",
+        variants: [
+            {
+                hostname: "portal.sso.eu-west-2.amazonaws.com",
+                tags: [],
+            },
+        ],
         signingRegion: "eu-west-2",
     },
+    "eu-west-3": {
+        variants: [
+            {
+                hostname: "portal.sso.eu-west-3.amazonaws.com",
+                tags: [],
+            },
+        ],
+        signingRegion: "eu-west-3",
+    },
+    "sa-east-1": {
+        variants: [
+            {
+                hostname: "portal.sso.sa-east-1.amazonaws.com",
+                tags: [],
+            },
+        ],
+        signingRegion: "sa-east-1",
+    },
     "us-east-1": {
-        hostname: "portal.sso.us-east-1.amazonaws.com",
+        variants: [
+            {
+                hostname: "portal.sso.us-east-1.amazonaws.com",
+                tags: [],
+            },
+        ],
         signingRegion: "us-east-1",
     },
     "us-east-2": {
-        hostname: "portal.sso.us-east-2.amazonaws.com",
+        variants: [
+            {
+                hostname: "portal.sso.us-east-2.amazonaws.com",
+                tags: [],
+            },
+        ],
         signingRegion: "us-east-2",
     },
+    "us-gov-east-1": {
+        variants: [
+            {
+                hostname: "portal.sso.us-gov-east-1.amazonaws.com",
+                tags: [],
+            },
+        ],
+        signingRegion: "us-gov-east-1",
+    },
+    "us-gov-west-1": {
+        variants: [
+            {
+                hostname: "portal.sso.us-gov-west-1.amazonaws.com",
+                tags: [],
+            },
+        ],
+        signingRegion: "us-gov-west-1",
+    },
     "us-west-2": {
-        hostname: "portal.sso.us-west-2.amazonaws.com",
+        variants: [
+            {
+                hostname: "portal.sso.us-west-2.amazonaws.com",
+                tags: [],
+            },
+        ],
         signingRegion: "us-west-2",
     },
 };
@@ -15767,6 +15977,7 @@ const partitionHash = {
             "ap-south-1",
             "ap-southeast-1",
             "ap-southeast-2",
+            "ap-southeast-3",
             "ca-central-1",
             "eu-central-1",
             "eu-north-1",
@@ -15781,23 +15992,97 @@ const partitionHash = {
             "us-west-1",
             "us-west-2",
         ],
-        hostname: "portal.sso.{region}.amazonaws.com",
+        regionRegex: "^(us|eu|ap|sa|ca|me|af)\\-\\w+\\-\\d+$",
+        variants: [
+            {
+                hostname: "portal.sso.{region}.amazonaws.com",
+                tags: [],
+            },
+            {
+                hostname: "portal.sso-fips.{region}.amazonaws.com",
+                tags: ["fips"],
+            },
+            {
+                hostname: "portal.sso-fips.{region}.api.aws",
+                tags: ["dualstack", "fips"],
+            },
+            {
+                hostname: "portal.sso.{region}.api.aws",
+                tags: ["dualstack"],
+            },
+        ],
     },
     "aws-cn": {
         regions: ["cn-north-1", "cn-northwest-1"],
-        hostname: "portal.sso.{region}.amazonaws.com.cn",
+        regionRegex: "^cn\\-\\w+\\-\\d+$",
+        variants: [
+            {
+                hostname: "portal.sso.{region}.amazonaws.com.cn",
+                tags: [],
+            },
+            {
+                hostname: "portal.sso-fips.{region}.amazonaws.com.cn",
+                tags: ["fips"],
+            },
+            {
+                hostname: "portal.sso-fips.{region}.api.amazonwebservices.com.cn",
+                tags: ["dualstack", "fips"],
+            },
+            {
+                hostname: "portal.sso.{region}.api.amazonwebservices.com.cn",
+                tags: ["dualstack"],
+            },
+        ],
     },
     "aws-iso": {
         regions: ["us-iso-east-1", "us-iso-west-1"],
-        hostname: "portal.sso.{region}.c2s.ic.gov",
+        regionRegex: "^us\\-iso\\-\\w+\\-\\d+$",
+        variants: [
+            {
+                hostname: "portal.sso.{region}.c2s.ic.gov",
+                tags: [],
+            },
+            {
+                hostname: "portal.sso-fips.{region}.c2s.ic.gov",
+                tags: ["fips"],
+            },
+        ],
     },
     "aws-iso-b": {
         regions: ["us-isob-east-1"],
-        hostname: "portal.sso.{region}.sc2s.sgov.gov",
+        regionRegex: "^us\\-isob\\-\\w+\\-\\d+$",
+        variants: [
+            {
+                hostname: "portal.sso.{region}.sc2s.sgov.gov",
+                tags: [],
+            },
+            {
+                hostname: "portal.sso-fips.{region}.sc2s.sgov.gov",
+                tags: ["fips"],
+            },
+        ],
     },
     "aws-us-gov": {
         regions: ["us-gov-east-1", "us-gov-west-1"],
-        hostname: "portal.sso.{region}.amazonaws.com",
+        regionRegex: "^us\\-gov\\-\\w+\\-\\d+$",
+        variants: [
+            {
+                hostname: "portal.sso.{region}.amazonaws.com",
+                tags: [],
+            },
+            {
+                hostname: "portal.sso-fips.{region}.amazonaws.com",
+                tags: ["fips"],
+            },
+            {
+                hostname: "portal.sso-fips.{region}.api.aws",
+                tags: ["dualstack", "fips"],
+            },
+            {
+                hostname: "portal.sso.{region}.api.aws",
+                tags: ["dualstack"],
+            },
+        ],
     },
 };
 const defaultRegionInfoProvider = async (region, options) => config_resolver_1.getRegionInfo(region, {
@@ -15818,16 +16103,11 @@ exports.defaultRegionInfoProvider = defaultRegionInfoProvider;
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 const tslib_1 = __nccwpck_require__(4351);
-tslib_1.__exportStar(__nccwpck_require__(1057), exports);
 tslib_1.__exportStar(__nccwpck_require__(9838), exports);
-tslib_1.__exportStar(__nccwpck_require__(8972), exports);
-tslib_1.__exportStar(__nccwpck_require__(1513), exports);
-tslib_1.__exportStar(__nccwpck_require__(8460), exports);
-tslib_1.__exportStar(__nccwpck_require__(4296), exports);
-tslib_1.__exportStar(__nccwpck_require__(938), exports);
-tslib_1.__exportStar(__nccwpck_require__(2586), exports);
-tslib_1.__exportStar(__nccwpck_require__(849), exports);
+tslib_1.__exportStar(__nccwpck_require__(1057), exports);
+tslib_1.__exportStar(__nccwpck_require__(5706), exports);
 tslib_1.__exportStar(__nccwpck_require__(4952), exports);
+tslib_1.__exportStar(__nccwpck_require__(6773), exports);
 
 
 /***/ }),
@@ -15850,7 +16130,7 @@ tslib_1.__exportStar(__nccwpck_require__(6390), exports);
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.LogoutRequest = exports.ListAccountsResponse = exports.ListAccountsRequest = exports.ListAccountRolesResponse = exports.RoleInfo = exports.ListAccountRolesRequest = exports.UnauthorizedException = exports.TooManyRequestsException = exports.ResourceNotFoundException = exports.InvalidRequestException = exports.GetRoleCredentialsResponse = exports.RoleCredentials = exports.GetRoleCredentialsRequest = exports.AccountInfo = void 0;
+exports.LogoutRequest = exports.ListAccountsResponse = exports.ListAccountsRequest = exports.ListAccountRolesResponse = exports.RoleInfo = exports.ListAccountRolesRequest = exports.GetRoleCredentialsResponse = exports.RoleCredentials = exports.GetRoleCredentialsRequest = exports.AccountInfo = void 0;
 const smithy_client_1 = __nccwpck_require__(4963);
 var AccountInfo;
 (function (AccountInfo) {
@@ -15880,30 +16160,6 @@ var GetRoleCredentialsResponse;
         ...(obj.roleCredentials && { roleCredentials: RoleCredentials.filterSensitiveLog(obj.roleCredentials) }),
     });
 })(GetRoleCredentialsResponse = exports.GetRoleCredentialsResponse || (exports.GetRoleCredentialsResponse = {}));
-var InvalidRequestException;
-(function (InvalidRequestException) {
-    InvalidRequestException.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(InvalidRequestException = exports.InvalidRequestException || (exports.InvalidRequestException = {}));
-var ResourceNotFoundException;
-(function (ResourceNotFoundException) {
-    ResourceNotFoundException.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(ResourceNotFoundException = exports.ResourceNotFoundException || (exports.ResourceNotFoundException = {}));
-var TooManyRequestsException;
-(function (TooManyRequestsException) {
-    TooManyRequestsException.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(TooManyRequestsException = exports.TooManyRequestsException || (exports.TooManyRequestsException = {}));
-var UnauthorizedException;
-(function (UnauthorizedException) {
-    UnauthorizedException.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(UnauthorizedException = exports.UnauthorizedException || (exports.UnauthorizedException = {}));
 var ListAccountRolesRequest;
 (function (ListAccountRolesRequest) {
     ListAccountRolesRequest.filterSensitiveLog = (obj) => ({
@@ -16039,6 +16295,20 @@ async function* paginateListAccounts(config, input, ...additionalArguments) {
     return undefined;
 }
 exports.paginateListAccounts = paginateListAccounts;
+
+
+/***/ }),
+
+/***/ 6773:
+/***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+const tslib_1 = __nccwpck_require__(4351);
+tslib_1.__exportStar(__nccwpck_require__(849), exports);
+tslib_1.__exportStar(__nccwpck_require__(8460), exports);
+tslib_1.__exportStar(__nccwpck_require__(938), exports);
 
 
 /***/ }),
@@ -16580,7 +16850,7 @@ const loadRestJsonErrorCode = (output, data) => {
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.getRuntimeConfig = void 0;
 const tslib_1 = __nccwpck_require__(4351);
-const package_json_1 = tslib_1.__importDefault(__nccwpck_require__(3966));
+const package_json_1 = tslib_1.__importDefault(__nccwpck_require__(1092));
 const config_resolver_1 = __nccwpck_require__(6153);
 const hash_node_1 = __nccwpck_require__(7442);
 const middleware_retry_1 = __nccwpck_require__(6064);
@@ -16592,26 +16862,34 @@ const util_user_agent_node_1 = __nccwpck_require__(8095);
 const util_utf8_node_1 = __nccwpck_require__(6278);
 const runtimeConfig_shared_1 = __nccwpck_require__(4355);
 const smithy_client_1 = __nccwpck_require__(4963);
+const util_defaults_mode_node_1 = __nccwpck_require__(4243);
 const getRuntimeConfig = (config) => {
-    var _a, _b, _c, _d, _e, _f, _g, _h, _j, _k, _l, _m;
-    smithy_client_1.emitWarningIfUnsupportedVersion(process.version);
+    var _a, _b, _c, _d, _e, _f, _g, _h, _j, _k, _l, _m, _o, _p;
+    const defaultsMode = util_defaults_mode_node_1.resolveDefaultsModeConfig(config);
+    const defaultConfigProvider = () => defaultsMode().then(smithy_client_1.loadConfigsForDefaultMode);
     const clientSharedValues = runtimeConfig_shared_1.getRuntimeConfig(config);
     return {
         ...clientSharedValues,
         ...config,
         runtime: "node",
+        defaultsMode,
         base64Decoder: (_a = config === null || config === void 0 ? void 0 : config.base64Decoder) !== null && _a !== void 0 ? _a : util_base64_node_1.fromBase64,
         base64Encoder: (_b = config === null || config === void 0 ? void 0 : config.base64Encoder) !== null && _b !== void 0 ? _b : util_base64_node_1.toBase64,
         bodyLengthChecker: (_c = config === null || config === void 0 ? void 0 : config.bodyLengthChecker) !== null && _c !== void 0 ? _c : util_body_length_node_1.calculateBodyLength,
         defaultUserAgentProvider: (_d = config === null || config === void 0 ? void 0 : config.defaultUserAgentProvider) !== null && _d !== void 0 ? _d : util_user_agent_node_1.defaultUserAgent({ serviceId: clientSharedValues.serviceId, clientVersion: package_json_1.default.version }),
         maxAttempts: (_e = config === null || config === void 0 ? void 0 : config.maxAttempts) !== null && _e !== void 0 ? _e : node_config_provider_1.loadConfig(middleware_retry_1.NODE_MAX_ATTEMPT_CONFIG_OPTIONS),
         region: (_f = config === null || config === void 0 ? void 0 : config.region) !== null && _f !== void 0 ? _f : node_config_provider_1.loadConfig(config_resolver_1.NODE_REGION_CONFIG_OPTIONS, config_resolver_1.NODE_REGION_CONFIG_FILE_OPTIONS),
-        requestHandler: (_g = config === null || config === void 0 ? void 0 : config.requestHandler) !== null && _g !== void 0 ? _g : new node_http_handler_1.NodeHttpHandler(),
-        retryMode: (_h = config === null || config === void 0 ? void 0 : config.retryMode) !== null && _h !== void 0 ? _h : node_config_provider_1.loadConfig(middleware_retry_1.NODE_RETRY_MODE_CONFIG_OPTIONS),
+        requestHandler: (_g = config === null || config === void 0 ? void 0 : config.requestHandler) !== null && _g !== void 0 ? _g : new node_http_handler_1.NodeHttpHandler(defaultConfigProvider),
+        retryMode: (_h = config === null || config === void 0 ? void 0 : config.retryMode) !== null && _h !== void 0 ? _h : node_config_provider_1.loadConfig({
+            ...middleware_retry_1.NODE_RETRY_MODE_CONFIG_OPTIONS,
+            default: async () => (await defaultConfigProvider()).retryMode || middleware_retry_1.DEFAULT_RETRY_MODE,
+        }),
         sha256: (_j = config === null || config === void 0 ? void 0 : config.sha256) !== null && _j !== void 0 ? _j : hash_node_1.Hash.bind(null, "sha256"),
         streamCollector: (_k = config === null || config === void 0 ? void 0 : config.streamCollector) !== null && _k !== void 0 ? _k : node_http_handler_1.streamCollector,
-        utf8Decoder: (_l = config === null || config === void 0 ? void 0 : config.utf8Decoder) !== null && _l !== void 0 ? _l : util_utf8_node_1.fromUtf8,
-        utf8Encoder: (_m = config === null || config === void 0 ? void 0 : config.utf8Encoder) !== null && _m !== void 0 ? _m : util_utf8_node_1.toUtf8,
+        useDualstackEndpoint: (_l = config === null || config === void 0 ? void 0 : config.useDualstackEndpoint) !== null && _l !== void 0 ? _l : node_config_provider_1.loadConfig(config_resolver_1.NODE_USE_DUALSTACK_ENDPOINT_CONFIG_OPTIONS),
+        useFipsEndpoint: (_m = config === null || config === void 0 ? void 0 : config.useFipsEndpoint) !== null && _m !== void 0 ? _m : node_config_provider_1.loadConfig(config_resolver_1.NODE_USE_FIPS_ENDPOINT_CONFIG_OPTIONS),
+        utf8Decoder: (_o = config === null || config === void 0 ? void 0 : config.utf8Decoder) !== null && _o !== void 0 ? _o : util_utf8_node_1.fromUtf8,
+        utf8Encoder: (_p = config === null || config === void 0 ? void 0 : config.utf8Encoder) !== null && _p !== void 0 ? _p : util_utf8_node_1.toUtf8,
     };
 };
 exports.getRuntimeConfig = getRuntimeConfig;
@@ -17185,6 +17463,25 @@ exports.GetSessionTokenCommand = GetSessionTokenCommand;
 
 /***/ }),
 
+/***/ 5716:
+/***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+const tslib_1 = __nccwpck_require__(4351);
+tslib_1.__exportStar(__nccwpck_require__(9802), exports);
+tslib_1.__exportStar(__nccwpck_require__(2865), exports);
+tslib_1.__exportStar(__nccwpck_require__(7451), exports);
+tslib_1.__exportStar(__nccwpck_require__(4150), exports);
+tslib_1.__exportStar(__nccwpck_require__(9804), exports);
+tslib_1.__exportStar(__nccwpck_require__(4278), exports);
+tslib_1.__exportStar(__nccwpck_require__(7552), exports);
+tslib_1.__exportStar(__nccwpck_require__(3285), exports);
+
+
+/***/ }),
+
 /***/ 8028:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
@@ -17302,32 +17599,61 @@ exports.defaultRegionInfoProvider = void 0;
 const config_resolver_1 = __nccwpck_require__(6153);
 const regionHash = {
     "aws-global": {
-        hostname: "sts.amazonaws.com",
+        variants: [
+            {
+                hostname: "sts.amazonaws.com",
+                tags: [],
+            },
+        ],
         signingRegion: "us-east-1",
     },
-    "us-east-1-fips": {
-        hostname: "sts-fips.us-east-1.amazonaws.com",
-        signingRegion: "us-east-1",
+    "us-east-1": {
+        variants: [
+            {
+                hostname: "sts-fips.us-east-1.amazonaws.com",
+                tags: ["fips"],
+            },
+        ],
     },
-    "us-east-2-fips": {
-        hostname: "sts-fips.us-east-2.amazonaws.com",
-        signingRegion: "us-east-2",
+    "us-east-2": {
+        variants: [
+            {
+                hostname: "sts-fips.us-east-2.amazonaws.com",
+                tags: ["fips"],
+            },
+        ],
     },
-    "us-gov-east-1-fips": {
-        hostname: "sts.us-gov-east-1.amazonaws.com",
-        signingRegion: "us-gov-east-1",
+    "us-gov-east-1": {
+        variants: [
+            {
+                hostname: "sts.us-gov-east-1.amazonaws.com",
+                tags: ["fips"],
+            },
+        ],
     },
-    "us-gov-west-1-fips": {
-        hostname: "sts.us-gov-west-1.amazonaws.com",
-        signingRegion: "us-gov-west-1",
+    "us-gov-west-1": {
+        variants: [
+            {
+                hostname: "sts.us-gov-west-1.amazonaws.com",
+                tags: ["fips"],
+            },
+        ],
     },
-    "us-west-1-fips": {
-        hostname: "sts-fips.us-west-1.amazonaws.com",
-        signingRegion: "us-west-1",
+    "us-west-1": {
+        variants: [
+            {
+                hostname: "sts-fips.us-west-1.amazonaws.com",
+                tags: ["fips"],
+            },
+        ],
     },
-    "us-west-2-fips": {
-        hostname: "sts-fips.us-west-2.amazonaws.com",
-        signingRegion: "us-west-2",
+    "us-west-2": {
+        variants: [
+            {
+                hostname: "sts-fips.us-west-2.amazonaws.com",
+                tags: ["fips"],
+            },
+        ],
     },
 };
 const partitionHash = {
@@ -17341,6 +17667,7 @@ const partitionHash = {
             "ap-south-1",
             "ap-southeast-1",
             "ap-southeast-2",
+            "ap-southeast-3",
             "aws-global",
             "ca-central-1",
             "eu-central-1",
@@ -17360,23 +17687,97 @@ const partitionHash = {
             "us-west-2",
             "us-west-2-fips",
         ],
-        hostname: "sts.{region}.amazonaws.com",
+        regionRegex: "^(us|eu|ap|sa|ca|me|af)\\-\\w+\\-\\d+$",
+        variants: [
+            {
+                hostname: "sts.{region}.amazonaws.com",
+                tags: [],
+            },
+            {
+                hostname: "sts-fips.{region}.amazonaws.com",
+                tags: ["fips"],
+            },
+            {
+                hostname: "sts-fips.{region}.api.aws",
+                tags: ["dualstack", "fips"],
+            },
+            {
+                hostname: "sts.{region}.api.aws",
+                tags: ["dualstack"],
+            },
+        ],
     },
     "aws-cn": {
         regions: ["cn-north-1", "cn-northwest-1"],
-        hostname: "sts.{region}.amazonaws.com.cn",
+        regionRegex: "^cn\\-\\w+\\-\\d+$",
+        variants: [
+            {
+                hostname: "sts.{region}.amazonaws.com.cn",
+                tags: [],
+            },
+            {
+                hostname: "sts-fips.{region}.amazonaws.com.cn",
+                tags: ["fips"],
+            },
+            {
+                hostname: "sts-fips.{region}.api.amazonwebservices.com.cn",
+                tags: ["dualstack", "fips"],
+            },
+            {
+                hostname: "sts.{region}.api.amazonwebservices.com.cn",
+                tags: ["dualstack"],
+            },
+        ],
     },
     "aws-iso": {
         regions: ["us-iso-east-1", "us-iso-west-1"],
-        hostname: "sts.{region}.c2s.ic.gov",
+        regionRegex: "^us\\-iso\\-\\w+\\-\\d+$",
+        variants: [
+            {
+                hostname: "sts.{region}.c2s.ic.gov",
+                tags: [],
+            },
+            {
+                hostname: "sts-fips.{region}.c2s.ic.gov",
+                tags: ["fips"],
+            },
+        ],
     },
     "aws-iso-b": {
         regions: ["us-isob-east-1"],
-        hostname: "sts.{region}.sc2s.sgov.gov",
+        regionRegex: "^us\\-isob\\-\\w+\\-\\d+$",
+        variants: [
+            {
+                hostname: "sts.{region}.sc2s.sgov.gov",
+                tags: [],
+            },
+            {
+                hostname: "sts-fips.{region}.sc2s.sgov.gov",
+                tags: ["fips"],
+            },
+        ],
     },
     "aws-us-gov": {
         regions: ["us-gov-east-1", "us-gov-east-1-fips", "us-gov-west-1", "us-gov-west-1-fips"],
-        hostname: "sts.{region}.amazonaws.com",
+        regionRegex: "^us\\-gov\\-\\w+\\-\\d+$",
+        variants: [
+            {
+                hostname: "sts.{region}.amazonaws.com",
+                tags: [],
+            },
+            {
+                hostname: "sts.{region}.amazonaws.com",
+                tags: ["fips"],
+            },
+            {
+                hostname: "sts-fips.{region}.api.aws",
+                tags: ["dualstack", "fips"],
+            },
+            {
+                hostname: "sts.{region}.api.aws",
+                tags: ["dualstack"],
+            },
+        ],
     },
 };
 const defaultRegionInfoProvider = async (region, options) => config_resolver_1.getRegionInfo(region, {
@@ -17397,16 +17798,9 @@ exports.defaultRegionInfoProvider = defaultRegionInfoProvider;
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 const tslib_1 = __nccwpck_require__(4351);
-tslib_1.__exportStar(__nccwpck_require__(4195), exports);
 tslib_1.__exportStar(__nccwpck_require__(2605), exports);
-tslib_1.__exportStar(__nccwpck_require__(9802), exports);
-tslib_1.__exportStar(__nccwpck_require__(2865), exports);
-tslib_1.__exportStar(__nccwpck_require__(7451), exports);
-tslib_1.__exportStar(__nccwpck_require__(4150), exports);
-tslib_1.__exportStar(__nccwpck_require__(9804), exports);
-tslib_1.__exportStar(__nccwpck_require__(4278), exports);
-tslib_1.__exportStar(__nccwpck_require__(7552), exports);
-tslib_1.__exportStar(__nccwpck_require__(3285), exports);
+tslib_1.__exportStar(__nccwpck_require__(4195), exports);
+tslib_1.__exportStar(__nccwpck_require__(5716), exports);
 tslib_1.__exportStar(__nccwpck_require__(8028), exports);
 tslib_1.__exportStar(__nccwpck_require__(106), exports);
 
@@ -17431,7 +17825,7 @@ tslib_1.__exportStar(__nccwpck_require__(1780), exports);
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.GetSessionTokenResponse = exports.GetSessionTokenRequest = exports.GetFederationTokenResponse = exports.FederatedUser = exports.GetFederationTokenRequest = exports.GetCallerIdentityResponse = exports.GetCallerIdentityRequest = exports.GetAccessKeyInfoResponse = exports.GetAccessKeyInfoRequest = exports.InvalidAuthorizationMessageException = exports.DecodeAuthorizationMessageResponse = exports.DecodeAuthorizationMessageRequest = exports.IDPCommunicationErrorException = exports.AssumeRoleWithWebIdentityResponse = exports.AssumeRoleWithWebIdentityRequest = exports.InvalidIdentityTokenException = exports.IDPRejectedClaimException = exports.AssumeRoleWithSAMLResponse = exports.AssumeRoleWithSAMLRequest = exports.RegionDisabledException = exports.PackedPolicyTooLargeException = exports.MalformedPolicyDocumentException = exports.ExpiredTokenException = exports.AssumeRoleResponse = exports.Credentials = exports.AssumeRoleRequest = exports.Tag = exports.PolicyDescriptorType = exports.AssumedRoleUser = void 0;
+exports.GetSessionTokenResponse = exports.GetSessionTokenRequest = exports.GetFederationTokenResponse = exports.FederatedUser = exports.GetFederationTokenRequest = exports.GetCallerIdentityResponse = exports.GetCallerIdentityRequest = exports.GetAccessKeyInfoResponse = exports.GetAccessKeyInfoRequest = exports.DecodeAuthorizationMessageResponse = exports.DecodeAuthorizationMessageRequest = exports.AssumeRoleWithWebIdentityResponse = exports.AssumeRoleWithWebIdentityRequest = exports.AssumeRoleWithSAMLResponse = exports.AssumeRoleWithSAMLRequest = exports.AssumeRoleResponse = exports.Credentials = exports.AssumeRoleRequest = exports.Tag = exports.PolicyDescriptorType = exports.AssumedRoleUser = void 0;
 var AssumedRoleUser;
 (function (AssumedRoleUser) {
     AssumedRoleUser.filterSensitiveLog = (obj) => ({
@@ -17468,30 +17862,6 @@ var AssumeRoleResponse;
         ...obj,
     });
 })(AssumeRoleResponse = exports.AssumeRoleResponse || (exports.AssumeRoleResponse = {}));
-var ExpiredTokenException;
-(function (ExpiredTokenException) {
-    ExpiredTokenException.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(ExpiredTokenException = exports.ExpiredTokenException || (exports.ExpiredTokenException = {}));
-var MalformedPolicyDocumentException;
-(function (MalformedPolicyDocumentException) {
-    MalformedPolicyDocumentException.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(MalformedPolicyDocumentException = exports.MalformedPolicyDocumentException || (exports.MalformedPolicyDocumentException = {}));
-var PackedPolicyTooLargeException;
-(function (PackedPolicyTooLargeException) {
-    PackedPolicyTooLargeException.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(PackedPolicyTooLargeException = exports.PackedPolicyTooLargeException || (exports.PackedPolicyTooLargeException = {}));
-var RegionDisabledException;
-(function (RegionDisabledException) {
-    RegionDisabledException.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(RegionDisabledException = exports.RegionDisabledException || (exports.RegionDisabledException = {}));
 var AssumeRoleWithSAMLRequest;
 (function (AssumeRoleWithSAMLRequest) {
     AssumeRoleWithSAMLRequest.filterSensitiveLog = (obj) => ({
@@ -17504,18 +17874,6 @@ var AssumeRoleWithSAMLResponse;
         ...obj,
     });
 })(AssumeRoleWithSAMLResponse = exports.AssumeRoleWithSAMLResponse || (exports.AssumeRoleWithSAMLResponse = {}));
-var IDPRejectedClaimException;
-(function (IDPRejectedClaimException) {
-    IDPRejectedClaimException.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(IDPRejectedClaimException = exports.IDPRejectedClaimException || (exports.IDPRejectedClaimException = {}));
-var InvalidIdentityTokenException;
-(function (InvalidIdentityTokenException) {
-    InvalidIdentityTokenException.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(InvalidIdentityTokenException = exports.InvalidIdentityTokenException || (exports.InvalidIdentityTokenException = {}));
 var AssumeRoleWithWebIdentityRequest;
 (function (AssumeRoleWithWebIdentityRequest) {
     AssumeRoleWithWebIdentityRequest.filterSensitiveLog = (obj) => ({
@@ -17528,12 +17886,6 @@ var AssumeRoleWithWebIdentityResponse;
         ...obj,
     });
 })(AssumeRoleWithWebIdentityResponse = exports.AssumeRoleWithWebIdentityResponse || (exports.AssumeRoleWithWebIdentityResponse = {}));
-var IDPCommunicationErrorException;
-(function (IDPCommunicationErrorException) {
-    IDPCommunicationErrorException.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(IDPCommunicationErrorException = exports.IDPCommunicationErrorException || (exports.IDPCommunicationErrorException = {}));
 var DecodeAuthorizationMessageRequest;
 (function (DecodeAuthorizationMessageRequest) {
     DecodeAuthorizationMessageRequest.filterSensitiveLog = (obj) => ({
@@ -17546,12 +17898,6 @@ var DecodeAuthorizationMessageResponse;
         ...obj,
     });
 })(DecodeAuthorizationMessageResponse = exports.DecodeAuthorizationMessageResponse || (exports.DecodeAuthorizationMessageResponse = {}));
-var InvalidAuthorizationMessageException;
-(function (InvalidAuthorizationMessageException) {
-    InvalidAuthorizationMessageException.filterSensitiveLog = (obj) => ({
-        ...obj,
-    });
-})(InvalidAuthorizationMessageException = exports.InvalidAuthorizationMessageException || (exports.InvalidAuthorizationMessageException = {}));
 var GetAccessKeyInfoRequest;
 (function (GetAccessKeyInfoRequest) {
     GetAccessKeyInfoRequest.filterSensitiveLog = (obj) => ({
@@ -18875,7 +19221,7 @@ const loadQueryErrorCode = (output, data) => {
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.getRuntimeConfig = void 0;
 const tslib_1 = __nccwpck_require__(4351);
-const package_json_1 = tslib_1.__importDefault(__nccwpck_require__(1121));
+const package_json_1 = tslib_1.__importDefault(__nccwpck_require__(7947));
 const defaultStsRoleAssumers_1 = __nccwpck_require__(48);
 const config_resolver_1 = __nccwpck_require__(6153);
 const credential_provider_node_1 = __nccwpck_require__(5531);
@@ -18889,14 +19235,17 @@ const util_user_agent_node_1 = __nccwpck_require__(8095);
 const util_utf8_node_1 = __nccwpck_require__(6278);
 const runtimeConfig_shared_1 = __nccwpck_require__(2642);
 const smithy_client_1 = __nccwpck_require__(4963);
+const util_defaults_mode_node_1 = __nccwpck_require__(4243);
 const getRuntimeConfig = (config) => {
-    var _a, _b, _c, _d, _e, _f, _g, _h, _j, _k, _l, _m, _o;
-    smithy_client_1.emitWarningIfUnsupportedVersion(process.version);
+    var _a, _b, _c, _d, _e, _f, _g, _h, _j, _k, _l, _m, _o, _p, _q;
+    const defaultsMode = util_defaults_mode_node_1.resolveDefaultsModeConfig(config);
+    const defaultConfigProvider = () => defaultsMode().then(smithy_client_1.loadConfigsForDefaultMode);
     const clientSharedValues = runtimeConfig_shared_1.getRuntimeConfig(config);
     return {
         ...clientSharedValues,
         ...config,
         runtime: "node",
+        defaultsMode,
         base64Decoder: (_a = config === null || config === void 0 ? void 0 : config.base64Decoder) !== null && _a !== void 0 ? _a : util_base64_node_1.fromBase64,
         base64Encoder: (_b = config === null || config === void 0 ? void 0 : config.base64Encoder) !== null && _b !== void 0 ? _b : util_base64_node_1.toBase64,
         bodyLengthChecker: (_c = config === null || config === void 0 ? void 0 : config.bodyLengthChecker) !== null && _c !== void 0 ? _c : util_body_length_node_1.calculateBodyLength,
@@ -18904,12 +19253,17 @@ const getRuntimeConfig = (config) => {
         defaultUserAgentProvider: (_e = config === null || config === void 0 ? void 0 : config.defaultUserAgentProvider) !== null && _e !== void 0 ? _e : util_user_agent_node_1.defaultUserAgent({ serviceId: clientSharedValues.serviceId, clientVersion: package_json_1.default.version }),
         maxAttempts: (_f = config === null || config === void 0 ? void 0 : config.maxAttempts) !== null && _f !== void 0 ? _f : node_config_provider_1.loadConfig(middleware_retry_1.NODE_MAX_ATTEMPT_CONFIG_OPTIONS),
         region: (_g = config === null || config === void 0 ? void 0 : config.region) !== null && _g !== void 0 ? _g : node_config_provider_1.loadConfig(config_resolver_1.NODE_REGION_CONFIG_OPTIONS, config_resolver_1.NODE_REGION_CONFIG_FILE_OPTIONS),
-        requestHandler: (_h = config === null || config === void 0 ? void 0 : config.requestHandler) !== null && _h !== void 0 ? _h : new node_http_handler_1.NodeHttpHandler(),
-        retryMode: (_j = config === null || config === void 0 ? void 0 : config.retryMode) !== null && _j !== void 0 ? _j : node_config_provider_1.loadConfig(middleware_retry_1.NODE_RETRY_MODE_CONFIG_OPTIONS),
+        requestHandler: (_h = config === null || config === void 0 ? void 0 : config.requestHandler) !== null && _h !== void 0 ? _h : new node_http_handler_1.NodeHttpHandler(defaultConfigProvider),
+        retryMode: (_j = config === null || config === void 0 ? void 0 : config.retryMode) !== null && _j !== void 0 ? _j : node_config_provider_1.loadConfig({
+            ...middleware_retry_1.NODE_RETRY_MODE_CONFIG_OPTIONS,
+            default: async () => (await defaultConfigProvider()).retryMode || middleware_retry_1.DEFAULT_RETRY_MODE,
+        }),
         sha256: (_k = config === null || config === void 0 ? void 0 : config.sha256) !== null && _k !== void 0 ? _k : hash_node_1.Hash.bind(null, "sha256"),
         streamCollector: (_l = config === null || config === void 0 ? void 0 : config.streamCollector) !== null && _l !== void 0 ? _l : node_http_handler_1.streamCollector,
-        utf8Decoder: (_m = config === null || config === void 0 ? void 0 : config.utf8Decoder) !== null && _m !== void 0 ? _m : util_utf8_node_1.fromUtf8,
-        utf8Encoder: (_o = config === null || config === void 0 ? void 0 : config.utf8Encoder) !== null && _o !== void 0 ? _o : util_utf8_node_1.toUtf8,
+        useDualstackEndpoint: (_m = config === null || config === void 0 ? void 0 : config.useDualstackEndpoint) !== null && _m !== void 0 ? _m : node_config_provider_1.loadConfig(config_resolver_1.NODE_USE_DUALSTACK_ENDPOINT_CONFIG_OPTIONS),
+        useFipsEndpoint: (_o = config === null || config === void 0 ? void 0 : config.useFipsEndpoint) !== null && _o !== void 0 ? _o : node_config_provider_1.loadConfig(config_resolver_1.NODE_USE_FIPS_ENDPOINT_CONFIG_OPTIONS),
+        utf8Decoder: (_p = config === null || config === void 0 ? void 0 : config.utf8Decoder) !== null && _p !== void 0 ? _p : util_utf8_node_1.fromUtf8,
+        utf8Encoder: (_q = config === null || config === void 0 ? void 0 : config.utf8Encoder) !== null && _q !== void 0 ? _q : util_utf8_node_1.toUtf8,
     };
 };
 exports.getRuntimeConfig = getRuntimeConfig;
@@ -18942,6 +19296,46 @@ exports.getRuntimeConfig = getRuntimeConfig;
 
 /***/ }),
 
+/***/ 4723:
+/***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.NODE_USE_DUALSTACK_ENDPOINT_CONFIG_OPTIONS = exports.DEFAULT_USE_DUALSTACK_ENDPOINT = exports.CONFIG_USE_DUALSTACK_ENDPOINT = exports.ENV_USE_DUALSTACK_ENDPOINT = void 0;
+const util_config_provider_1 = __nccwpck_require__(6168);
+exports.ENV_USE_DUALSTACK_ENDPOINT = "AWS_USE_DUALSTACK_ENDPOINT";
+exports.CONFIG_USE_DUALSTACK_ENDPOINT = "use_dualstack_endpoint";
+exports.DEFAULT_USE_DUALSTACK_ENDPOINT = false;
+exports.NODE_USE_DUALSTACK_ENDPOINT_CONFIG_OPTIONS = {
+    environmentVariableSelector: (env) => util_config_provider_1.booleanSelector(env, exports.ENV_USE_DUALSTACK_ENDPOINT, util_config_provider_1.SelectorType.ENV),
+    configFileSelector: (profile) => util_config_provider_1.booleanSelector(profile, exports.CONFIG_USE_DUALSTACK_ENDPOINT, util_config_provider_1.SelectorType.CONFIG),
+    default: false,
+};
+
+
+/***/ }),
+
+/***/ 2478:
+/***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.NODE_USE_FIPS_ENDPOINT_CONFIG_OPTIONS = exports.DEFAULT_USE_FIPS_ENDPOINT = exports.CONFIG_USE_FIPS_ENDPOINT = exports.ENV_USE_FIPS_ENDPOINT = void 0;
+const util_config_provider_1 = __nccwpck_require__(6168);
+exports.ENV_USE_FIPS_ENDPOINT = "AWS_USE_FIPS_ENDPOINT";
+exports.CONFIG_USE_FIPS_ENDPOINT = "use_fips_endpoint";
+exports.DEFAULT_USE_FIPS_ENDPOINT = false;
+exports.NODE_USE_FIPS_ENDPOINT_CONFIG_OPTIONS = {
+    environmentVariableSelector: (env) => util_config_provider_1.booleanSelector(env, exports.ENV_USE_FIPS_ENDPOINT, util_config_provider_1.SelectorType.ENV),
+    configFileSelector: (profile) => util_config_provider_1.booleanSelector(profile, exports.CONFIG_USE_FIPS_ENDPOINT, util_config_provider_1.SelectorType.CONFIG),
+    default: false,
+};
+
+
+/***/ }),
+
 /***/ 7392:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
@@ -18949,6 +19343,8 @@ exports.getRuntimeConfig = getRuntimeConfig;
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 const tslib_1 = __nccwpck_require__(4351);
+tslib_1.__exportStar(__nccwpck_require__(4723), exports);
+tslib_1.__exportStar(__nccwpck_require__(2478), exports);
 tslib_1.__exportStar(__nccwpck_require__(2108), exports);
 tslib_1.__exportStar(__nccwpck_require__(2327), exports);
 
@@ -18962,6 +19358,7 @@ tslib_1.__exportStar(__nccwpck_require__(2327), exports);
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.resolveCustomEndpointsConfig = void 0;
+const normalizeBoolean_1 = __nccwpck_require__(2164);
 const normalizeEndpoint_1 = __nccwpck_require__(9815);
 const resolveCustomEndpointsConfig = (input) => {
     var _a;
@@ -18970,6 +19367,7 @@ const resolveCustomEndpointsConfig = (input) => {
         tls: (_a = input.tls) !== null && _a !== void 0 ? _a : true,
         endpoint: normalizeEndpoint_1.normalizeEndpoint(input),
         isCustomEndpoint: true,
+        useDualstackEndpoint: normalizeBoolean_1.normalizeBoolean(input.useDualstackEndpoint),
     });
 };
 exports.resolveCustomEndpointsConfig = resolveCustomEndpointsConfig;
@@ -18985,17 +19383,21 @@ exports.resolveCustomEndpointsConfig = resolveCustomEndpointsConfig;
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.resolveEndpointsConfig = void 0;
 const getEndpointFromRegion_1 = __nccwpck_require__(4159);
+const normalizeBoolean_1 = __nccwpck_require__(2164);
 const normalizeEndpoint_1 = __nccwpck_require__(9815);
 const resolveEndpointsConfig = (input) => {
     var _a;
-    return ({
+    const useDualstackEndpoint = normalizeBoolean_1.normalizeBoolean(input.useDualstackEndpoint);
+    const { endpoint, useFipsEndpoint } = input;
+    return {
         ...input,
         tls: (_a = input.tls) !== null && _a !== void 0 ? _a : true,
-        endpoint: input.endpoint
-            ? normalizeEndpoint_1.normalizeEndpoint({ ...input, endpoint: input.endpoint })
-            : () => getEndpointFromRegion_1.getEndpointFromRegion(input),
-        isCustomEndpoint: input.endpoint ? true : false,
-    });
+        endpoint: endpoint
+            ? normalizeEndpoint_1.normalizeEndpoint({ ...input, endpoint })
+            : () => getEndpointFromRegion_1.getEndpointFromRegion({ ...input, useDualstackEndpoint, useFipsEndpoint }),
+        isCustomEndpoint: endpoint ? true : false,
+        useDualstackEndpoint,
+    };
 };
 exports.resolveEndpointsConfig = resolveEndpointsConfig;
 
@@ -19017,13 +19419,34 @@ const getEndpointFromRegion = async (input) => {
     if (!dnsHostRegex.test(region)) {
         throw new Error("Invalid region in client config");
     }
-    const { hostname } = (_a = (await input.regionInfoProvider(region))) !== null && _a !== void 0 ? _a : {};
+    const useDualstackEndpoint = await input.useDualstackEndpoint();
+    const useFipsEndpoint = await input.useFipsEndpoint();
+    const { hostname } = (_a = (await input.regionInfoProvider(region, { useDualstackEndpoint, useFipsEndpoint }))) !== null && _a !== void 0 ? _a : {};
     if (!hostname) {
         throw new Error("Cannot resolve hostname from client config");
     }
     return input.urlParser(`${tls ? "https:" : "http:"}//${hostname}`);
 };
 exports.getEndpointFromRegion = getEndpointFromRegion;
+
+
+/***/ }),
+
+/***/ 2164:
+/***/ ((__unused_webpack_module, exports) => {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.normalizeBoolean = void 0;
+const normalizeBoolean = (value) => {
+    if (typeof value === "boolean") {
+        const promisified = Promise.resolve(value);
+        return () => promisified;
+    }
+    return value;
+};
+exports.normalizeBoolean = normalizeBoolean;
 
 
 /***/ }),
@@ -19088,6 +19511,24 @@ exports.NODE_REGION_CONFIG_FILE_OPTIONS = {
 
 /***/ }),
 
+/***/ 2844:
+/***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.getRealRegion = void 0;
+const isFipsRegion_1 = __nccwpck_require__(2440);
+const getRealRegion = (region) => isFipsRegion_1.isFipsRegion(region)
+    ? ["fips-aws-global", "aws-fips"].includes(region)
+        ? "us-east-1"
+        : region.replace(/fips-(dkr-|prod-)?|-fips/, "")
+    : region;
+exports.getRealRegion = getRealRegion;
+
+
+/***/ }),
+
 /***/ 5441:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
@@ -19101,21 +19542,15 @@ tslib_1.__exportStar(__nccwpck_require__(1595), exports);
 
 /***/ }),
 
-/***/ 3857:
+/***/ 2440:
 /***/ ((__unused_webpack_module, exports) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.normalizeRegion = void 0;
-const normalizeRegion = (region) => {
-    if (typeof region === "string") {
-        const promisified = Promise.resolve(region);
-        return () => promisified;
-    }
-    return region;
-};
-exports.normalizeRegion = normalizeRegion;
+exports.isFipsRegion = void 0;
+const isFipsRegion = (region) => typeof region === "string" && (region.startsWith("fips-") || region.endsWith("-fips"));
+exports.isFipsRegion = isFipsRegion;
 
 
 /***/ }),
@@ -19127,14 +19562,29 @@ exports.normalizeRegion = normalizeRegion;
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.resolveRegionConfig = void 0;
-const normalizeRegion_1 = __nccwpck_require__(3857);
+const getRealRegion_1 = __nccwpck_require__(2844);
+const isFipsRegion_1 = __nccwpck_require__(2440);
 const resolveRegionConfig = (input) => {
-    if (!input.region) {
+    const { region, useFipsEndpoint } = input;
+    if (!region) {
         throw new Error("Region is missing");
     }
     return {
         ...input,
-        region: normalizeRegion_1.normalizeRegion(input.region),
+        region: async () => {
+            if (typeof region === "string") {
+                return getRealRegion_1.getRealRegion(region);
+            }
+            const providedRegion = await region();
+            return getRealRegion_1.getRealRegion(providedRegion);
+        },
+        useFipsEndpoint: async () => {
+            const providedRegion = typeof region === "string" ? region : await region();
+            if (isFipsRegion_1.isFipsRegion(providedRegion)) {
+                return true;
+            }
+            return typeof useFipsEndpoint === "boolean" ? Promise.resolve(useFipsEndpoint) : useFipsEndpoint();
+        },
     };
 };
 exports.resolveRegionConfig = resolveRegionConfig;
@@ -19142,20 +19592,38 @@ exports.resolveRegionConfig = resolveRegionConfig;
 
 /***/ }),
 
-/***/ 241:
-/***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
+/***/ 3566:
+/***/ ((__unused_webpack_module, exports) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.getHostnameTemplate = void 0;
-const getResolvedPartition_1 = __nccwpck_require__(7642);
-const AWS_TEMPLATE = "{signingService}.{region}.amazonaws.com";
-const getHostnameTemplate = (region, { signingService, partitionHash }) => {
-    var _a, _b;
-    return (_b = (_a = partitionHash[getResolvedPartition_1.getResolvedPartition(region, { partitionHash })]) === null || _a === void 0 ? void 0 : _a.hostname) !== null && _b !== void 0 ? _b : AWS_TEMPLATE.replace("{signingService}", signingService);
+
+
+/***/ }),
+
+/***/ 6057:
+/***/ ((__unused_webpack_module, exports) => {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+
+
+/***/ }),
+
+/***/ 5280:
+/***/ ((__unused_webpack_module, exports) => {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.getHostnameFromVariants = void 0;
+const getHostnameFromVariants = (variants = [], { useFipsEndpoint, useDualstackEndpoint }) => {
+    var _a;
+    return (_a = variants.find(({ tags }) => useFipsEndpoint === tags.includes("fips") && useDualstackEndpoint === tags.includes("dualstack"))) === null || _a === void 0 ? void 0 : _a.hostname;
 };
-exports.getHostnameTemplate = getHostnameTemplate;
+exports.getHostnameFromVariants = getHostnameFromVariants;
 
 
 /***/ }),
@@ -19167,20 +19635,32 @@ exports.getHostnameTemplate = getHostnameTemplate;
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.getRegionInfo = void 0;
+const getHostnameFromVariants_1 = __nccwpck_require__(5280);
 const getResolvedHostname_1 = __nccwpck_require__(3877);
 const getResolvedPartition_1 = __nccwpck_require__(7642);
-const getRegionInfo = (region, { signingService, regionHash, partitionHash }) => {
-    var _a, _b, _c, _d;
+const getResolvedSigningRegion_1 = __nccwpck_require__(3517);
+const getRegionInfo = (region, { useFipsEndpoint = false, useDualstackEndpoint = false, signingService, regionHash, partitionHash, }) => {
+    var _a, _b, _c, _d, _e, _f;
     const partition = getResolvedPartition_1.getResolvedPartition(region, { partitionHash });
-    const resolvedRegion = (_b = (_a = partitionHash[partition]) === null || _a === void 0 ? void 0 : _a.endpoint) !== null && _b !== void 0 ? _b : region;
+    const resolvedRegion = region in regionHash ? region : (_b = (_a = partitionHash[partition]) === null || _a === void 0 ? void 0 : _a.endpoint) !== null && _b !== void 0 ? _b : region;
+    const hostnameOptions = { useFipsEndpoint, useDualstackEndpoint };
+    const regionHostname = getHostnameFromVariants_1.getHostnameFromVariants((_c = regionHash[resolvedRegion]) === null || _c === void 0 ? void 0 : _c.variants, hostnameOptions);
+    const partitionHostname = getHostnameFromVariants_1.getHostnameFromVariants((_d = partitionHash[partition]) === null || _d === void 0 ? void 0 : _d.variants, hostnameOptions);
+    const hostname = getResolvedHostname_1.getResolvedHostname(resolvedRegion, { regionHostname, partitionHostname });
+    if (hostname === undefined) {
+        throw new Error(`Endpoint resolution failed for: ${{ resolvedRegion, useFipsEndpoint, useDualstackEndpoint }}`);
+    }
+    const signingRegion = getResolvedSigningRegion_1.getResolvedSigningRegion(hostname, {
+        signingRegion: (_e = regionHash[resolvedRegion]) === null || _e === void 0 ? void 0 : _e.signingRegion,
+        regionRegex: partitionHash[partition].regionRegex,
+        useFipsEndpoint,
+    });
     return {
         partition,
         signingService,
-        hostname: getResolvedHostname_1.getResolvedHostname(resolvedRegion, { signingService, regionHash, partitionHash }),
-        ...(((_c = regionHash[resolvedRegion]) === null || _c === void 0 ? void 0 : _c.signingRegion) && {
-            signingRegion: regionHash[resolvedRegion].signingRegion,
-        }),
-        ...(((_d = regionHash[resolvedRegion]) === null || _d === void 0 ? void 0 : _d.signingService) && {
+        hostname,
+        ...(signingRegion && { signingRegion }),
+        ...(((_f = regionHash[resolvedRegion]) === null || _f === void 0 ? void 0 : _f.signingService) && {
             signingService: regionHash[resolvedRegion].signingService,
         }),
     };
@@ -19191,17 +19671,17 @@ exports.getRegionInfo = getRegionInfo;
 /***/ }),
 
 /***/ 3877:
-/***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
+/***/ ((__unused_webpack_module, exports) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.getResolvedHostname = void 0;
-const getHostnameTemplate_1 = __nccwpck_require__(241);
-const getResolvedHostname = (region, { signingService, regionHash, partitionHash }) => {
-    var _a, _b;
-    return (_b = (_a = regionHash[region]) === null || _a === void 0 ? void 0 : _a.hostname) !== null && _b !== void 0 ? _b : getHostnameTemplate_1.getHostnameTemplate(region, { signingService, partitionHash }).replace("{region}", region);
-};
+const getResolvedHostname = (resolvedRegion, { regionHostname, partitionHostname }) => regionHostname
+    ? regionHostname
+    : partitionHostname
+        ? partitionHostname.replace("{region}", resolvedRegion)
+        : undefined;
 exports.getResolvedHostname = getResolvedHostname;
 
 
@@ -19220,6 +19700,30 @@ exports.getResolvedPartition = getResolvedPartition;
 
 /***/ }),
 
+/***/ 3517:
+/***/ ((__unused_webpack_module, exports) => {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.getResolvedSigningRegion = void 0;
+const getResolvedSigningRegion = (hostname, { signingRegion, regionRegex, useFipsEndpoint }) => {
+    if (signingRegion) {
+        return signingRegion;
+    }
+    else if (useFipsEndpoint) {
+        const regionRegexJs = regionRegex.replace("\\\\", "\\").replace(/^\^/g, "\\.").replace(/\$$/g, "\\.");
+        const regionRegexmatchArray = hostname.match(regionRegexJs);
+        if (regionRegexmatchArray) {
+            return regionRegexmatchArray[0].slice(1, -1);
+        }
+    }
+};
+exports.getResolvedSigningRegion = getResolvedSigningRegion;
+
+
+/***/ }),
+
 /***/ 6258:
 /***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
@@ -19227,6 +19731,8 @@ exports.getResolvedPartition = getResolvedPartition;
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 const tslib_1 = __nccwpck_require__(4351);
+tslib_1.__exportStar(__nccwpck_require__(3566), exports);
+tslib_1.__exportStar(__nccwpck_require__(6057), exports);
 tslib_1.__exportStar(__nccwpck_require__(6167), exports);
 
 
@@ -19342,7 +19848,7 @@ exports.ENDPOINT_MODE_CONFIG_OPTIONS = {
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.fromContainerMetadata = exports.ENV_CMDS_AUTH_TOKEN = exports.ENV_CMDS_RELATIVE_URI = exports.ENV_CMDS_FULL_URI = void 0;
 const property_provider_1 = __nccwpck_require__(4462);
-const url_1 = __nccwpck_require__(8835);
+const url_1 = __nccwpck_require__(7310);
 const httpRequest_1 = __nccwpck_require__(1303);
 const ImdsCredentials_1 = __nccwpck_require__(1467);
 const RemoteProviderInit_1 = __nccwpck_require__(2314);
@@ -19519,10 +20025,15 @@ const getCredentialsFromProfile = async (profile, options) => {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.getInstanceMetadataEndpoint = exports.httpRequest = void 0;
 const tslib_1 = __nccwpck_require__(4351);
 tslib_1.__exportStar(__nccwpck_require__(5232), exports);
 tslib_1.__exportStar(__nccwpck_require__(5813), exports);
 tslib_1.__exportStar(__nccwpck_require__(2314), exports);
+var httpRequest_1 = __nccwpck_require__(1303);
+Object.defineProperty(exports, "httpRequest", ({ enumerable: true, get: function () { return httpRequest_1.httpRequest; } }));
+var getInstanceMetadataEndpoint_1 = __nccwpck_require__(1206);
+Object.defineProperty(exports, "getInstanceMetadataEndpoint", ({ enumerable: true, get: function () { return getInstanceMetadataEndpoint_1.getInstanceMetadataEndpoint; } }));
 
 
 /***/ }),
@@ -19575,8 +20086,8 @@ exports.providerConfigFromInit = providerConfigFromInit;
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.httpRequest = void 0;
 const property_provider_1 = __nccwpck_require__(4462);
-const buffer_1 = __nccwpck_require__(4293);
-const http_1 = __nccwpck_require__(8605);
+const buffer_1 = __nccwpck_require__(4300);
+const http_1 = __nccwpck_require__(3685);
 function httpRequest(options) {
     return new Promise((resolve, reject) => {
         var _a;
@@ -19838,7 +20349,7 @@ Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.fromProcess = exports.ENV_PROFILE = void 0;
 const property_provider_1 = __nccwpck_require__(4462);
 const util_credentials_1 = __nccwpck_require__(8598);
-const child_process_1 = __nccwpck_require__(3129);
+const child_process_1 = __nccwpck_require__(2081);
 exports.ENV_PROFILE = "AWS_PROFILE";
 const fromProcess = (init = {}) => async () => {
     const profiles = await util_credentials_1.parseKnownFiles(init);
@@ -19918,9 +20429,9 @@ const client_sso_1 = __nccwpck_require__(2666);
 const property_provider_1 = __nccwpck_require__(4462);
 const shared_ini_file_loader_1 = __nccwpck_require__(7387);
 const util_credentials_1 = __nccwpck_require__(8598);
-const crypto_1 = __nccwpck_require__(6417);
-const fs_1 = __nccwpck_require__(5747);
-const path_1 = __nccwpck_require__(5622);
+const crypto_1 = __nccwpck_require__(6113);
+const fs_1 = __nccwpck_require__(7147);
+const path_1 = __nccwpck_require__(1017);
 exports.EXPIRE_WINDOW_MS = 15 * 60 * 1000;
 const SHOULD_FAIL_CREDENTIAL_CHAIN = false;
 const fromSSO = (init = {}) => async () => {
@@ -20011,7 +20522,7 @@ exports.isSsoProfile = isSsoProfile;
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.fromTokenFile = void 0;
 const property_provider_1 = __nccwpck_require__(4462);
-const fs_1 = __nccwpck_require__(5747);
+const fs_1 = __nccwpck_require__(7147);
 const fromWebToken_1 = __nccwpck_require__(7905);
 const ENV_TOKEN_FILE = "AWS_WEB_IDENTITY_TOKEN_FILE";
 const ENV_ROLE_ARN = "AWS_ROLE_ARN";
@@ -20089,8 +20600,8 @@ tslib_1.__exportStar(__nccwpck_require__(7905), exports);
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.Hash = void 0;
 const util_buffer_from_1 = __nccwpck_require__(6010);
-const buffer_1 = __nccwpck_require__(4293);
-const crypto_1 = __nccwpck_require__(6417);
+const buffer_1 = __nccwpck_require__(4300);
+const crypto_1 = __nccwpck_require__(6113);
 class Hash {
     constructor(algorithmIdentifier, secret) {
         this.hash = secret ? crypto_1.createHmac(algorithmIdentifier, castSourceData(secret)) : crypto_1.createHash(algorithmIdentifier);
@@ -20699,15 +21210,15 @@ exports.defaultDelayDecider = defaultDelayDecider;
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 const tslib_1 = __nccwpck_require__(4351);
-tslib_1.__exportStar(__nccwpck_require__(1806), exports);
-tslib_1.__exportStar(__nccwpck_require__(3521), exports);
-tslib_1.__exportStar(__nccwpck_require__(533), exports);
 tslib_1.__exportStar(__nccwpck_require__(7328), exports);
+tslib_1.__exportStar(__nccwpck_require__(6402), exports);
+tslib_1.__exportStar(__nccwpck_require__(533), exports);
 tslib_1.__exportStar(__nccwpck_require__(5192), exports);
 tslib_1.__exportStar(__nccwpck_require__(6160), exports);
 tslib_1.__exportStar(__nccwpck_require__(5940), exports);
-tslib_1.__exportStar(__nccwpck_require__(6402), exports);
+tslib_1.__exportStar(__nccwpck_require__(3521), exports);
 tslib_1.__exportStar(__nccwpck_require__(9572), exports);
+tslib_1.__exportStar(__nccwpck_require__(1806), exports);
 tslib_1.__exportStar(__nccwpck_require__(8580), exports);
 
 
@@ -20834,11 +21345,16 @@ Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.deserializerMiddleware = void 0;
 const deserializerMiddleware = (options, deserializer) => (next, context) => async (args) => {
     const { response } = await next(args);
-    const parsed = await deserializer(response, options);
-    return {
-        response,
-        output: parsed,
-    };
+    try {
+        const parsed = await deserializer(response, options);
+        return {
+            response,
+            output: parsed,
+        };
+    }
+    catch (error) {
+        throw Object.assign(error, { $response: response });
+    }
 };
 exports.deserializerMiddleware = deserializerMiddleware;
 
@@ -20853,8 +21369,8 @@ exports.deserializerMiddleware = deserializerMiddleware;
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 const tslib_1 = __nccwpck_require__(4351);
 tslib_1.__exportStar(__nccwpck_require__(5648), exports);
-tslib_1.__exportStar(__nccwpck_require__(9511), exports);
 tslib_1.__exportStar(__nccwpck_require__(9328), exports);
+tslib_1.__exportStar(__nccwpck_require__(9511), exports);
 
 
 /***/ }),
@@ -20933,7 +21449,13 @@ const resolveAwsAuthConfig = (input) => {
     }
     else {
         signer = () => normalizeProvider(input.region)()
-            .then(async (region) => [(await input.regionInfoProvider(region)) || {}, region])
+            .then(async (region) => [
+            (await input.regionInfoProvider(region, {
+                useFipsEndpoint: await input.useFipsEndpoint(),
+                useDualstackEndpoint: await input.useDualstackEndpoint(),
+            })) || {},
+            region,
+        ])
             .then(([regionInfo, region]) => {
             const { signingRegion, signingService } = regionInfo;
             input.signingRegion = input.signingRegion || signingRegion || region;
@@ -21039,19 +21561,21 @@ const awsAuthMiddleware = (options) => (next, context) => async function (args) 
             signingService: context["signing_service"],
         }),
     }).catch((error) => {
-        if (error.ServerTime) {
-            options.systemClockOffset = getUpdatedSystemClockOffset_1.getUpdatedSystemClockOffset(error.ServerTime, options.systemClockOffset);
+        var _a;
+        const serverTime = (_a = error.ServerTime) !== null && _a !== void 0 ? _a : getDateHeader(error.$response);
+        if (serverTime) {
+            options.systemClockOffset = getUpdatedSystemClockOffset_1.getUpdatedSystemClockOffset(serverTime, options.systemClockOffset);
         }
         throw error;
     });
-    const { headers } = output.response;
-    const dateHeader = headers && (headers.date || headers.Date);
+    const dateHeader = getDateHeader(output.response);
     if (dateHeader) {
         options.systemClockOffset = getUpdatedSystemClockOffset_1.getUpdatedSystemClockOffset(dateHeader, options.systemClockOffset);
     }
     return output;
 };
 exports.awsAuthMiddleware = awsAuthMiddleware;
+const getDateHeader = (response) => { var _a, _b, _c; return protocol_http_1.HttpResponse.isInstance(response) ? (_b = (_a = response.headers) === null || _a === void 0 ? void 0 : _a.date) !== null && _b !== void 0 ? _b : (_c = response.headers) === null || _c === void 0 ? void 0 : _c.Date : undefined; };
 exports.awsAuthMiddlewareOptions = {
     name: "awsAuthMiddleware",
     tags: ["SIGNATURE", "AWSAUTH"],
@@ -21554,7 +22078,7 @@ Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.fromStatic = void 0;
 const property_provider_1 = __nccwpck_require__(4462);
 const isFunction = (func) => typeof func === "function";
-const fromStatic = (defaultValue) => isFunction(defaultValue) ? async () => defaultValue() : property_provider_1.fromStatic(defaultValue);
+const fromStatic = (defaultValue) => isFunction(defaultValue) ? async () => await defaultValue() : property_provider_1.fromStatic(defaultValue);
 exports.fromStatic = fromStatic;
 
 
@@ -21627,29 +22151,49 @@ Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.NodeHttpHandler = void 0;
 const protocol_http_1 = __nccwpck_require__(223);
 const querystring_builder_1 = __nccwpck_require__(3402);
-const http_1 = __nccwpck_require__(8605);
-const https_1 = __nccwpck_require__(7211);
+const http_1 = __nccwpck_require__(3685);
+const https_1 = __nccwpck_require__(5687);
 const constants_1 = __nccwpck_require__(3647);
 const get_transformed_headers_1 = __nccwpck_require__(6225);
 const set_connection_timeout_1 = __nccwpck_require__(3598);
 const set_socket_timeout_1 = __nccwpck_require__(4751);
 const write_request_body_1 = __nccwpck_require__(5248);
 class NodeHttpHandler {
-    constructor({ connectionTimeout, socketTimeout, httpAgent, httpsAgent } = {}) {
+    constructor(options) {
         this.metadata = { handlerProtocol: "http/1.1" };
-        this.connectionTimeout = connectionTimeout;
-        this.socketTimeout = socketTimeout;
+        if (typeof options === "function") {
+            this.configProvider = async () => {
+                return this.resolveDefaultConfig(await options());
+            };
+        }
+        else {
+            this.config = this.resolveDefaultConfig(options);
+        }
+    }
+    resolveDefaultConfig(options) {
+        const { connectionTimeout, socketTimeout, httpAgent, httpsAgent } = options || {};
         const keepAlive = true;
         const maxSockets = 50;
-        this.httpAgent = httpAgent || new http_1.Agent({ keepAlive, maxSockets });
-        this.httpsAgent = httpsAgent || new https_1.Agent({ keepAlive, maxSockets });
+        return {
+            connectionTimeout,
+            socketTimeout,
+            httpAgent: httpAgent || new http_1.Agent({ keepAlive, maxSockets }),
+            httpsAgent: httpsAgent || new https_1.Agent({ keepAlive, maxSockets }),
+        };
     }
     destroy() {
-        this.httpAgent.destroy();
-        this.httpsAgent.destroy();
+        var _a, _b, _c, _d;
+        (_b = (_a = this.config) === null || _a === void 0 ? void 0 : _a.httpAgent) === null || _b === void 0 ? void 0 : _b.destroy();
+        (_d = (_c = this.config) === null || _c === void 0 ? void 0 : _c.httpsAgent) === null || _d === void 0 ? void 0 : _d.destroy();
     }
-    handle(request, { abortSignal } = {}) {
+    async handle(request, { abortSignal } = {}) {
+        if (!this.config && this.configProvider) {
+            this.config = await this.configProvider();
+        }
         return new Promise((resolve, reject) => {
+            if (!this.config) {
+                throw new Error("Node HTTP request handler config is not resolved");
+            }
             if (abortSignal === null || abortSignal === void 0 ? void 0 : abortSignal.aborted) {
                 const abortError = new Error("Request aborted");
                 abortError.name = "AbortError";
@@ -21664,7 +22208,7 @@ class NodeHttpHandler {
                 method: request.method,
                 path: queryString ? `${request.path}?${queryString}` : request.path,
                 port: request.port,
-                agent: isSSL ? this.httpsAgent : this.httpAgent,
+                agent: isSSL ? this.config.httpsAgent : this.config.httpAgent,
             };
             const requestFunc = isSSL ? https_1.request : http_1.request;
             const req = requestFunc(nodeHttpsOptions, (res) => {
@@ -21683,8 +22227,8 @@ class NodeHttpHandler {
                     reject(err);
                 }
             });
-            set_connection_timeout_1.setConnectionTimeout(req, reject, this.connectionTimeout);
-            set_socket_timeout_1.setSocketTimeout(req, reject, this.socketTimeout);
+            set_connection_timeout_1.setConnectionTimeout(req, reject, this.config.connectionTimeout);
+            set_socket_timeout_1.setSocketTimeout(req, reject, this.config.socketTimeout);
             if (abortSignal) {
                 abortSignal.onabort = () => {
                     req.abort();
@@ -21711,7 +22255,7 @@ Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.NodeHttp2Handler = void 0;
 const protocol_http_1 = __nccwpck_require__(223);
 const querystring_builder_1 = __nccwpck_require__(3402);
-const http2_1 = __nccwpck_require__(7565);
+const http2_1 = __nccwpck_require__(5158);
 const get_transformed_headers_1 = __nccwpck_require__(6225);
 const write_request_body_1 = __nccwpck_require__(5248);
 class NodeHttp2Handler {
@@ -21896,7 +22440,7 @@ exports.setSocketTimeout = setSocketTimeout;
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.Collector = void 0;
-const stream_1 = __nccwpck_require__(2413);
+const stream_1 = __nccwpck_require__(2781);
 class Collector extends stream_1.Writable {
     constructor() {
         super(...arguments);
@@ -21945,7 +22489,7 @@ exports.streamCollector = streamCollector;
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.writeRequestBody = void 0;
-const stream_1 = __nccwpck_require__(2413);
+const stream_1 = __nccwpck_require__(2781);
 function writeRequestBody(httpRequest, request) {
     const expect = request.headers["Expect"] || request.headers["expect"];
     if (expect === "100-continue") {
@@ -22064,10 +22608,10 @@ exports.fromStatic = fromStatic;
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 const tslib_1 = __nccwpck_require__(4351);
+tslib_1.__exportStar(__nccwpck_require__(1786), exports);
 tslib_1.__exportStar(__nccwpck_require__(1444), exports);
 tslib_1.__exportStar(__nccwpck_require__(529), exports);
 tslib_1.__exportStar(__nccwpck_require__(714), exports);
-tslib_1.__exportStar(__nccwpck_require__(1786), exports);
 
 
 /***/ }),
@@ -22227,9 +22771,9 @@ exports.HttpResponse = HttpResponse;
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 const tslib_1 = __nccwpck_require__(4351);
-tslib_1.__exportStar(__nccwpck_require__(2348), exports);
-tslib_1.__exportStar(__nccwpck_require__(2872), exports);
 tslib_1.__exportStar(__nccwpck_require__(6779), exports);
+tslib_1.__exportStar(__nccwpck_require__(2872), exports);
+tslib_1.__exportStar(__nccwpck_require__(2348), exports);
 tslib_1.__exportStar(__nccwpck_require__(5694), exports);
 
 
@@ -22392,9 +22936,9 @@ exports.isTransientError = isTransientError;
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.getHomeDir = exports.loadSharedConfigFiles = exports.ENV_CONFIG_PATH = exports.ENV_CREDENTIALS_PATH = void 0;
-const fs_1 = __nccwpck_require__(5747);
-const os_1 = __nccwpck_require__(2087);
-const path_1 = __nccwpck_require__(5622);
+const fs_1 = __nccwpck_require__(7147);
+const os_1 = __nccwpck_require__(2037);
+const path_1 = __nccwpck_require__(1017);
 exports.ENV_CREDENTIALS_PATH = "AWS_SHARED_CREDENTIALS_FILE";
 exports.ENV_CONFIG_PATH = "AWS_CONFIG_FILE";
 const swallowError = () => ({});
@@ -22907,7 +23451,7 @@ exports.deleteHeader = deleteHeader;
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.normalizeRegionProvider = exports.normalizeCredentialsProvider = exports.prepareRequest = exports.moveHeadersToQuery = exports.getPayloadHash = exports.getCanonicalQuery = exports.getCanonicalHeaders = void 0;
 const tslib_1 = __nccwpck_require__(4351);
-tslib_1.__exportStar(__nccwpck_require__(1424), exports);
+tslib_1.__exportStar(__nccwpck_require__(5086), exports);
 var getCanonicalHeaders_1 = __nccwpck_require__(3590);
 Object.defineProperty(exports, "getCanonicalHeaders", ({ enumerable: true, get: function () { return getCanonicalHeaders_1.getCanonicalHeaders; } }));
 var getCanonicalQuery_1 = __nccwpck_require__(2019);
@@ -22921,7 +23465,7 @@ Object.defineProperty(exports, "prepareRequest", ({ enumerable: true, get: funct
 var normalizeProvider_1 = __nccwpck_require__(7027);
 Object.defineProperty(exports, "normalizeCredentialsProvider", ({ enumerable: true, get: function () { return normalizeProvider_1.normalizeCredentialsProvider; } }));
 Object.defineProperty(exports, "normalizeRegionProvider", ({ enumerable: true, get: function () { return normalizeProvider_1.normalizeRegionProvider; } }));
-tslib_1.__exportStar(__nccwpck_require__(5086), exports);
+tslib_1.__exportStar(__nccwpck_require__(1424), exports);
 
 
 /***/ }),
@@ -23128,7 +23672,7 @@ function dateToUtcString(date) {
     return `${DAYS[dayOfWeek]}, ${dayOfMonthString} ${MONTHS[month]} ${year} ${hoursString}:${minutesString}:${secondsString} GMT`;
 }
 exports.dateToUtcString = dateToUtcString;
-const RFC3339 = new RegExp(/^(?<Y>\d{4})-(?<M>\d{2})-(?<D>\d{2})[tT](?<H>\d{2}):(?<m>\d{2}):(?<s>\d{2})(?:\.(?<frac>\d+))?[zZ]$/);
+const RFC3339 = new RegExp(/^(\d{4})-(\d{2})-(\d{2})[tT](\d{2}):(\d{2}):(\d{2})(?:\.(\d+))?[zZ]$/);
 const parseRfc3339DateTime = (value) => {
     if (value === null || value === undefined) {
         return undefined;
@@ -23137,18 +23681,19 @@ const parseRfc3339DateTime = (value) => {
         throw new TypeError("RFC-3339 date-times must be expressed as strings");
     }
     const match = RFC3339.exec(value);
-    if (!match || !match.groups) {
+    if (!match) {
         throw new TypeError("Invalid RFC-3339 date-time value");
     }
-    const year = parse_utils_1.strictParseShort(stripLeadingZeroes(match.groups["Y"]));
-    const month = parseDateValue(match.groups["M"], "month", 1, 12);
-    const day = parseDateValue(match.groups["D"], "day", 1, 31);
-    return buildDate(year, month, day, match);
+    const [_, yearStr, monthStr, dayStr, hours, minutes, seconds, fractionalMilliseconds] = match;
+    const year = parse_utils_1.strictParseShort(stripLeadingZeroes(yearStr));
+    const month = parseDateValue(monthStr, "month", 1, 12);
+    const day = parseDateValue(dayStr, "day", 1, 31);
+    return buildDate(year, month, day, { hours, minutes, seconds, fractionalMilliseconds });
 };
 exports.parseRfc3339DateTime = parseRfc3339DateTime;
-const IMF_FIXDATE = new RegExp(/^(?:Mon|Tue|Wed|Thu|Fri|Sat|Sun), (?<D>\d{2}) (?<M>Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec) (?<Y>\d{4}) (?<H>\d{2}):(?<m>\d{2}):(?<s>\d{2})(?:\.(?<frac>\d+))? GMT$/);
-const RFC_850_DATE = new RegExp(/^(?:Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday), (?<D>\d{2})-(?<M>Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)-(?<Y>\d{2}) (?<H>\d{2}):(?<m>\d{2}):(?<s>\d{2})(?:\.(?<frac>\d+))? GMT$/);
-const ASC_TIME = new RegExp(/^(?:Mon|Tue|Wed|Thu|Fri|Sat|Sun) (?<M>Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec) (?<D> [1-9]|\d{2}) (?<H>\d{2}):(?<m>\d{2}):(?<s>\d{2})(?:\.(?<frac>\d+))? (?<Y>\d{4})$/);
+const IMF_FIXDATE = new RegExp(/^(?:Mon|Tue|Wed|Thu|Fri|Sat|Sun), (\d{2}) (Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec) (\d{4}) (\d{2}):(\d{2}):(\d{2})(?:\.(\d+))? GMT$/);
+const RFC_850_DATE = new RegExp(/^(?:Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday), (\d{2})-(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)-(\d{2}) (\d{2}):(\d{2}):(\d{2})(?:\.(\d+))? GMT$/);
+const ASC_TIME = new RegExp(/^(?:Mon|Tue|Wed|Thu|Fri|Sat|Sun) (Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec) ( [1-9]|\d{2}) (\d{2}):(\d{2}):(\d{2})(?:\.(\d+))? (\d{4})$/);
 const parseRfc7231DateTime = (value) => {
     if (value === null || value === undefined) {
         return undefined;
@@ -23156,30 +23701,27 @@ const parseRfc7231DateTime = (value) => {
     if (typeof value !== "string") {
         throw new TypeError("RFC-7231 date-times must be expressed as strings");
     }
-    let dayFn = (value) => parseDateValue(value, "day", 1, 31);
-    let yearFn = (value) => parse_utils_1.strictParseShort(stripLeadingZeroes(value));
-    let dateAdjustmentFn = (value) => value;
     let match = IMF_FIXDATE.exec(value);
-    if (!match || !match.groups) {
-        match = RFC_850_DATE.exec(value);
-        if (match && match.groups) {
-            yearFn = parseTwoDigitYear;
-            dateAdjustmentFn = adjustRfc850Year;
-        }
-        else {
-            match = ASC_TIME.exec(value);
-            if (match && match.groups) {
-                dayFn = (value) => parseDateValue(value.trimLeft(), "day", 1, 31);
-            }
-            else {
-                throw new TypeError("Invalid RFC-7231 date-time value");
-            }
-        }
+    if (match) {
+        const [_, dayStr, monthStr, yearStr, hours, minutes, seconds, fractionalMilliseconds] = match;
+        return buildDate(parse_utils_1.strictParseShort(stripLeadingZeroes(yearStr)), parseMonthByShortName(monthStr), parseDateValue(dayStr, "day", 1, 31), { hours, minutes, seconds, fractionalMilliseconds });
     }
-    const year = yearFn(match.groups["Y"]);
-    const month = parseMonthByShortName(match.groups["M"]);
-    const day = dayFn(match.groups["D"]);
-    return dateAdjustmentFn(buildDate(year, month, day, match));
+    match = RFC_850_DATE.exec(value);
+    if (match) {
+        const [_, dayStr, monthStr, yearStr, hours, minutes, seconds, fractionalMilliseconds] = match;
+        return adjustRfc850Year(buildDate(parseTwoDigitYear(yearStr), parseMonthByShortName(monthStr), parseDateValue(dayStr, "day", 1, 31), {
+            hours,
+            minutes,
+            seconds,
+            fractionalMilliseconds,
+        }));
+    }
+    match = ASC_TIME.exec(value);
+    if (match) {
+        const [_, monthStr, dayStr, hours, minutes, seconds, fractionalMilliseconds, yearStr] = match;
+        return buildDate(parse_utils_1.strictParseShort(stripLeadingZeroes(yearStr)), parseMonthByShortName(monthStr), parseDateValue(dayStr.trimLeft(), "day", 1, 31), { hours, minutes, seconds, fractionalMilliseconds });
+    }
+    throw new TypeError("Invalid RFC-7231 date-time value");
 };
 exports.parseRfc7231DateTime = parseRfc7231DateTime;
 const parseEpochTimestamp = (value) => {
@@ -23202,10 +23744,10 @@ const parseEpochTimestamp = (value) => {
     return new Date(Math.round(valueAsDouble * 1000));
 };
 exports.parseEpochTimestamp = parseEpochTimestamp;
-const buildDate = (year, month, day, match) => {
+const buildDate = (year, month, day, time) => {
     const adjustedMonth = month - 1;
     validateDayOfMonth(year, adjustedMonth, day);
-    return new Date(Date.UTC(year, adjustedMonth, day, parseDateValue(match.groups["H"], "hour", 0, 23), parseDateValue(match.groups["m"], "minute", 0, 59), parseDateValue(match.groups["s"], "seconds", 0, 60), parseMilliseconds(match.groups["frac"])));
+    return new Date(Date.UTC(year, adjustedMonth, day, parseDateValue(time.hours, "hour", 0, 23), parseDateValue(time.minutes, "minute", 0, 59), parseDateValue(time.seconds, "seconds", 0, 60), parseMilliseconds(time.fractionalMilliseconds)));
 };
 const parseTwoDigitYear = (value) => {
     const thisYear = new Date().getUTCFullYear();
@@ -23265,6 +23807,44 @@ const stripLeadingZeroes = (value) => {
     }
     return value.slice(idx);
 };
+
+
+/***/ }),
+
+/***/ 3088:
+/***/ ((__unused_webpack_module, exports) => {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.loadConfigsForDefaultMode = void 0;
+const loadConfigsForDefaultMode = (mode) => {
+    switch (mode) {
+        case "standard":
+            return {
+                retryMode: "standard",
+                connectionTimeout: 3100,
+            };
+        case "in-region":
+            return {
+                retryMode: "standard",
+                connectionTimeout: 1100,
+            };
+        case "cross-region":
+            return {
+                retryMode: "standard",
+                connectionTimeout: 3100,
+            };
+        case "mobile":
+            return {
+                retryMode: "standard",
+                connectionTimeout: 30000,
+            };
+        default:
+            return {};
+    }
+};
+exports.loadConfigsForDefaultMode = loadConfigsForDefaultMode;
 
 
 /***/ }),
@@ -23355,6 +23935,9 @@ Object.defineProperty(exports, "__esModule", ({ value: true }));
 const tslib_1 = __nccwpck_require__(4351);
 tslib_1.__exportStar(__nccwpck_require__(6034), exports);
 tslib_1.__exportStar(__nccwpck_require__(4014), exports);
+tslib_1.__exportStar(__nccwpck_require__(8392), exports);
+tslib_1.__exportStar(__nccwpck_require__(4695), exports);
+tslib_1.__exportStar(__nccwpck_require__(3088), exports);
 tslib_1.__exportStar(__nccwpck_require__(2363), exports);
 tslib_1.__exportStar(__nccwpck_require__(1927), exports);
 tslib_1.__exportStar(__nccwpck_require__(6457), exports);
@@ -23362,9 +23945,7 @@ tslib_1.__exportStar(__nccwpck_require__(5830), exports);
 tslib_1.__exportStar(__nccwpck_require__(3613), exports);
 tslib_1.__exportStar(__nccwpck_require__(4809), exports);
 tslib_1.__exportStar(__nccwpck_require__(8000), exports);
-tslib_1.__exportStar(__nccwpck_require__(4695), exports);
 tslib_1.__exportStar(__nccwpck_require__(8730), exports);
-tslib_1.__exportStar(__nccwpck_require__(8392), exports);
 
 
 /***/ }),
@@ -23755,7 +24336,7 @@ exports.toBase64 = toBase64;
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.calculateBodyLength = void 0;
-const fs_1 = __nccwpck_require__(5747);
+const fs_1 = __nccwpck_require__(7147);
 function calculateBodyLength(body) {
     if (!body) {
         return 0;
@@ -23786,7 +24367,7 @@ exports.calculateBodyLength = calculateBodyLength;
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.fromString = exports.fromArrayBuffer = void 0;
 const is_array_buffer_1 = __nccwpck_require__(9126);
-const buffer_1 = __nccwpck_require__(4293);
+const buffer_1 = __nccwpck_require__(4300);
 const fromArrayBuffer = (input, offset = 0, length = input.byteLength - offset) => {
     if (!is_array_buffer_1.isArrayBuffer(input)) {
         throw new TypeError(`The "input" argument must be ArrayBuffer. Received type ${typeof input} (${input})`);
@@ -23801,6 +24382,44 @@ const fromString = (input, encoding) => {
     return encoding ? buffer_1.Buffer.from(input, encoding) : buffer_1.Buffer.from(input);
 };
 exports.fromString = fromString;
+
+
+/***/ }),
+
+/***/ 9509:
+/***/ ((__unused_webpack_module, exports) => {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.booleanSelector = exports.SelectorType = void 0;
+var SelectorType;
+(function (SelectorType) {
+    SelectorType["ENV"] = "env";
+    SelectorType["CONFIG"] = "shared config entry";
+})(SelectorType = exports.SelectorType || (exports.SelectorType = {}));
+const booleanSelector = (obj, key, type) => {
+    if (!(key in obj))
+        return undefined;
+    if (obj[key] === "true")
+        return true;
+    if (obj[key] === "false")
+        return false;
+    throw new Error(`Cannot load ${type} "${key}". Expected "true" or "false", got ${obj[key]}.`);
+};
+exports.booleanSelector = booleanSelector;
+
+
+/***/ }),
+
+/***/ 6168:
+/***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+const tslib_1 = __nccwpck_require__(4351);
+tslib_1.__exportStar(__nccwpck_require__(9509), exports);
 
 
 /***/ }),
@@ -23826,6 +24445,122 @@ const parseKnownFiles = async (init) => {
 exports.parseKnownFiles = parseKnownFiles;
 const getMasterProfileName = (init) => init.profile || process.env[exports.ENV_PROFILE] || exports.DEFAULT_PROFILE;
 exports.getMasterProfileName = getMasterProfileName;
+
+
+/***/ }),
+
+/***/ 6488:
+/***/ ((__unused_webpack_module, exports) => {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.IMDS_REGION_PATH = exports.DEFAULTS_MODE_OPTIONS = exports.ENV_IMDS_DISABLED = exports.AWS_DEFAULT_REGION_ENV = exports.AWS_REGION_ENV = exports.AWS_EXECUTION_ENV = void 0;
+exports.AWS_EXECUTION_ENV = "AWS_EXECUTION_ENV";
+exports.AWS_REGION_ENV = "AWS_REGION";
+exports.AWS_DEFAULT_REGION_ENV = "AWS_DEFAULT_REGION";
+exports.ENV_IMDS_DISABLED = "AWS_EC2_METADATA_DISABLED";
+exports.DEFAULTS_MODE_OPTIONS = ["in-region", "cross-region", "mobile", "standard", "legacy"];
+exports.IMDS_REGION_PATH = "/latest/meta-data/placement/region";
+
+
+/***/ }),
+
+/***/ 8450:
+/***/ ((__unused_webpack_module, exports) => {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.NODE_DEFAULTS_MODE_CONFIG_OPTIONS = void 0;
+const AWS_DEFAULTS_MODE_ENV = "AWS_DEFAULTS_MODE";
+const AWS_DEFAULTS_MODE_CONFIG = "defaults_mode";
+exports.NODE_DEFAULTS_MODE_CONFIG_OPTIONS = {
+    environmentVariableSelector: (env) => {
+        return env[AWS_DEFAULTS_MODE_ENV];
+    },
+    configFileSelector: (profile) => {
+        return profile[AWS_DEFAULTS_MODE_CONFIG];
+    },
+    default: "legacy",
+};
+
+
+/***/ }),
+
+/***/ 4243:
+/***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+const tslib_1 = __nccwpck_require__(4351);
+tslib_1.__exportStar(__nccwpck_require__(8238), exports);
+
+
+/***/ }),
+
+/***/ 8238:
+/***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.resolveDefaultsModeConfig = void 0;
+const config_resolver_1 = __nccwpck_require__(6153);
+const credential_provider_imds_1 = __nccwpck_require__(5898);
+const node_config_provider_1 = __nccwpck_require__(7684);
+const property_provider_1 = __nccwpck_require__(4462);
+const constants_1 = __nccwpck_require__(6488);
+const defaultsModeConfig_1 = __nccwpck_require__(8450);
+const resolveDefaultsModeConfig = ({ region = node_config_provider_1.loadConfig(config_resolver_1.NODE_REGION_CONFIG_OPTIONS), defaultsMode = node_config_provider_1.loadConfig(defaultsModeConfig_1.NODE_DEFAULTS_MODE_CONFIG_OPTIONS), } = {}) => property_provider_1.memoize(async () => {
+    const mode = typeof defaultsMode === "function" ? await defaultsMode() : defaultsMode;
+    switch (mode === null || mode === void 0 ? void 0 : mode.toLowerCase()) {
+        case "auto":
+            return resolveNodeDefaultsModeAuto(region);
+        case "in-region":
+        case "cross-region":
+        case "mobile":
+        case "standard":
+        case "legacy":
+            return Promise.resolve(mode === null || mode === void 0 ? void 0 : mode.toLocaleLowerCase());
+        case undefined:
+            return Promise.resolve("legacy");
+        default:
+            throw new Error(`Invalid parameter for "defaultsMode", expect ${constants_1.DEFAULTS_MODE_OPTIONS.join(", ")}, got ${mode}`);
+    }
+});
+exports.resolveDefaultsModeConfig = resolveDefaultsModeConfig;
+const resolveNodeDefaultsModeAuto = async (clientRegion) => {
+    if (clientRegion) {
+        const resolvedRegion = typeof clientRegion === "function" ? await clientRegion() : clientRegion;
+        const inferredRegion = await inferPhysicalRegion();
+        if (!inferredRegion) {
+            return "standard";
+        }
+        if (resolvedRegion === inferredRegion) {
+            return "in-region";
+        }
+        else {
+            return "cross-region";
+        }
+    }
+    return "standard";
+};
+const inferPhysicalRegion = async () => {
+    var _a;
+    if (process.env[constants_1.AWS_EXECUTION_ENV] && (process.env[constants_1.AWS_REGION_ENV] || process.env[constants_1.AWS_DEFAULT_REGION_ENV])) {
+        return (_a = process.env[constants_1.AWS_REGION_ENV]) !== null && _a !== void 0 ? _a : process.env[constants_1.AWS_DEFAULT_REGION_ENV];
+    }
+    if (!process.env[constants_1.ENV_IMDS_DISABLED]) {
+        try {
+            const endpoint = await credential_provider_imds_1.getInstanceMetadataEndpoint();
+            return (await credential_provider_imds_1.httpRequest({ ...endpoint, path: constants_1.IMDS_REGION_PATH })).toString();
+        }
+        catch (e) {
+        }
+    }
+};
 
 
 /***/ }),
@@ -23925,8 +24660,8 @@ tslib_1.__exportStar(__nccwpck_require__(5774), exports);
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.defaultUserAgent = exports.UA_APP_ID_INI_NAME = exports.UA_APP_ID_ENV_NAME = void 0;
 const node_config_provider_1 = __nccwpck_require__(7684);
-const os_1 = __nccwpck_require__(2087);
-const process_1 = __nccwpck_require__(1765);
+const os_1 = __nccwpck_require__(2037);
+const process_1 = __nccwpck_require__(7282);
 const is_crt_available_1 = __nccwpck_require__(8390);
 exports.UA_APP_ID_ENV_NAME = "AWS_SDK_UA_APP_ID";
 exports.UA_APP_ID_INI_NAME = "sdk-ua-app-id";
@@ -24513,9 +25248,9 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.decodeHTML = exports.decodeHTMLStrict = exports.decodeXML = void 0;
-var entities_json_1 = __importDefault(__nccwpck_require__(4007));
-var legacy_json_1 = __importDefault(__nccwpck_require__(7802));
-var xml_json_1 = __importDefault(__nccwpck_require__(2228));
+var entities_json_1 = __importDefault(__nccwpck_require__(9323));
+var legacy_json_1 = __importDefault(__nccwpck_require__(9591));
+var xml_json_1 = __importDefault(__nccwpck_require__(2586));
 var decode_codepoint_1 = __importDefault(__nccwpck_require__(1227));
 var strictEntityRe = /&(?:[a-zA-Z0-9]+|#[xX][\da-fA-F]+|#\d+);/g;
 exports.decodeXML = getStrictDecoder(xml_json_1.default);
@@ -24573,7 +25308,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
-var decode_json_1 = __importDefault(__nccwpck_require__(4589));
+var decode_json_1 = __importDefault(__nccwpck_require__(3600));
 // Adapted from https://github.com/mathiasbynens/he/blob/master/src/he.js#L94-L119
 var fromCodePoint = 
 // eslint-disable-next-line @typescript-eslint/no-unnecessary-condition
@@ -24597,7 +25332,7 @@ function decodeCodePoint(codePoint) {
     }
     return fromCodePoint(codePoint);
 }
-exports.default = decodeCodePoint;
+exports["default"] = decodeCodePoint;
 
 
 /***/ }),
@@ -24612,7 +25347,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.escapeUTF8 = exports.escape = exports.encodeNonAsciiHTML = exports.encodeHTML = exports.encodeXML = void 0;
-var xml_json_1 = __importDefault(__nccwpck_require__(2228));
+var xml_json_1 = __importDefault(__nccwpck_require__(2586));
 var inverseXML = getInverseObj(xml_json_1.default);
 var xmlReplacer = getInverseReplacer(inverseXML);
 /**
@@ -24623,7 +25358,7 @@ var xmlReplacer = getInverseReplacer(inverseXML);
  * numeric hexadecimal reference (eg. `&#xfc;`) will be used.
  */
 exports.encodeXML = getASCIIEncoder(inverseXML);
-var entities_json_1 = __importDefault(__nccwpck_require__(4007));
+var entities_json_1 = __importDefault(__nccwpck_require__(9323));
 var inverseHTML = getInverseObj(entities_json_1.default);
 var htmlReplacer = getInverseReplacer(inverseHTML);
 /**
@@ -24817,7 +25552,7 @@ Object.defineProperty(exports, "decodeXMLStrict", ({ enumerable: true, get: func
 "use strict";
 
 //parse Empty Node as self closing node
-const buildOptions = __nccwpck_require__(8280).buildOptions;
+const buildOptions = (__nccwpck_require__(8280).buildOptions);
 
 const defaultOptions = {
   attributeNamePrefix: '@_',
@@ -25227,7 +25962,7 @@ function hasData(jObj) {
 }
 
 const x2j = __nccwpck_require__(6712);
-const buildOptions = __nccwpck_require__(8280).buildOptions;
+const buildOptions = (__nccwpck_require__(8280).buildOptions);
 
 const convert2nimn = function(node, e_schema, options) {
   options = buildOptions(options, x2j.defaultOptions, x2j.props);
@@ -25296,7 +26031,7 @@ exports.convertToJson = convertToJson;
 
 
 const util = __nccwpck_require__(8280);
-const buildOptions = __nccwpck_require__(8280).buildOptions;
+const buildOptions = (__nccwpck_require__(8280).buildOptions);
 const x2j = __nccwpck_require__(6712);
 
 //TODO: do it later
@@ -25369,7 +26104,7 @@ exports.convertToJsonString = convertToJsonString;
 const nodeToJson = __nccwpck_require__(8270);
 const xmlToNodeobj = __nccwpck_require__(6712);
 const x2xmlnode = __nccwpck_require__(6712);
-const buildOptions = __nccwpck_require__(8280).buildOptions;
+const buildOptions = (__nccwpck_require__(8280).buildOptions);
 const validator = __nccwpck_require__(1739);
 
 exports.parse = function(xmlData, options, validationOption) {
@@ -25990,7 +26725,7 @@ module.exports = function(tagname, parent, val) {
 
 
 const util = __nccwpck_require__(8280);
-const buildOptions = __nccwpck_require__(8280).buildOptions;
+const buildOptions = (__nccwpck_require__(8280).buildOptions);
 const xmlNode = __nccwpck_require__(9539);
 const regx =
   '<((!\\[CDATA\\[([\\s\\S]*?)(]]>))|((NAME:)?(NAME))([^>]*)>|((\\/)(NAME)\\s*>))([^<]*)'
@@ -26344,7 +27079,7 @@ realpath.realpathSync = realpathSync
 realpath.monkeypatch = monkeypatch
 realpath.unmonkeypatch = unmonkeypatch
 
-var fs = __nccwpck_require__(5747)
+var fs = __nccwpck_require__(7147)
 var origRealpath = fs.realpath
 var origRealpathSync = fs.realpathSync
 
@@ -26431,9 +27166,9 @@ function unmonkeypatch () {
 // OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE
 // USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-var pathModule = __nccwpck_require__(5622);
+var pathModule = __nccwpck_require__(1017);
 var isWindows = process.platform === 'win32';
-var fs = __nccwpck_require__(5747);
+var fs = __nccwpck_require__(7147);
 
 // JavaScript implementation of realpath, ported from node pre-v6
 
@@ -26732,8 +27467,8 @@ function ownProp (obj, field) {
   return Object.prototype.hasOwnProperty.call(obj, field)
 }
 
-var fs = __nccwpck_require__(5747)
-var path = __nccwpck_require__(5622)
+var fs = __nccwpck_require__(7147)
+var path = __nccwpck_require__(1017)
 var minimatch = __nccwpck_require__(3973)
 var isAbsolute = __nccwpck_require__(8714)
 var Minimatch = minimatch.Minimatch
@@ -27009,16 +27744,16 @@ var rp = __nccwpck_require__(6863)
 var minimatch = __nccwpck_require__(3973)
 var Minimatch = minimatch.Minimatch
 var inherits = __nccwpck_require__(4124)
-var EE = __nccwpck_require__(8614).EventEmitter
-var path = __nccwpck_require__(5622)
-var assert = __nccwpck_require__(2357)
+var EE = (__nccwpck_require__(2361).EventEmitter)
+var path = __nccwpck_require__(1017)
+var assert = __nccwpck_require__(9491)
 var isAbsolute = __nccwpck_require__(8714)
 var globSync = __nccwpck_require__(9010)
 var common = __nccwpck_require__(7625)
 var setopts = common.setopts
 var ownProp = common.ownProp
 var inflight = __nccwpck_require__(2492)
-var util = __nccwpck_require__(1669)
+var util = __nccwpck_require__(3837)
 var childrenIgnored = common.childrenIgnored
 var isIgnored = common.isIgnored
 
@@ -27763,10 +28498,10 @@ globSync.GlobSync = GlobSync
 var rp = __nccwpck_require__(6863)
 var minimatch = __nccwpck_require__(3973)
 var Minimatch = minimatch.Minimatch
-var Glob = __nccwpck_require__(1957).Glob
-var util = __nccwpck_require__(1669)
-var path = __nccwpck_require__(5622)
-var assert = __nccwpck_require__(2357)
+var Glob = (__nccwpck_require__(1957).Glob)
+var util = __nccwpck_require__(3837)
+var path = __nccwpck_require__(1017)
+var assert = __nccwpck_require__(9491)
 var isAbsolute = __nccwpck_require__(8714)
 var common = __nccwpck_require__(7625)
 var setopts = common.setopts
@@ -28309,7 +29044,7 @@ function slice (args) {
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
 try {
-  var util = __nccwpck_require__(1669);
+  var util = __nccwpck_require__(3837);
   /* istanbul ignore next */
   if (typeof util.inherits !== 'function') throw '';
   module.exports = util.inherits;
@@ -45580,7 +46315,7 @@ minimatch.Minimatch = Minimatch
 
 var path = { sep: '/' }
 try {
-  path = __nccwpck_require__(5622)
+  path = __nccwpck_require__(1017)
 } catch (er) {}
 
 var GLOBSTAR = minimatch.GLOBSTAR = Minimatch.GLOBSTAR = {}
@@ -46582,9 +47317,9 @@ module.exports.win32 = win32;
 /***/ 4959:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
-const assert = __nccwpck_require__(2357)
-const path = __nccwpck_require__(5622)
-const fs = __nccwpck_require__(5747)
+const assert = __nccwpck_require__(9491)
+const path = __nccwpck_require__(1017)
+const fs = __nccwpck_require__(7147)
 let glob = undefined
 try {
   glob = __nccwpck_require__(1957)
@@ -46960,10 +47695,10 @@ rimraf.sync = rimrafSync
 /*
  * Module dependencies.
  */
-const fs = __nccwpck_require__(5747);
-const os = __nccwpck_require__(2087);
-const path = __nccwpck_require__(5622);
-const crypto = __nccwpck_require__(6417);
+const fs = __nccwpck_require__(7147);
+const os = __nccwpck_require__(2037);
+const path = __nccwpck_require__(1017);
+const crypto = __nccwpck_require__(6113);
 const _c = { fs: fs.constants, os: os.constants };
 const rimraf = __nccwpck_require__(4959);
 
@@ -48060,13 +48795,13 @@ module.exports = __nccwpck_require__(4219);
 "use strict";
 
 
-var net = __nccwpck_require__(1631);
-var tls = __nccwpck_require__(4016);
-var http = __nccwpck_require__(8605);
-var https = __nccwpck_require__(7211);
-var events = __nccwpck_require__(8614);
-var assert = __nccwpck_require__(2357);
-var util = __nccwpck_require__(1669);
+var net = __nccwpck_require__(1808);
+var tls = __nccwpck_require__(4404);
+var http = __nccwpck_require__(3685);
+var https = __nccwpck_require__(5687);
+var events = __nccwpck_require__(2361);
+var assert = __nccwpck_require__(9491);
+var util = __nccwpck_require__(3837);
 
 
 exports.httpOverHttp = httpOverHttp;
@@ -48421,9 +49156,9 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 Object.defineProperty(exports, "__esModule", ({
   value: true
 }));
-exports.default = void 0;
+exports["default"] = void 0;
 
-var _crypto = _interopRequireDefault(__nccwpck_require__(6417));
+var _crypto = _interopRequireDefault(__nccwpck_require__(6113));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -48438,7 +49173,7 @@ function md5(bytes) {
 }
 
 var _default = md5;
-exports.default = _default;
+exports["default"] = _default;
 
 /***/ }),
 
@@ -48451,9 +49186,9 @@ exports.default = _default;
 Object.defineProperty(exports, "__esModule", ({
   value: true
 }));
-exports.default = void 0;
+exports["default"] = void 0;
 var _default = '00000000-0000-0000-0000-000000000000';
-exports.default = _default;
+exports["default"] = _default;
 
 /***/ }),
 
@@ -48466,7 +49201,7 @@ exports.default = _default;
 Object.defineProperty(exports, "__esModule", ({
   value: true
 }));
-exports.default = void 0;
+exports["default"] = void 0;
 
 var _validate = _interopRequireDefault(__nccwpck_require__(6900));
 
@@ -48505,7 +49240,7 @@ function parse(uuid) {
 }
 
 var _default = parse;
-exports.default = _default;
+exports["default"] = _default;
 
 /***/ }),
 
@@ -48518,9 +49253,9 @@ exports.default = _default;
 Object.defineProperty(exports, "__esModule", ({
   value: true
 }));
-exports.default = void 0;
+exports["default"] = void 0;
 var _default = /^(?:[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}|00000000-0000-0000-0000-000000000000)$/i;
-exports.default = _default;
+exports["default"] = _default;
 
 /***/ }),
 
@@ -48533,9 +49268,9 @@ exports.default = _default;
 Object.defineProperty(exports, "__esModule", ({
   value: true
 }));
-exports.default = rng;
+exports["default"] = rng;
 
-var _crypto = _interopRequireDefault(__nccwpck_require__(6417));
+var _crypto = _interopRequireDefault(__nccwpck_require__(6113));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -48564,9 +49299,9 @@ function rng() {
 Object.defineProperty(exports, "__esModule", ({
   value: true
 }));
-exports.default = void 0;
+exports["default"] = void 0;
 
-var _crypto = _interopRequireDefault(__nccwpck_require__(6417));
+var _crypto = _interopRequireDefault(__nccwpck_require__(6113));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -48581,7 +49316,7 @@ function sha1(bytes) {
 }
 
 var _default = sha1;
-exports.default = _default;
+exports["default"] = _default;
 
 /***/ }),
 
@@ -48594,7 +49329,7 @@ exports.default = _default;
 Object.defineProperty(exports, "__esModule", ({
   value: true
 }));
-exports.default = void 0;
+exports["default"] = void 0;
 
 var _validate = _interopRequireDefault(__nccwpck_require__(6900));
 
@@ -48627,7 +49362,7 @@ function stringify(arr, offset = 0) {
 }
 
 var _default = stringify;
-exports.default = _default;
+exports["default"] = _default;
 
 /***/ }),
 
@@ -48640,7 +49375,7 @@ exports.default = _default;
 Object.defineProperty(exports, "__esModule", ({
   value: true
 }));
-exports.default = void 0;
+exports["default"] = void 0;
 
 var _rng = _interopRequireDefault(__nccwpck_require__(807));
 
@@ -48741,7 +49476,7 @@ function v1(options, buf, offset) {
 }
 
 var _default = v1;
-exports.default = _default;
+exports["default"] = _default;
 
 /***/ }),
 
@@ -48754,7 +49489,7 @@ exports.default = _default;
 Object.defineProperty(exports, "__esModule", ({
   value: true
 }));
-exports.default = void 0;
+exports["default"] = void 0;
 
 var _v = _interopRequireDefault(__nccwpck_require__(5998));
 
@@ -48764,7 +49499,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 const v3 = (0, _v.default)('v3', 0x30, _md.default);
 var _default = v3;
-exports.default = _default;
+exports["default"] = _default;
 
 /***/ }),
 
@@ -48777,7 +49512,7 @@ exports.default = _default;
 Object.defineProperty(exports, "__esModule", ({
   value: true
 }));
-exports.default = _default;
+exports["default"] = _default;
 exports.URL = exports.DNS = void 0;
 
 var _stringify = _interopRequireDefault(__nccwpck_require__(8950));
@@ -48862,7 +49597,7 @@ function _default(name, version, hashfunc) {
 Object.defineProperty(exports, "__esModule", ({
   value: true
 }));
-exports.default = void 0;
+exports["default"] = void 0;
 
 var _rng = _interopRequireDefault(__nccwpck_require__(807));
 
@@ -48893,7 +49628,7 @@ function v4(options, buf, offset) {
 }
 
 var _default = v4;
-exports.default = _default;
+exports["default"] = _default;
 
 /***/ }),
 
@@ -48906,7 +49641,7 @@ exports.default = _default;
 Object.defineProperty(exports, "__esModule", ({
   value: true
 }));
-exports.default = void 0;
+exports["default"] = void 0;
 
 var _v = _interopRequireDefault(__nccwpck_require__(5998));
 
@@ -48916,7 +49651,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 const v5 = (0, _v.default)('v5', 0x50, _sha.default);
 var _default = v5;
-exports.default = _default;
+exports["default"] = _default;
 
 /***/ }),
 
@@ -48929,7 +49664,7 @@ exports.default = _default;
 Object.defineProperty(exports, "__esModule", ({
   value: true
 }));
-exports.default = void 0;
+exports["default"] = void 0;
 
 var _regex = _interopRequireDefault(__nccwpck_require__(814));
 
@@ -48940,7 +49675,7 @@ function validate(uuid) {
 }
 
 var _default = validate;
-exports.default = _default;
+exports["default"] = _default;
 
 /***/ }),
 
@@ -48953,7 +49688,7 @@ exports.default = _default;
 Object.defineProperty(exports, "__esModule", ({
   value: true
 }));
-exports.default = void 0;
+exports["default"] = void 0;
 
 var _validate = _interopRequireDefault(__nccwpck_require__(6900));
 
@@ -48968,7 +49703,7 @@ function version(uuid) {
 }
 
 var _default = version;
-exports.default = _default;
+exports["default"] = _default;
 
 /***/ }),
 
@@ -49020,39 +49755,7 @@ module.exports = eval("require")("aws-crt");
 
 /***/ }),
 
-/***/ 4589:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"0":65533,"128":8364,"130":8218,"131":402,"132":8222,"133":8230,"134":8224,"135":8225,"136":710,"137":8240,"138":352,"139":8249,"140":338,"142":381,"145":8216,"146":8217,"147":8220,"148":8221,"149":8226,"150":8211,"151":8212,"152":732,"153":8482,"154":353,"155":8250,"156":339,"158":382,"159":376}');
-
-/***/ }),
-
-/***/ 4007:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"Aacute":"Á","aacute":"á","Abreve":"Ă","abreve":"ă","ac":"∾","acd":"∿","acE":"∾̳","Acirc":"Â","acirc":"â","acute":"´","Acy":"А","acy":"а","AElig":"Æ","aelig":"æ","af":"⁡","Afr":"𝔄","afr":"𝔞","Agrave":"À","agrave":"à","alefsym":"ℵ","aleph":"ℵ","Alpha":"Α","alpha":"α","Amacr":"Ā","amacr":"ā","amalg":"⨿","amp":"&","AMP":"&","andand":"⩕","And":"⩓","and":"∧","andd":"⩜","andslope":"⩘","andv":"⩚","ang":"∠","ange":"⦤","angle":"∠","angmsdaa":"⦨","angmsdab":"⦩","angmsdac":"⦪","angmsdad":"⦫","angmsdae":"⦬","angmsdaf":"⦭","angmsdag":"⦮","angmsdah":"⦯","angmsd":"∡","angrt":"∟","angrtvb":"⊾","angrtvbd":"⦝","angsph":"∢","angst":"Å","angzarr":"⍼","Aogon":"Ą","aogon":"ą","Aopf":"𝔸","aopf":"𝕒","apacir":"⩯","ap":"≈","apE":"⩰","ape":"≊","apid":"≋","apos":"\'","ApplyFunction":"⁡","approx":"≈","approxeq":"≊","Aring":"Å","aring":"å","Ascr":"𝒜","ascr":"𝒶","Assign":"≔","ast":"*","asymp":"≈","asympeq":"≍","Atilde":"Ã","atilde":"ã","Auml":"Ä","auml":"ä","awconint":"∳","awint":"⨑","backcong":"≌","backepsilon":"϶","backprime":"‵","backsim":"∽","backsimeq":"⋍","Backslash":"∖","Barv":"⫧","barvee":"⊽","barwed":"⌅","Barwed":"⌆","barwedge":"⌅","bbrk":"⎵","bbrktbrk":"⎶","bcong":"≌","Bcy":"Б","bcy":"б","bdquo":"„","becaus":"∵","because":"∵","Because":"∵","bemptyv":"⦰","bepsi":"϶","bernou":"ℬ","Bernoullis":"ℬ","Beta":"Β","beta":"β","beth":"ℶ","between":"≬","Bfr":"𝔅","bfr":"𝔟","bigcap":"⋂","bigcirc":"◯","bigcup":"⋃","bigodot":"⨀","bigoplus":"⨁","bigotimes":"⨂","bigsqcup":"⨆","bigstar":"★","bigtriangledown":"▽","bigtriangleup":"△","biguplus":"⨄","bigvee":"⋁","bigwedge":"⋀","bkarow":"⤍","blacklozenge":"⧫","blacksquare":"▪","blacktriangle":"▴","blacktriangledown":"▾","blacktriangleleft":"◂","blacktriangleright":"▸","blank":"␣","blk12":"▒","blk14":"░","blk34":"▓","block":"█","bne":"=⃥","bnequiv":"≡⃥","bNot":"⫭","bnot":"⌐","Bopf":"𝔹","bopf":"𝕓","bot":"⊥","bottom":"⊥","bowtie":"⋈","boxbox":"⧉","boxdl":"┐","boxdL":"╕","boxDl":"╖","boxDL":"╗","boxdr":"┌","boxdR":"╒","boxDr":"╓","boxDR":"╔","boxh":"─","boxH":"═","boxhd":"┬","boxHd":"╤","boxhD":"╥","boxHD":"╦","boxhu":"┴","boxHu":"╧","boxhU":"╨","boxHU":"╩","boxminus":"⊟","boxplus":"⊞","boxtimes":"⊠","boxul":"┘","boxuL":"╛","boxUl":"╜","boxUL":"╝","boxur":"└","boxuR":"╘","boxUr":"╙","boxUR":"╚","boxv":"│","boxV":"║","boxvh":"┼","boxvH":"╪","boxVh":"╫","boxVH":"╬","boxvl":"┤","boxvL":"╡","boxVl":"╢","boxVL":"╣","boxvr":"├","boxvR":"╞","boxVr":"╟","boxVR":"╠","bprime":"‵","breve":"˘","Breve":"˘","brvbar":"¦","bscr":"𝒷","Bscr":"ℬ","bsemi":"⁏","bsim":"∽","bsime":"⋍","bsolb":"⧅","bsol":"\\\\","bsolhsub":"⟈","bull":"•","bullet":"•","bump":"≎","bumpE":"⪮","bumpe":"≏","Bumpeq":"≎","bumpeq":"≏","Cacute":"Ć","cacute":"ć","capand":"⩄","capbrcup":"⩉","capcap":"⩋","cap":"∩","Cap":"⋒","capcup":"⩇","capdot":"⩀","CapitalDifferentialD":"ⅅ","caps":"∩︀","caret":"⁁","caron":"ˇ","Cayleys":"ℭ","ccaps":"⩍","Ccaron":"Č","ccaron":"č","Ccedil":"Ç","ccedil":"ç","Ccirc":"Ĉ","ccirc":"ĉ","Cconint":"∰","ccups":"⩌","ccupssm":"⩐","Cdot":"Ċ","cdot":"ċ","cedil":"¸","Cedilla":"¸","cemptyv":"⦲","cent":"¢","centerdot":"·","CenterDot":"·","cfr":"𝔠","Cfr":"ℭ","CHcy":"Ч","chcy":"ч","check":"✓","checkmark":"✓","Chi":"Χ","chi":"χ","circ":"ˆ","circeq":"≗","circlearrowleft":"↺","circlearrowright":"↻","circledast":"⊛","circledcirc":"⊚","circleddash":"⊝","CircleDot":"⊙","circledR":"®","circledS":"Ⓢ","CircleMinus":"⊖","CirclePlus":"⊕","CircleTimes":"⊗","cir":"○","cirE":"⧃","cire":"≗","cirfnint":"⨐","cirmid":"⫯","cirscir":"⧂","ClockwiseContourIntegral":"∲","CloseCurlyDoubleQuote":"”","CloseCurlyQuote":"’","clubs":"♣","clubsuit":"♣","colon":":","Colon":"∷","Colone":"⩴","colone":"≔","coloneq":"≔","comma":",","commat":"@","comp":"∁","compfn":"∘","complement":"∁","complexes":"ℂ","cong":"≅","congdot":"⩭","Congruent":"≡","conint":"∮","Conint":"∯","ContourIntegral":"∮","copf":"𝕔","Copf":"ℂ","coprod":"∐","Coproduct":"∐","copy":"©","COPY":"©","copysr":"℗","CounterClockwiseContourIntegral":"∳","crarr":"↵","cross":"✗","Cross":"⨯","Cscr":"𝒞","cscr":"𝒸","csub":"⫏","csube":"⫑","csup":"⫐","csupe":"⫒","ctdot":"⋯","cudarrl":"⤸","cudarrr":"⤵","cuepr":"⋞","cuesc":"⋟","cularr":"↶","cularrp":"⤽","cupbrcap":"⩈","cupcap":"⩆","CupCap":"≍","cup":"∪","Cup":"⋓","cupcup":"⩊","cupdot":"⊍","cupor":"⩅","cups":"∪︀","curarr":"↷","curarrm":"⤼","curlyeqprec":"⋞","curlyeqsucc":"⋟","curlyvee":"⋎","curlywedge":"⋏","curren":"¤","curvearrowleft":"↶","curvearrowright":"↷","cuvee":"⋎","cuwed":"⋏","cwconint":"∲","cwint":"∱","cylcty":"⌭","dagger":"†","Dagger":"‡","daleth":"ℸ","darr":"↓","Darr":"↡","dArr":"⇓","dash":"‐","Dashv":"⫤","dashv":"⊣","dbkarow":"⤏","dblac":"˝","Dcaron":"Ď","dcaron":"ď","Dcy":"Д","dcy":"д","ddagger":"‡","ddarr":"⇊","DD":"ⅅ","dd":"ⅆ","DDotrahd":"⤑","ddotseq":"⩷","deg":"°","Del":"∇","Delta":"Δ","delta":"δ","demptyv":"⦱","dfisht":"⥿","Dfr":"𝔇","dfr":"𝔡","dHar":"⥥","dharl":"⇃","dharr":"⇂","DiacriticalAcute":"´","DiacriticalDot":"˙","DiacriticalDoubleAcute":"˝","DiacriticalGrave":"`","DiacriticalTilde":"˜","diam":"⋄","diamond":"⋄","Diamond":"⋄","diamondsuit":"♦","diams":"♦","die":"¨","DifferentialD":"ⅆ","digamma":"ϝ","disin":"⋲","div":"÷","divide":"÷","divideontimes":"⋇","divonx":"⋇","DJcy":"Ђ","djcy":"ђ","dlcorn":"⌞","dlcrop":"⌍","dollar":"$","Dopf":"𝔻","dopf":"𝕕","Dot":"¨","dot":"˙","DotDot":"⃜","doteq":"≐","doteqdot":"≑","DotEqual":"≐","dotminus":"∸","dotplus":"∔","dotsquare":"⊡","doublebarwedge":"⌆","DoubleContourIntegral":"∯","DoubleDot":"¨","DoubleDownArrow":"⇓","DoubleLeftArrow":"⇐","DoubleLeftRightArrow":"⇔","DoubleLeftTee":"⫤","DoubleLongLeftArrow":"⟸","DoubleLongLeftRightArrow":"⟺","DoubleLongRightArrow":"⟹","DoubleRightArrow":"⇒","DoubleRightTee":"⊨","DoubleUpArrow":"⇑","DoubleUpDownArrow":"⇕","DoubleVerticalBar":"∥","DownArrowBar":"⤓","downarrow":"↓","DownArrow":"↓","Downarrow":"⇓","DownArrowUpArrow":"⇵","DownBreve":"̑","downdownarrows":"⇊","downharpoonleft":"⇃","downharpoonright":"⇂","DownLeftRightVector":"⥐","DownLeftTeeVector":"⥞","DownLeftVectorBar":"⥖","DownLeftVector":"↽","DownRightTeeVector":"⥟","DownRightVectorBar":"⥗","DownRightVector":"⇁","DownTeeArrow":"↧","DownTee":"⊤","drbkarow":"⤐","drcorn":"⌟","drcrop":"⌌","Dscr":"𝒟","dscr":"𝒹","DScy":"Ѕ","dscy":"ѕ","dsol":"⧶","Dstrok":"Đ","dstrok":"đ","dtdot":"⋱","dtri":"▿","dtrif":"▾","duarr":"⇵","duhar":"⥯","dwangle":"⦦","DZcy":"Џ","dzcy":"џ","dzigrarr":"⟿","Eacute":"É","eacute":"é","easter":"⩮","Ecaron":"Ě","ecaron":"ě","Ecirc":"Ê","ecirc":"ê","ecir":"≖","ecolon":"≕","Ecy":"Э","ecy":"э","eDDot":"⩷","Edot":"Ė","edot":"ė","eDot":"≑","ee":"ⅇ","efDot":"≒","Efr":"𝔈","efr":"𝔢","eg":"⪚","Egrave":"È","egrave":"è","egs":"⪖","egsdot":"⪘","el":"⪙","Element":"∈","elinters":"⏧","ell":"ℓ","els":"⪕","elsdot":"⪗","Emacr":"Ē","emacr":"ē","empty":"∅","emptyset":"∅","EmptySmallSquare":"◻","emptyv":"∅","EmptyVerySmallSquare":"▫","emsp13":" ","emsp14":" ","emsp":" ","ENG":"Ŋ","eng":"ŋ","ensp":" ","Eogon":"Ę","eogon":"ę","Eopf":"𝔼","eopf":"𝕖","epar":"⋕","eparsl":"⧣","eplus":"⩱","epsi":"ε","Epsilon":"Ε","epsilon":"ε","epsiv":"ϵ","eqcirc":"≖","eqcolon":"≕","eqsim":"≂","eqslantgtr":"⪖","eqslantless":"⪕","Equal":"⩵","equals":"=","EqualTilde":"≂","equest":"≟","Equilibrium":"⇌","equiv":"≡","equivDD":"⩸","eqvparsl":"⧥","erarr":"⥱","erDot":"≓","escr":"ℯ","Escr":"ℰ","esdot":"≐","Esim":"⩳","esim":"≂","Eta":"Η","eta":"η","ETH":"Ð","eth":"ð","Euml":"Ë","euml":"ë","euro":"€","excl":"!","exist":"∃","Exists":"∃","expectation":"ℰ","exponentiale":"ⅇ","ExponentialE":"ⅇ","fallingdotseq":"≒","Fcy":"Ф","fcy":"ф","female":"♀","ffilig":"ﬃ","fflig":"ﬀ","ffllig":"ﬄ","Ffr":"𝔉","ffr":"𝔣","filig":"ﬁ","FilledSmallSquare":"◼","FilledVerySmallSquare":"▪","fjlig":"fj","flat":"♭","fllig":"ﬂ","fltns":"▱","fnof":"ƒ","Fopf":"𝔽","fopf":"𝕗","forall":"∀","ForAll":"∀","fork":"⋔","forkv":"⫙","Fouriertrf":"ℱ","fpartint":"⨍","frac12":"½","frac13":"⅓","frac14":"¼","frac15":"⅕","frac16":"⅙","frac18":"⅛","frac23":"⅔","frac25":"⅖","frac34":"¾","frac35":"⅗","frac38":"⅜","frac45":"⅘","frac56":"⅚","frac58":"⅝","frac78":"⅞","frasl":"⁄","frown":"⌢","fscr":"𝒻","Fscr":"ℱ","gacute":"ǵ","Gamma":"Γ","gamma":"γ","Gammad":"Ϝ","gammad":"ϝ","gap":"⪆","Gbreve":"Ğ","gbreve":"ğ","Gcedil":"Ģ","Gcirc":"Ĝ","gcirc":"ĝ","Gcy":"Г","gcy":"г","Gdot":"Ġ","gdot":"ġ","ge":"≥","gE":"≧","gEl":"⪌","gel":"⋛","geq":"≥","geqq":"≧","geqslant":"⩾","gescc":"⪩","ges":"⩾","gesdot":"⪀","gesdoto":"⪂","gesdotol":"⪄","gesl":"⋛︀","gesles":"⪔","Gfr":"𝔊","gfr":"𝔤","gg":"≫","Gg":"⋙","ggg":"⋙","gimel":"ℷ","GJcy":"Ѓ","gjcy":"ѓ","gla":"⪥","gl":"≷","glE":"⪒","glj":"⪤","gnap":"⪊","gnapprox":"⪊","gne":"⪈","gnE":"≩","gneq":"⪈","gneqq":"≩","gnsim":"⋧","Gopf":"𝔾","gopf":"𝕘","grave":"`","GreaterEqual":"≥","GreaterEqualLess":"⋛","GreaterFullEqual":"≧","GreaterGreater":"⪢","GreaterLess":"≷","GreaterSlantEqual":"⩾","GreaterTilde":"≳","Gscr":"𝒢","gscr":"ℊ","gsim":"≳","gsime":"⪎","gsiml":"⪐","gtcc":"⪧","gtcir":"⩺","gt":">","GT":">","Gt":"≫","gtdot":"⋗","gtlPar":"⦕","gtquest":"⩼","gtrapprox":"⪆","gtrarr":"⥸","gtrdot":"⋗","gtreqless":"⋛","gtreqqless":"⪌","gtrless":"≷","gtrsim":"≳","gvertneqq":"≩︀","gvnE":"≩︀","Hacek":"ˇ","hairsp":" ","half":"½","hamilt":"ℋ","HARDcy":"Ъ","hardcy":"ъ","harrcir":"⥈","harr":"↔","hArr":"⇔","harrw":"↭","Hat":"^","hbar":"ℏ","Hcirc":"Ĥ","hcirc":"ĥ","hearts":"♥","heartsuit":"♥","hellip":"…","hercon":"⊹","hfr":"𝔥","Hfr":"ℌ","HilbertSpace":"ℋ","hksearow":"⤥","hkswarow":"⤦","hoarr":"⇿","homtht":"∻","hookleftarrow":"↩","hookrightarrow":"↪","hopf":"𝕙","Hopf":"ℍ","horbar":"―","HorizontalLine":"─","hscr":"𝒽","Hscr":"ℋ","hslash":"ℏ","Hstrok":"Ħ","hstrok":"ħ","HumpDownHump":"≎","HumpEqual":"≏","hybull":"⁃","hyphen":"‐","Iacute":"Í","iacute":"í","ic":"⁣","Icirc":"Î","icirc":"î","Icy":"И","icy":"и","Idot":"İ","IEcy":"Е","iecy":"е","iexcl":"¡","iff":"⇔","ifr":"𝔦","Ifr":"ℑ","Igrave":"Ì","igrave":"ì","ii":"ⅈ","iiiint":"⨌","iiint":"∭","iinfin":"⧜","iiota":"℩","IJlig":"Ĳ","ijlig":"ĳ","Imacr":"Ī","imacr":"ī","image":"ℑ","ImaginaryI":"ⅈ","imagline":"ℐ","imagpart":"ℑ","imath":"ı","Im":"ℑ","imof":"⊷","imped":"Ƶ","Implies":"⇒","incare":"℅","in":"∈","infin":"∞","infintie":"⧝","inodot":"ı","intcal":"⊺","int":"∫","Int":"∬","integers":"ℤ","Integral":"∫","intercal":"⊺","Intersection":"⋂","intlarhk":"⨗","intprod":"⨼","InvisibleComma":"⁣","InvisibleTimes":"⁢","IOcy":"Ё","iocy":"ё","Iogon":"Į","iogon":"į","Iopf":"𝕀","iopf":"𝕚","Iota":"Ι","iota":"ι","iprod":"⨼","iquest":"¿","iscr":"𝒾","Iscr":"ℐ","isin":"∈","isindot":"⋵","isinE":"⋹","isins":"⋴","isinsv":"⋳","isinv":"∈","it":"⁢","Itilde":"Ĩ","itilde":"ĩ","Iukcy":"І","iukcy":"і","Iuml":"Ï","iuml":"ï","Jcirc":"Ĵ","jcirc":"ĵ","Jcy":"Й","jcy":"й","Jfr":"𝔍","jfr":"𝔧","jmath":"ȷ","Jopf":"𝕁","jopf":"𝕛","Jscr":"𝒥","jscr":"𝒿","Jsercy":"Ј","jsercy":"ј","Jukcy":"Є","jukcy":"є","Kappa":"Κ","kappa":"κ","kappav":"ϰ","Kcedil":"Ķ","kcedil":"ķ","Kcy":"К","kcy":"к","Kfr":"𝔎","kfr":"𝔨","kgreen":"ĸ","KHcy":"Х","khcy":"х","KJcy":"Ќ","kjcy":"ќ","Kopf":"𝕂","kopf":"𝕜","Kscr":"𝒦","kscr":"𝓀","lAarr":"⇚","Lacute":"Ĺ","lacute":"ĺ","laemptyv":"⦴","lagran":"ℒ","Lambda":"Λ","lambda":"λ","lang":"⟨","Lang":"⟪","langd":"⦑","langle":"⟨","lap":"⪅","Laplacetrf":"ℒ","laquo":"«","larrb":"⇤","larrbfs":"⤟","larr":"←","Larr":"↞","lArr":"⇐","larrfs":"⤝","larrhk":"↩","larrlp":"↫","larrpl":"⤹","larrsim":"⥳","larrtl":"↢","latail":"⤙","lAtail":"⤛","lat":"⪫","late":"⪭","lates":"⪭︀","lbarr":"⤌","lBarr":"⤎","lbbrk":"❲","lbrace":"{","lbrack":"[","lbrke":"⦋","lbrksld":"⦏","lbrkslu":"⦍","Lcaron":"Ľ","lcaron":"ľ","Lcedil":"Ļ","lcedil":"ļ","lceil":"⌈","lcub":"{","Lcy":"Л","lcy":"л","ldca":"⤶","ldquo":"“","ldquor":"„","ldrdhar":"⥧","ldrushar":"⥋","ldsh":"↲","le":"≤","lE":"≦","LeftAngleBracket":"⟨","LeftArrowBar":"⇤","leftarrow":"←","LeftArrow":"←","Leftarrow":"⇐","LeftArrowRightArrow":"⇆","leftarrowtail":"↢","LeftCeiling":"⌈","LeftDoubleBracket":"⟦","LeftDownTeeVector":"⥡","LeftDownVectorBar":"⥙","LeftDownVector":"⇃","LeftFloor":"⌊","leftharpoondown":"↽","leftharpoonup":"↼","leftleftarrows":"⇇","leftrightarrow":"↔","LeftRightArrow":"↔","Leftrightarrow":"⇔","leftrightarrows":"⇆","leftrightharpoons":"⇋","leftrightsquigarrow":"↭","LeftRightVector":"⥎","LeftTeeArrow":"↤","LeftTee":"⊣","LeftTeeVector":"⥚","leftthreetimes":"⋋","LeftTriangleBar":"⧏","LeftTriangle":"⊲","LeftTriangleEqual":"⊴","LeftUpDownVector":"⥑","LeftUpTeeVector":"⥠","LeftUpVectorBar":"⥘","LeftUpVector":"↿","LeftVectorBar":"⥒","LeftVector":"↼","lEg":"⪋","leg":"⋚","leq":"≤","leqq":"≦","leqslant":"⩽","lescc":"⪨","les":"⩽","lesdot":"⩿","lesdoto":"⪁","lesdotor":"⪃","lesg":"⋚︀","lesges":"⪓","lessapprox":"⪅","lessdot":"⋖","lesseqgtr":"⋚","lesseqqgtr":"⪋","LessEqualGreater":"⋚","LessFullEqual":"≦","LessGreater":"≶","lessgtr":"≶","LessLess":"⪡","lesssim":"≲","LessSlantEqual":"⩽","LessTilde":"≲","lfisht":"⥼","lfloor":"⌊","Lfr":"𝔏","lfr":"𝔩","lg":"≶","lgE":"⪑","lHar":"⥢","lhard":"↽","lharu":"↼","lharul":"⥪","lhblk":"▄","LJcy":"Љ","ljcy":"љ","llarr":"⇇","ll":"≪","Ll":"⋘","llcorner":"⌞","Lleftarrow":"⇚","llhard":"⥫","lltri":"◺","Lmidot":"Ŀ","lmidot":"ŀ","lmoustache":"⎰","lmoust":"⎰","lnap":"⪉","lnapprox":"⪉","lne":"⪇","lnE":"≨","lneq":"⪇","lneqq":"≨","lnsim":"⋦","loang":"⟬","loarr":"⇽","lobrk":"⟦","longleftarrow":"⟵","LongLeftArrow":"⟵","Longleftarrow":"⟸","longleftrightarrow":"⟷","LongLeftRightArrow":"⟷","Longleftrightarrow":"⟺","longmapsto":"⟼","longrightarrow":"⟶","LongRightArrow":"⟶","Longrightarrow":"⟹","looparrowleft":"↫","looparrowright":"↬","lopar":"⦅","Lopf":"𝕃","lopf":"𝕝","loplus":"⨭","lotimes":"⨴","lowast":"∗","lowbar":"_","LowerLeftArrow":"↙","LowerRightArrow":"↘","loz":"◊","lozenge":"◊","lozf":"⧫","lpar":"(","lparlt":"⦓","lrarr":"⇆","lrcorner":"⌟","lrhar":"⇋","lrhard":"⥭","lrm":"‎","lrtri":"⊿","lsaquo":"‹","lscr":"𝓁","Lscr":"ℒ","lsh":"↰","Lsh":"↰","lsim":"≲","lsime":"⪍","lsimg":"⪏","lsqb":"[","lsquo":"‘","lsquor":"‚","Lstrok":"Ł","lstrok":"ł","ltcc":"⪦","ltcir":"⩹","lt":"<","LT":"<","Lt":"≪","ltdot":"⋖","lthree":"⋋","ltimes":"⋉","ltlarr":"⥶","ltquest":"⩻","ltri":"◃","ltrie":"⊴","ltrif":"◂","ltrPar":"⦖","lurdshar":"⥊","luruhar":"⥦","lvertneqq":"≨︀","lvnE":"≨︀","macr":"¯","male":"♂","malt":"✠","maltese":"✠","Map":"⤅","map":"↦","mapsto":"↦","mapstodown":"↧","mapstoleft":"↤","mapstoup":"↥","marker":"▮","mcomma":"⨩","Mcy":"М","mcy":"м","mdash":"—","mDDot":"∺","measuredangle":"∡","MediumSpace":" ","Mellintrf":"ℳ","Mfr":"𝔐","mfr":"𝔪","mho":"℧","micro":"µ","midast":"*","midcir":"⫰","mid":"∣","middot":"·","minusb":"⊟","minus":"−","minusd":"∸","minusdu":"⨪","MinusPlus":"∓","mlcp":"⫛","mldr":"…","mnplus":"∓","models":"⊧","Mopf":"𝕄","mopf":"𝕞","mp":"∓","mscr":"𝓂","Mscr":"ℳ","mstpos":"∾","Mu":"Μ","mu":"μ","multimap":"⊸","mumap":"⊸","nabla":"∇","Nacute":"Ń","nacute":"ń","nang":"∠⃒","nap":"≉","napE":"⩰̸","napid":"≋̸","napos":"ŉ","napprox":"≉","natural":"♮","naturals":"ℕ","natur":"♮","nbsp":" ","nbump":"≎̸","nbumpe":"≏̸","ncap":"⩃","Ncaron":"Ň","ncaron":"ň","Ncedil":"Ņ","ncedil":"ņ","ncong":"≇","ncongdot":"⩭̸","ncup":"⩂","Ncy":"Н","ncy":"н","ndash":"–","nearhk":"⤤","nearr":"↗","neArr":"⇗","nearrow":"↗","ne":"≠","nedot":"≐̸","NegativeMediumSpace":"​","NegativeThickSpace":"​","NegativeThinSpace":"​","NegativeVeryThinSpace":"​","nequiv":"≢","nesear":"⤨","nesim":"≂̸","NestedGreaterGreater":"≫","NestedLessLess":"≪","NewLine":"\\n","nexist":"∄","nexists":"∄","Nfr":"𝔑","nfr":"𝔫","ngE":"≧̸","nge":"≱","ngeq":"≱","ngeqq":"≧̸","ngeqslant":"⩾̸","nges":"⩾̸","nGg":"⋙̸","ngsim":"≵","nGt":"≫⃒","ngt":"≯","ngtr":"≯","nGtv":"≫̸","nharr":"↮","nhArr":"⇎","nhpar":"⫲","ni":"∋","nis":"⋼","nisd":"⋺","niv":"∋","NJcy":"Њ","njcy":"њ","nlarr":"↚","nlArr":"⇍","nldr":"‥","nlE":"≦̸","nle":"≰","nleftarrow":"↚","nLeftarrow":"⇍","nleftrightarrow":"↮","nLeftrightarrow":"⇎","nleq":"≰","nleqq":"≦̸","nleqslant":"⩽̸","nles":"⩽̸","nless":"≮","nLl":"⋘̸","nlsim":"≴","nLt":"≪⃒","nlt":"≮","nltri":"⋪","nltrie":"⋬","nLtv":"≪̸","nmid":"∤","NoBreak":"⁠","NonBreakingSpace":" ","nopf":"𝕟","Nopf":"ℕ","Not":"⫬","not":"¬","NotCongruent":"≢","NotCupCap":"≭","NotDoubleVerticalBar":"∦","NotElement":"∉","NotEqual":"≠","NotEqualTilde":"≂̸","NotExists":"∄","NotGreater":"≯","NotGreaterEqual":"≱","NotGreaterFullEqual":"≧̸","NotGreaterGreater":"≫̸","NotGreaterLess":"≹","NotGreaterSlantEqual":"⩾̸","NotGreaterTilde":"≵","NotHumpDownHump":"≎̸","NotHumpEqual":"≏̸","notin":"∉","notindot":"⋵̸","notinE":"⋹̸","notinva":"∉","notinvb":"⋷","notinvc":"⋶","NotLeftTriangleBar":"⧏̸","NotLeftTriangle":"⋪","NotLeftTriangleEqual":"⋬","NotLess":"≮","NotLessEqual":"≰","NotLessGreater":"≸","NotLessLess":"≪̸","NotLessSlantEqual":"⩽̸","NotLessTilde":"≴","NotNestedGreaterGreater":"⪢̸","NotNestedLessLess":"⪡̸","notni":"∌","notniva":"∌","notnivb":"⋾","notnivc":"⋽","NotPrecedes":"⊀","NotPrecedesEqual":"⪯̸","NotPrecedesSlantEqual":"⋠","NotReverseElement":"∌","NotRightTriangleBar":"⧐̸","NotRightTriangle":"⋫","NotRightTriangleEqual":"⋭","NotSquareSubset":"⊏̸","NotSquareSubsetEqual":"⋢","NotSquareSuperset":"⊐̸","NotSquareSupersetEqual":"⋣","NotSubset":"⊂⃒","NotSubsetEqual":"⊈","NotSucceeds":"⊁","NotSucceedsEqual":"⪰̸","NotSucceedsSlantEqual":"⋡","NotSucceedsTilde":"≿̸","NotSuperset":"⊃⃒","NotSupersetEqual":"⊉","NotTilde":"≁","NotTildeEqual":"≄","NotTildeFullEqual":"≇","NotTildeTilde":"≉","NotVerticalBar":"∤","nparallel":"∦","npar":"∦","nparsl":"⫽⃥","npart":"∂̸","npolint":"⨔","npr":"⊀","nprcue":"⋠","nprec":"⊀","npreceq":"⪯̸","npre":"⪯̸","nrarrc":"⤳̸","nrarr":"↛","nrArr":"⇏","nrarrw":"↝̸","nrightarrow":"↛","nRightarrow":"⇏","nrtri":"⋫","nrtrie":"⋭","nsc":"⊁","nsccue":"⋡","nsce":"⪰̸","Nscr":"𝒩","nscr":"𝓃","nshortmid":"∤","nshortparallel":"∦","nsim":"≁","nsime":"≄","nsimeq":"≄","nsmid":"∤","nspar":"∦","nsqsube":"⋢","nsqsupe":"⋣","nsub":"⊄","nsubE":"⫅̸","nsube":"⊈","nsubset":"⊂⃒","nsubseteq":"⊈","nsubseteqq":"⫅̸","nsucc":"⊁","nsucceq":"⪰̸","nsup":"⊅","nsupE":"⫆̸","nsupe":"⊉","nsupset":"⊃⃒","nsupseteq":"⊉","nsupseteqq":"⫆̸","ntgl":"≹","Ntilde":"Ñ","ntilde":"ñ","ntlg":"≸","ntriangleleft":"⋪","ntrianglelefteq":"⋬","ntriangleright":"⋫","ntrianglerighteq":"⋭","Nu":"Ν","nu":"ν","num":"#","numero":"№","numsp":" ","nvap":"≍⃒","nvdash":"⊬","nvDash":"⊭","nVdash":"⊮","nVDash":"⊯","nvge":"≥⃒","nvgt":">⃒","nvHarr":"⤄","nvinfin":"⧞","nvlArr":"⤂","nvle":"≤⃒","nvlt":"<⃒","nvltrie":"⊴⃒","nvrArr":"⤃","nvrtrie":"⊵⃒","nvsim":"∼⃒","nwarhk":"⤣","nwarr":"↖","nwArr":"⇖","nwarrow":"↖","nwnear":"⤧","Oacute":"Ó","oacute":"ó","oast":"⊛","Ocirc":"Ô","ocirc":"ô","ocir":"⊚","Ocy":"О","ocy":"о","odash":"⊝","Odblac":"Ő","odblac":"ő","odiv":"⨸","odot":"⊙","odsold":"⦼","OElig":"Œ","oelig":"œ","ofcir":"⦿","Ofr":"𝔒","ofr":"𝔬","ogon":"˛","Ograve":"Ò","ograve":"ò","ogt":"⧁","ohbar":"⦵","ohm":"Ω","oint":"∮","olarr":"↺","olcir":"⦾","olcross":"⦻","oline":"‾","olt":"⧀","Omacr":"Ō","omacr":"ō","Omega":"Ω","omega":"ω","Omicron":"Ο","omicron":"ο","omid":"⦶","ominus":"⊖","Oopf":"𝕆","oopf":"𝕠","opar":"⦷","OpenCurlyDoubleQuote":"“","OpenCurlyQuote":"‘","operp":"⦹","oplus":"⊕","orarr":"↻","Or":"⩔","or":"∨","ord":"⩝","order":"ℴ","orderof":"ℴ","ordf":"ª","ordm":"º","origof":"⊶","oror":"⩖","orslope":"⩗","orv":"⩛","oS":"Ⓢ","Oscr":"𝒪","oscr":"ℴ","Oslash":"Ø","oslash":"ø","osol":"⊘","Otilde":"Õ","otilde":"õ","otimesas":"⨶","Otimes":"⨷","otimes":"⊗","Ouml":"Ö","ouml":"ö","ovbar":"⌽","OverBar":"‾","OverBrace":"⏞","OverBracket":"⎴","OverParenthesis":"⏜","para":"¶","parallel":"∥","par":"∥","parsim":"⫳","parsl":"⫽","part":"∂","PartialD":"∂","Pcy":"П","pcy":"п","percnt":"%","period":".","permil":"‰","perp":"⊥","pertenk":"‱","Pfr":"𝔓","pfr":"𝔭","Phi":"Φ","phi":"φ","phiv":"ϕ","phmmat":"ℳ","phone":"☎","Pi":"Π","pi":"π","pitchfork":"⋔","piv":"ϖ","planck":"ℏ","planckh":"ℎ","plankv":"ℏ","plusacir":"⨣","plusb":"⊞","pluscir":"⨢","plus":"+","plusdo":"∔","plusdu":"⨥","pluse":"⩲","PlusMinus":"±","plusmn":"±","plussim":"⨦","plustwo":"⨧","pm":"±","Poincareplane":"ℌ","pointint":"⨕","popf":"𝕡","Popf":"ℙ","pound":"£","prap":"⪷","Pr":"⪻","pr":"≺","prcue":"≼","precapprox":"⪷","prec":"≺","preccurlyeq":"≼","Precedes":"≺","PrecedesEqual":"⪯","PrecedesSlantEqual":"≼","PrecedesTilde":"≾","preceq":"⪯","precnapprox":"⪹","precneqq":"⪵","precnsim":"⋨","pre":"⪯","prE":"⪳","precsim":"≾","prime":"′","Prime":"″","primes":"ℙ","prnap":"⪹","prnE":"⪵","prnsim":"⋨","prod":"∏","Product":"∏","profalar":"⌮","profline":"⌒","profsurf":"⌓","prop":"∝","Proportional":"∝","Proportion":"∷","propto":"∝","prsim":"≾","prurel":"⊰","Pscr":"𝒫","pscr":"𝓅","Psi":"Ψ","psi":"ψ","puncsp":" ","Qfr":"𝔔","qfr":"𝔮","qint":"⨌","qopf":"𝕢","Qopf":"ℚ","qprime":"⁗","Qscr":"𝒬","qscr":"𝓆","quaternions":"ℍ","quatint":"⨖","quest":"?","questeq":"≟","quot":"\\"","QUOT":"\\"","rAarr":"⇛","race":"∽̱","Racute":"Ŕ","racute":"ŕ","radic":"√","raemptyv":"⦳","rang":"⟩","Rang":"⟫","rangd":"⦒","range":"⦥","rangle":"⟩","raquo":"»","rarrap":"⥵","rarrb":"⇥","rarrbfs":"⤠","rarrc":"⤳","rarr":"→","Rarr":"↠","rArr":"⇒","rarrfs":"⤞","rarrhk":"↪","rarrlp":"↬","rarrpl":"⥅","rarrsim":"⥴","Rarrtl":"⤖","rarrtl":"↣","rarrw":"↝","ratail":"⤚","rAtail":"⤜","ratio":"∶","rationals":"ℚ","rbarr":"⤍","rBarr":"⤏","RBarr":"⤐","rbbrk":"❳","rbrace":"}","rbrack":"]","rbrke":"⦌","rbrksld":"⦎","rbrkslu":"⦐","Rcaron":"Ř","rcaron":"ř","Rcedil":"Ŗ","rcedil":"ŗ","rceil":"⌉","rcub":"}","Rcy":"Р","rcy":"р","rdca":"⤷","rdldhar":"⥩","rdquo":"”","rdquor":"”","rdsh":"↳","real":"ℜ","realine":"ℛ","realpart":"ℜ","reals":"ℝ","Re":"ℜ","rect":"▭","reg":"®","REG":"®","ReverseElement":"∋","ReverseEquilibrium":"⇋","ReverseUpEquilibrium":"⥯","rfisht":"⥽","rfloor":"⌋","rfr":"𝔯","Rfr":"ℜ","rHar":"⥤","rhard":"⇁","rharu":"⇀","rharul":"⥬","Rho":"Ρ","rho":"ρ","rhov":"ϱ","RightAngleBracket":"⟩","RightArrowBar":"⇥","rightarrow":"→","RightArrow":"→","Rightarrow":"⇒","RightArrowLeftArrow":"⇄","rightarrowtail":"↣","RightCeiling":"⌉","RightDoubleBracket":"⟧","RightDownTeeVector":"⥝","RightDownVectorBar":"⥕","RightDownVector":"⇂","RightFloor":"⌋","rightharpoondown":"⇁","rightharpoonup":"⇀","rightleftarrows":"⇄","rightleftharpoons":"⇌","rightrightarrows":"⇉","rightsquigarrow":"↝","RightTeeArrow":"↦","RightTee":"⊢","RightTeeVector":"⥛","rightthreetimes":"⋌","RightTriangleBar":"⧐","RightTriangle":"⊳","RightTriangleEqual":"⊵","RightUpDownVector":"⥏","RightUpTeeVector":"⥜","RightUpVectorBar":"⥔","RightUpVector":"↾","RightVectorBar":"⥓","RightVector":"⇀","ring":"˚","risingdotseq":"≓","rlarr":"⇄","rlhar":"⇌","rlm":"‏","rmoustache":"⎱","rmoust":"⎱","rnmid":"⫮","roang":"⟭","roarr":"⇾","robrk":"⟧","ropar":"⦆","ropf":"𝕣","Ropf":"ℝ","roplus":"⨮","rotimes":"⨵","RoundImplies":"⥰","rpar":")","rpargt":"⦔","rppolint":"⨒","rrarr":"⇉","Rrightarrow":"⇛","rsaquo":"›","rscr":"𝓇","Rscr":"ℛ","rsh":"↱","Rsh":"↱","rsqb":"]","rsquo":"’","rsquor":"’","rthree":"⋌","rtimes":"⋊","rtri":"▹","rtrie":"⊵","rtrif":"▸","rtriltri":"⧎","RuleDelayed":"⧴","ruluhar":"⥨","rx":"℞","Sacute":"Ś","sacute":"ś","sbquo":"‚","scap":"⪸","Scaron":"Š","scaron":"š","Sc":"⪼","sc":"≻","sccue":"≽","sce":"⪰","scE":"⪴","Scedil":"Ş","scedil":"ş","Scirc":"Ŝ","scirc":"ŝ","scnap":"⪺","scnE":"⪶","scnsim":"⋩","scpolint":"⨓","scsim":"≿","Scy":"С","scy":"с","sdotb":"⊡","sdot":"⋅","sdote":"⩦","searhk":"⤥","searr":"↘","seArr":"⇘","searrow":"↘","sect":"§","semi":";","seswar":"⤩","setminus":"∖","setmn":"∖","sext":"✶","Sfr":"𝔖","sfr":"𝔰","sfrown":"⌢","sharp":"♯","SHCHcy":"Щ","shchcy":"щ","SHcy":"Ш","shcy":"ш","ShortDownArrow":"↓","ShortLeftArrow":"←","shortmid":"∣","shortparallel":"∥","ShortRightArrow":"→","ShortUpArrow":"↑","shy":"­","Sigma":"Σ","sigma":"σ","sigmaf":"ς","sigmav":"ς","sim":"∼","simdot":"⩪","sime":"≃","simeq":"≃","simg":"⪞","simgE":"⪠","siml":"⪝","simlE":"⪟","simne":"≆","simplus":"⨤","simrarr":"⥲","slarr":"←","SmallCircle":"∘","smallsetminus":"∖","smashp":"⨳","smeparsl":"⧤","smid":"∣","smile":"⌣","smt":"⪪","smte":"⪬","smtes":"⪬︀","SOFTcy":"Ь","softcy":"ь","solbar":"⌿","solb":"⧄","sol":"/","Sopf":"𝕊","sopf":"𝕤","spades":"♠","spadesuit":"♠","spar":"∥","sqcap":"⊓","sqcaps":"⊓︀","sqcup":"⊔","sqcups":"⊔︀","Sqrt":"√","sqsub":"⊏","sqsube":"⊑","sqsubset":"⊏","sqsubseteq":"⊑","sqsup":"⊐","sqsupe":"⊒","sqsupset":"⊐","sqsupseteq":"⊒","square":"□","Square":"□","SquareIntersection":"⊓","SquareSubset":"⊏","SquareSubsetEqual":"⊑","SquareSuperset":"⊐","SquareSupersetEqual":"⊒","SquareUnion":"⊔","squarf":"▪","squ":"□","squf":"▪","srarr":"→","Sscr":"𝒮","sscr":"𝓈","ssetmn":"∖","ssmile":"⌣","sstarf":"⋆","Star":"⋆","star":"☆","starf":"★","straightepsilon":"ϵ","straightphi":"ϕ","strns":"¯","sub":"⊂","Sub":"⋐","subdot":"⪽","subE":"⫅","sube":"⊆","subedot":"⫃","submult":"⫁","subnE":"⫋","subne":"⊊","subplus":"⪿","subrarr":"⥹","subset":"⊂","Subset":"⋐","subseteq":"⊆","subseteqq":"⫅","SubsetEqual":"⊆","subsetneq":"⊊","subsetneqq":"⫋","subsim":"⫇","subsub":"⫕","subsup":"⫓","succapprox":"⪸","succ":"≻","succcurlyeq":"≽","Succeeds":"≻","SucceedsEqual":"⪰","SucceedsSlantEqual":"≽","SucceedsTilde":"≿","succeq":"⪰","succnapprox":"⪺","succneqq":"⪶","succnsim":"⋩","succsim":"≿","SuchThat":"∋","sum":"∑","Sum":"∑","sung":"♪","sup1":"¹","sup2":"²","sup3":"³","sup":"⊃","Sup":"⋑","supdot":"⪾","supdsub":"⫘","supE":"⫆","supe":"⊇","supedot":"⫄","Superset":"⊃","SupersetEqual":"⊇","suphsol":"⟉","suphsub":"⫗","suplarr":"⥻","supmult":"⫂","supnE":"⫌","supne":"⊋","supplus":"⫀","supset":"⊃","Supset":"⋑","supseteq":"⊇","supseteqq":"⫆","supsetneq":"⊋","supsetneqq":"⫌","supsim":"⫈","supsub":"⫔","supsup":"⫖","swarhk":"⤦","swarr":"↙","swArr":"⇙","swarrow":"↙","swnwar":"⤪","szlig":"ß","Tab":"\\t","target":"⌖","Tau":"Τ","tau":"τ","tbrk":"⎴","Tcaron":"Ť","tcaron":"ť","Tcedil":"Ţ","tcedil":"ţ","Tcy":"Т","tcy":"т","tdot":"⃛","telrec":"⌕","Tfr":"𝔗","tfr":"𝔱","there4":"∴","therefore":"∴","Therefore":"∴","Theta":"Θ","theta":"θ","thetasym":"ϑ","thetav":"ϑ","thickapprox":"≈","thicksim":"∼","ThickSpace":"  ","ThinSpace":" ","thinsp":" ","thkap":"≈","thksim":"∼","THORN":"Þ","thorn":"þ","tilde":"˜","Tilde":"∼","TildeEqual":"≃","TildeFullEqual":"≅","TildeTilde":"≈","timesbar":"⨱","timesb":"⊠","times":"×","timesd":"⨰","tint":"∭","toea":"⤨","topbot":"⌶","topcir":"⫱","top":"⊤","Topf":"𝕋","topf":"𝕥","topfork":"⫚","tosa":"⤩","tprime":"‴","trade":"™","TRADE":"™","triangle":"▵","triangledown":"▿","triangleleft":"◃","trianglelefteq":"⊴","triangleq":"≜","triangleright":"▹","trianglerighteq":"⊵","tridot":"◬","trie":"≜","triminus":"⨺","TripleDot":"⃛","triplus":"⨹","trisb":"⧍","tritime":"⨻","trpezium":"⏢","Tscr":"𝒯","tscr":"𝓉","TScy":"Ц","tscy":"ц","TSHcy":"Ћ","tshcy":"ћ","Tstrok":"Ŧ","tstrok":"ŧ","twixt":"≬","twoheadleftarrow":"↞","twoheadrightarrow":"↠","Uacute":"Ú","uacute":"ú","uarr":"↑","Uarr":"↟","uArr":"⇑","Uarrocir":"⥉","Ubrcy":"Ў","ubrcy":"ў","Ubreve":"Ŭ","ubreve":"ŭ","Ucirc":"Û","ucirc":"û","Ucy":"У","ucy":"у","udarr":"⇅","Udblac":"Ű","udblac":"ű","udhar":"⥮","ufisht":"⥾","Ufr":"𝔘","ufr":"𝔲","Ugrave":"Ù","ugrave":"ù","uHar":"⥣","uharl":"↿","uharr":"↾","uhblk":"▀","ulcorn":"⌜","ulcorner":"⌜","ulcrop":"⌏","ultri":"◸","Umacr":"Ū","umacr":"ū","uml":"¨","UnderBar":"_","UnderBrace":"⏟","UnderBracket":"⎵","UnderParenthesis":"⏝","Union":"⋃","UnionPlus":"⊎","Uogon":"Ų","uogon":"ų","Uopf":"𝕌","uopf":"𝕦","UpArrowBar":"⤒","uparrow":"↑","UpArrow":"↑","Uparrow":"⇑","UpArrowDownArrow":"⇅","updownarrow":"↕","UpDownArrow":"↕","Updownarrow":"⇕","UpEquilibrium":"⥮","upharpoonleft":"↿","upharpoonright":"↾","uplus":"⊎","UpperLeftArrow":"↖","UpperRightArrow":"↗","upsi":"υ","Upsi":"ϒ","upsih":"ϒ","Upsilon":"Υ","upsilon":"υ","UpTeeArrow":"↥","UpTee":"⊥","upuparrows":"⇈","urcorn":"⌝","urcorner":"⌝","urcrop":"⌎","Uring":"Ů","uring":"ů","urtri":"◹","Uscr":"𝒰","uscr":"𝓊","utdot":"⋰","Utilde":"Ũ","utilde":"ũ","utri":"▵","utrif":"▴","uuarr":"⇈","Uuml":"Ü","uuml":"ü","uwangle":"⦧","vangrt":"⦜","varepsilon":"ϵ","varkappa":"ϰ","varnothing":"∅","varphi":"ϕ","varpi":"ϖ","varpropto":"∝","varr":"↕","vArr":"⇕","varrho":"ϱ","varsigma":"ς","varsubsetneq":"⊊︀","varsubsetneqq":"⫋︀","varsupsetneq":"⊋︀","varsupsetneqq":"⫌︀","vartheta":"ϑ","vartriangleleft":"⊲","vartriangleright":"⊳","vBar":"⫨","Vbar":"⫫","vBarv":"⫩","Vcy":"В","vcy":"в","vdash":"⊢","vDash":"⊨","Vdash":"⊩","VDash":"⊫","Vdashl":"⫦","veebar":"⊻","vee":"∨","Vee":"⋁","veeeq":"≚","vellip":"⋮","verbar":"|","Verbar":"‖","vert":"|","Vert":"‖","VerticalBar":"∣","VerticalLine":"|","VerticalSeparator":"❘","VerticalTilde":"≀","VeryThinSpace":" ","Vfr":"𝔙","vfr":"𝔳","vltri":"⊲","vnsub":"⊂⃒","vnsup":"⊃⃒","Vopf":"𝕍","vopf":"𝕧","vprop":"∝","vrtri":"⊳","Vscr":"𝒱","vscr":"𝓋","vsubnE":"⫋︀","vsubne":"⊊︀","vsupnE":"⫌︀","vsupne":"⊋︀","Vvdash":"⊪","vzigzag":"⦚","Wcirc":"Ŵ","wcirc":"ŵ","wedbar":"⩟","wedge":"∧","Wedge":"⋀","wedgeq":"≙","weierp":"℘","Wfr":"𝔚","wfr":"𝔴","Wopf":"𝕎","wopf":"𝕨","wp":"℘","wr":"≀","wreath":"≀","Wscr":"𝒲","wscr":"𝓌","xcap":"⋂","xcirc":"◯","xcup":"⋃","xdtri":"▽","Xfr":"𝔛","xfr":"𝔵","xharr":"⟷","xhArr":"⟺","Xi":"Ξ","xi":"ξ","xlarr":"⟵","xlArr":"⟸","xmap":"⟼","xnis":"⋻","xodot":"⨀","Xopf":"𝕏","xopf":"𝕩","xoplus":"⨁","xotime":"⨂","xrarr":"⟶","xrArr":"⟹","Xscr":"𝒳","xscr":"𝓍","xsqcup":"⨆","xuplus":"⨄","xutri":"△","xvee":"⋁","xwedge":"⋀","Yacute":"Ý","yacute":"ý","YAcy":"Я","yacy":"я","Ycirc":"Ŷ","ycirc":"ŷ","Ycy":"Ы","ycy":"ы","yen":"¥","Yfr":"𝔜","yfr":"𝔶","YIcy":"Ї","yicy":"ї","Yopf":"𝕐","yopf":"𝕪","Yscr":"𝒴","yscr":"𝓎","YUcy":"Ю","yucy":"ю","yuml":"ÿ","Yuml":"Ÿ","Zacute":"Ź","zacute":"ź","Zcaron":"Ž","zcaron":"ž","Zcy":"З","zcy":"з","Zdot":"Ż","zdot":"ż","zeetrf":"ℨ","ZeroWidthSpace":"​","Zeta":"Ζ","zeta":"ζ","zfr":"𝔷","Zfr":"ℨ","ZHcy":"Ж","zhcy":"ж","zigrarr":"⇝","zopf":"𝕫","Zopf":"ℤ","Zscr":"𝒵","zscr":"𝓏","zwj":"‍","zwnj":"‌"}');
-
-/***/ }),
-
-/***/ 7802:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"Aacute":"Á","aacute":"á","Acirc":"Â","acirc":"â","acute":"´","AElig":"Æ","aelig":"æ","Agrave":"À","agrave":"à","amp":"&","AMP":"&","Aring":"Å","aring":"å","Atilde":"Ã","atilde":"ã","Auml":"Ä","auml":"ä","brvbar":"¦","Ccedil":"Ç","ccedil":"ç","cedil":"¸","cent":"¢","copy":"©","COPY":"©","curren":"¤","deg":"°","divide":"÷","Eacute":"É","eacute":"é","Ecirc":"Ê","ecirc":"ê","Egrave":"È","egrave":"è","ETH":"Ð","eth":"ð","Euml":"Ë","euml":"ë","frac12":"½","frac14":"¼","frac34":"¾","gt":">","GT":">","Iacute":"Í","iacute":"í","Icirc":"Î","icirc":"î","iexcl":"¡","Igrave":"Ì","igrave":"ì","iquest":"¿","Iuml":"Ï","iuml":"ï","laquo":"«","lt":"<","LT":"<","macr":"¯","micro":"µ","middot":"·","nbsp":" ","not":"¬","Ntilde":"Ñ","ntilde":"ñ","Oacute":"Ó","oacute":"ó","Ocirc":"Ô","ocirc":"ô","Ograve":"Ò","ograve":"ò","ordf":"ª","ordm":"º","Oslash":"Ø","oslash":"ø","Otilde":"Õ","otilde":"õ","Ouml":"Ö","ouml":"ö","para":"¶","plusmn":"±","pound":"£","quot":"\\"","QUOT":"\\"","raquo":"»","reg":"®","REG":"®","sect":"§","shy":"­","sup1":"¹","sup2":"²","sup3":"³","szlig":"ß","THORN":"Þ","thorn":"þ","times":"×","Uacute":"Ú","uacute":"ú","Ucirc":"Û","ucirc":"û","Ugrave":"Ù","ugrave":"ù","uml":"¨","Uuml":"Ü","uuml":"ü","Yacute":"Ý","yacute":"ý","yen":"¥","yuml":"ÿ"}');
-
-/***/ }),
-
-/***/ 2228:
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"amp":"&","apos":"\'","gt":">","lt":"<","quot":"\\""}');
-
-/***/ }),
-
-/***/ 2357:
+/***/ 9491:
 /***/ ((module) => {
 
 "use strict";
@@ -49060,7 +49763,7 @@ module.exports = require("assert");
 
 /***/ }),
 
-/***/ 4293:
+/***/ 4300:
 /***/ ((module) => {
 
 "use strict";
@@ -49068,7 +49771,7 @@ module.exports = require("buffer");
 
 /***/ }),
 
-/***/ 3129:
+/***/ 2081:
 /***/ ((module) => {
 
 "use strict";
@@ -49076,7 +49779,7 @@ module.exports = require("child_process");
 
 /***/ }),
 
-/***/ 6417:
+/***/ 6113:
 /***/ ((module) => {
 
 "use strict";
@@ -49084,7 +49787,7 @@ module.exports = require("crypto");
 
 /***/ }),
 
-/***/ 8614:
+/***/ 2361:
 /***/ ((module) => {
 
 "use strict";
@@ -49092,7 +49795,7 @@ module.exports = require("events");
 
 /***/ }),
 
-/***/ 5747:
+/***/ 7147:
 /***/ ((module) => {
 
 "use strict";
@@ -49100,7 +49803,7 @@ module.exports = require("fs");
 
 /***/ }),
 
-/***/ 8605:
+/***/ 3685:
 /***/ ((module) => {
 
 "use strict";
@@ -49108,7 +49811,7 @@ module.exports = require("http");
 
 /***/ }),
 
-/***/ 7565:
+/***/ 5158:
 /***/ ((module) => {
 
 "use strict";
@@ -49116,7 +49819,7 @@ module.exports = require("http2");
 
 /***/ }),
 
-/***/ 7211:
+/***/ 5687:
 /***/ ((module) => {
 
 "use strict";
@@ -49124,7 +49827,7 @@ module.exports = require("https");
 
 /***/ }),
 
-/***/ 1631:
+/***/ 1808:
 /***/ ((module) => {
 
 "use strict";
@@ -49132,7 +49835,7 @@ module.exports = require("net");
 
 /***/ }),
 
-/***/ 2087:
+/***/ 2037:
 /***/ ((module) => {
 
 "use strict";
@@ -49140,7 +49843,7 @@ module.exports = require("os");
 
 /***/ }),
 
-/***/ 5622:
+/***/ 1017:
 /***/ ((module) => {
 
 "use strict";
@@ -49148,7 +49851,7 @@ module.exports = require("path");
 
 /***/ }),
 
-/***/ 1765:
+/***/ 7282:
 /***/ ((module) => {
 
 "use strict";
@@ -49156,7 +49859,7 @@ module.exports = require("process");
 
 /***/ }),
 
-/***/ 2413:
+/***/ 2781:
 /***/ ((module) => {
 
 "use strict";
@@ -49164,7 +49867,7 @@ module.exports = require("stream");
 
 /***/ }),
 
-/***/ 4016:
+/***/ 4404:
 /***/ ((module) => {
 
 "use strict";
@@ -49172,7 +49875,7 @@ module.exports = require("tls");
 
 /***/ }),
 
-/***/ 8835:
+/***/ 7310:
 /***/ ((module) => {
 
 "use strict";
@@ -49180,11 +49883,67 @@ module.exports = require("url");
 
 /***/ }),
 
-/***/ 1669:
+/***/ 3837:
 /***/ ((module) => {
 
 "use strict";
 module.exports = require("util");
+
+/***/ }),
+
+/***/ 5223:
+/***/ ((module) => {
+
+"use strict";
+module.exports = JSON.parse('{"name":"@aws-sdk/client-ecs","description":"AWS SDK for JavaScript Ecs Client for Node.js, Browser and React Native","version":"3.49.0","scripts":{"build":"concurrently \'yarn:build:cjs\' \'yarn:build:es\' \'yarn:build:types\'","build:cjs":"tsc -p tsconfig.cjs.json","build:docs":"typedoc","build:es":"tsc -p tsconfig.es.json","build:types":"tsc -p tsconfig.types.json","build:types:downlevel":"downlevel-dts dist-types dist-types/ts3.4","clean":"rimraf ./dist-*"},"main":"./dist-cjs/index.js","types":"./dist-types/index.d.ts","module":"./dist-es/index.js","sideEffects":false,"dependencies":{"@aws-crypto/sha256-browser":"2.0.0","@aws-crypto/sha256-js":"2.0.0","@aws-sdk/client-sts":"3.49.0","@aws-sdk/config-resolver":"3.49.0","@aws-sdk/credential-provider-node":"3.49.0","@aws-sdk/fetch-http-handler":"3.49.0","@aws-sdk/hash-node":"3.49.0","@aws-sdk/invalid-dependency":"3.49.0","@aws-sdk/middleware-content-length":"3.49.0","@aws-sdk/middleware-host-header":"3.49.0","@aws-sdk/middleware-logger":"3.49.0","@aws-sdk/middleware-retry":"3.49.0","@aws-sdk/middleware-serde":"3.49.0","@aws-sdk/middleware-signing":"3.49.0","@aws-sdk/middleware-stack":"3.49.0","@aws-sdk/middleware-user-agent":"3.49.0","@aws-sdk/node-config-provider":"3.49.0","@aws-sdk/node-http-handler":"3.49.0","@aws-sdk/protocol-http":"3.49.0","@aws-sdk/smithy-client":"3.49.0","@aws-sdk/types":"3.49.0","@aws-sdk/url-parser":"3.49.0","@aws-sdk/util-base64-browser":"3.49.0","@aws-sdk/util-base64-node":"3.49.0","@aws-sdk/util-body-length-browser":"3.49.0","@aws-sdk/util-body-length-node":"3.49.0","@aws-sdk/util-defaults-mode-browser":"3.49.0","@aws-sdk/util-defaults-mode-node":"3.49.0","@aws-sdk/util-user-agent-browser":"3.49.0","@aws-sdk/util-user-agent-node":"3.49.0","@aws-sdk/util-utf8-browser":"3.49.0","@aws-sdk/util-utf8-node":"3.49.0","@aws-sdk/util-waiter":"3.49.0","tslib":"^2.3.0"},"devDependencies":{"@aws-sdk/service-client-documentation-generator":"3.49.0","@tsconfig/recommended":"1.0.1","@types/node":"^12.7.5","concurrently":"7.0.0","downlevel-dts":"0.7.0","rimraf":"3.0.2","typedoc":"0.19.2","typescript":"~4.3.5"},"engines":{"node":">=12.0.0"},"typesVersions":{"<4.0":{"dist-types/*":["dist-types/ts3.4/*"]}},"files":["dist-*"],"author":{"name":"AWS SDK for JavaScript Team","url":"https://aws.amazon.com/javascript/"},"license":"Apache-2.0","browser":{"./dist-es/runtimeConfig":"./dist-es/runtimeConfig.browser"},"react-native":{"./dist-es/runtimeConfig":"./dist-es/runtimeConfig.native"},"homepage":"https://github.com/aws/aws-sdk-js-v3/tree/main/clients/client-ecs","repository":{"type":"git","url":"https://github.com/aws/aws-sdk-js-v3.git","directory":"clients/client-ecs"}}');
+
+/***/ }),
+
+/***/ 1092:
+/***/ ((module) => {
+
+"use strict";
+module.exports = JSON.parse('{"name":"@aws-sdk/client-sso","description":"AWS SDK for JavaScript Sso Client for Node.js, Browser and React Native","version":"3.49.0","scripts":{"build":"concurrently \'yarn:build:cjs\' \'yarn:build:es\' \'yarn:build:types\'","build:cjs":"tsc -p tsconfig.cjs.json","build:docs":"typedoc","build:es":"tsc -p tsconfig.es.json","build:types":"tsc -p tsconfig.types.json","build:types:downlevel":"downlevel-dts dist-types dist-types/ts3.4","clean":"rimraf ./dist-*"},"main":"./dist-cjs/index.js","types":"./dist-types/index.d.ts","module":"./dist-es/index.js","sideEffects":false,"dependencies":{"@aws-crypto/sha256-browser":"2.0.0","@aws-crypto/sha256-js":"2.0.0","@aws-sdk/config-resolver":"3.49.0","@aws-sdk/fetch-http-handler":"3.49.0","@aws-sdk/hash-node":"3.49.0","@aws-sdk/invalid-dependency":"3.49.0","@aws-sdk/middleware-content-length":"3.49.0","@aws-sdk/middleware-host-header":"3.49.0","@aws-sdk/middleware-logger":"3.49.0","@aws-sdk/middleware-retry":"3.49.0","@aws-sdk/middleware-serde":"3.49.0","@aws-sdk/middleware-stack":"3.49.0","@aws-sdk/middleware-user-agent":"3.49.0","@aws-sdk/node-config-provider":"3.49.0","@aws-sdk/node-http-handler":"3.49.0","@aws-sdk/protocol-http":"3.49.0","@aws-sdk/smithy-client":"3.49.0","@aws-sdk/types":"3.49.0","@aws-sdk/url-parser":"3.49.0","@aws-sdk/util-base64-browser":"3.49.0","@aws-sdk/util-base64-node":"3.49.0","@aws-sdk/util-body-length-browser":"3.49.0","@aws-sdk/util-body-length-node":"3.49.0","@aws-sdk/util-defaults-mode-browser":"3.49.0","@aws-sdk/util-defaults-mode-node":"3.49.0","@aws-sdk/util-user-agent-browser":"3.49.0","@aws-sdk/util-user-agent-node":"3.49.0","@aws-sdk/util-utf8-browser":"3.49.0","@aws-sdk/util-utf8-node":"3.49.0","tslib":"^2.3.0"},"devDependencies":{"@aws-sdk/service-client-documentation-generator":"3.49.0","@tsconfig/recommended":"1.0.1","@types/node":"^12.7.5","concurrently":"7.0.0","downlevel-dts":"0.7.0","rimraf":"3.0.2","typedoc":"0.19.2","typescript":"~4.3.5"},"engines":{"node":">=12.0.0"},"typesVersions":{"<4.0":{"dist-types/*":["dist-types/ts3.4/*"]}},"files":["dist-*"],"author":{"name":"AWS SDK for JavaScript Team","url":"https://aws.amazon.com/javascript/"},"license":"Apache-2.0","browser":{"./dist-es/runtimeConfig":"./dist-es/runtimeConfig.browser"},"react-native":{"./dist-es/runtimeConfig":"./dist-es/runtimeConfig.native"},"homepage":"https://github.com/aws/aws-sdk-js-v3/tree/main/clients/client-sso","repository":{"type":"git","url":"https://github.com/aws/aws-sdk-js-v3.git","directory":"clients/client-sso"}}');
+
+/***/ }),
+
+/***/ 7947:
+/***/ ((module) => {
+
+"use strict";
+module.exports = JSON.parse('{"name":"@aws-sdk/client-sts","description":"AWS SDK for JavaScript Sts Client for Node.js, Browser and React Native","version":"3.49.0","scripts":{"build":"concurrently \'yarn:build:cjs\' \'yarn:build:es\' \'yarn:build:types\'","build:cjs":"tsc -p tsconfig.cjs.json","build:docs":"typedoc","build:es":"tsc -p tsconfig.es.json","build:types":"tsc -p tsconfig.types.json","build:types:downlevel":"downlevel-dts dist-types dist-types/ts3.4","clean":"rimraf ./dist-*"},"main":"./dist-cjs/index.js","types":"./dist-types/index.d.ts","module":"./dist-es/index.js","sideEffects":false,"dependencies":{"@aws-crypto/sha256-browser":"2.0.0","@aws-crypto/sha256-js":"2.0.0","@aws-sdk/config-resolver":"3.49.0","@aws-sdk/credential-provider-node":"3.49.0","@aws-sdk/fetch-http-handler":"3.49.0","@aws-sdk/hash-node":"3.49.0","@aws-sdk/invalid-dependency":"3.49.0","@aws-sdk/middleware-content-length":"3.49.0","@aws-sdk/middleware-host-header":"3.49.0","@aws-sdk/middleware-logger":"3.49.0","@aws-sdk/middleware-retry":"3.49.0","@aws-sdk/middleware-sdk-sts":"3.49.0","@aws-sdk/middleware-serde":"3.49.0","@aws-sdk/middleware-signing":"3.49.0","@aws-sdk/middleware-stack":"3.49.0","@aws-sdk/middleware-user-agent":"3.49.0","@aws-sdk/node-config-provider":"3.49.0","@aws-sdk/node-http-handler":"3.49.0","@aws-sdk/protocol-http":"3.49.0","@aws-sdk/smithy-client":"3.49.0","@aws-sdk/types":"3.49.0","@aws-sdk/url-parser":"3.49.0","@aws-sdk/util-base64-browser":"3.49.0","@aws-sdk/util-base64-node":"3.49.0","@aws-sdk/util-body-length-browser":"3.49.0","@aws-sdk/util-body-length-node":"3.49.0","@aws-sdk/util-defaults-mode-browser":"3.49.0","@aws-sdk/util-defaults-mode-node":"3.49.0","@aws-sdk/util-user-agent-browser":"3.49.0","@aws-sdk/util-user-agent-node":"3.49.0","@aws-sdk/util-utf8-browser":"3.49.0","@aws-sdk/util-utf8-node":"3.49.0","entities":"2.2.0","fast-xml-parser":"3.19.0","tslib":"^2.3.0"},"devDependencies":{"@aws-sdk/service-client-documentation-generator":"3.49.0","@tsconfig/recommended":"1.0.1","@types/node":"^12.7.5","concurrently":"7.0.0","downlevel-dts":"0.7.0","rimraf":"3.0.2","typedoc":"0.19.2","typescript":"~4.3.5"},"engines":{"node":">=12.0.0"},"typesVersions":{"<4.0":{"dist-types/*":["dist-types/ts3.4/*"]}},"files":["dist-*"],"author":{"name":"AWS SDK for JavaScript Team","url":"https://aws.amazon.com/javascript/"},"license":"Apache-2.0","browser":{"./dist-es/runtimeConfig":"./dist-es/runtimeConfig.browser"},"react-native":{"./dist-es/runtimeConfig":"./dist-es/runtimeConfig.native"},"homepage":"https://github.com/aws/aws-sdk-js-v3/tree/main/clients/client-sts","repository":{"type":"git","url":"https://github.com/aws/aws-sdk-js-v3.git","directory":"clients/client-sts"}}');
+
+/***/ }),
+
+/***/ 3600:
+/***/ ((module) => {
+
+"use strict";
+module.exports = JSON.parse('{"0":65533,"128":8364,"130":8218,"131":402,"132":8222,"133":8230,"134":8224,"135":8225,"136":710,"137":8240,"138":352,"139":8249,"140":338,"142":381,"145":8216,"146":8217,"147":8220,"148":8221,"149":8226,"150":8211,"151":8212,"152":732,"153":8482,"154":353,"155":8250,"156":339,"158":382,"159":376}');
+
+/***/ }),
+
+/***/ 9323:
+/***/ ((module) => {
+
+"use strict";
+module.exports = JSON.parse('{"Aacute":"Á","aacute":"á","Abreve":"Ă","abreve":"ă","ac":"∾","acd":"∿","acE":"∾̳","Acirc":"Â","acirc":"â","acute":"´","Acy":"А","acy":"а","AElig":"Æ","aelig":"æ","af":"⁡","Afr":"𝔄","afr":"𝔞","Agrave":"À","agrave":"à","alefsym":"ℵ","aleph":"ℵ","Alpha":"Α","alpha":"α","Amacr":"Ā","amacr":"ā","amalg":"⨿","amp":"&","AMP":"&","andand":"⩕","And":"⩓","and":"∧","andd":"⩜","andslope":"⩘","andv":"⩚","ang":"∠","ange":"⦤","angle":"∠","angmsdaa":"⦨","angmsdab":"⦩","angmsdac":"⦪","angmsdad":"⦫","angmsdae":"⦬","angmsdaf":"⦭","angmsdag":"⦮","angmsdah":"⦯","angmsd":"∡","angrt":"∟","angrtvb":"⊾","angrtvbd":"⦝","angsph":"∢","angst":"Å","angzarr":"⍼","Aogon":"Ą","aogon":"ą","Aopf":"𝔸","aopf":"𝕒","apacir":"⩯","ap":"≈","apE":"⩰","ape":"≊","apid":"≋","apos":"\'","ApplyFunction":"⁡","approx":"≈","approxeq":"≊","Aring":"Å","aring":"å","Ascr":"𝒜","ascr":"𝒶","Assign":"≔","ast":"*","asymp":"≈","asympeq":"≍","Atilde":"Ã","atilde":"ã","Auml":"Ä","auml":"ä","awconint":"∳","awint":"⨑","backcong":"≌","backepsilon":"϶","backprime":"‵","backsim":"∽","backsimeq":"⋍","Backslash":"∖","Barv":"⫧","barvee":"⊽","barwed":"⌅","Barwed":"⌆","barwedge":"⌅","bbrk":"⎵","bbrktbrk":"⎶","bcong":"≌","Bcy":"Б","bcy":"б","bdquo":"„","becaus":"∵","because":"∵","Because":"∵","bemptyv":"⦰","bepsi":"϶","bernou":"ℬ","Bernoullis":"ℬ","Beta":"Β","beta":"β","beth":"ℶ","between":"≬","Bfr":"𝔅","bfr":"𝔟","bigcap":"⋂","bigcirc":"◯","bigcup":"⋃","bigodot":"⨀","bigoplus":"⨁","bigotimes":"⨂","bigsqcup":"⨆","bigstar":"★","bigtriangledown":"▽","bigtriangleup":"△","biguplus":"⨄","bigvee":"⋁","bigwedge":"⋀","bkarow":"⤍","blacklozenge":"⧫","blacksquare":"▪","blacktriangle":"▴","blacktriangledown":"▾","blacktriangleleft":"◂","blacktriangleright":"▸","blank":"␣","blk12":"▒","blk14":"░","blk34":"▓","block":"█","bne":"=⃥","bnequiv":"≡⃥","bNot":"⫭","bnot":"⌐","Bopf":"𝔹","bopf":"𝕓","bot":"⊥","bottom":"⊥","bowtie":"⋈","boxbox":"⧉","boxdl":"┐","boxdL":"╕","boxDl":"╖","boxDL":"╗","boxdr":"┌","boxdR":"╒","boxDr":"╓","boxDR":"╔","boxh":"─","boxH":"═","boxhd":"┬","boxHd":"╤","boxhD":"╥","boxHD":"╦","boxhu":"┴","boxHu":"╧","boxhU":"╨","boxHU":"╩","boxminus":"⊟","boxplus":"⊞","boxtimes":"⊠","boxul":"┘","boxuL":"╛","boxUl":"╜","boxUL":"╝","boxur":"└","boxuR":"╘","boxUr":"╙","boxUR":"╚","boxv":"│","boxV":"║","boxvh":"┼","boxvH":"╪","boxVh":"╫","boxVH":"╬","boxvl":"┤","boxvL":"╡","boxVl":"╢","boxVL":"╣","boxvr":"├","boxvR":"╞","boxVr":"╟","boxVR":"╠","bprime":"‵","breve":"˘","Breve":"˘","brvbar":"¦","bscr":"𝒷","Bscr":"ℬ","bsemi":"⁏","bsim":"∽","bsime":"⋍","bsolb":"⧅","bsol":"\\\\","bsolhsub":"⟈","bull":"•","bullet":"•","bump":"≎","bumpE":"⪮","bumpe":"≏","Bumpeq":"≎","bumpeq":"≏","Cacute":"Ć","cacute":"ć","capand":"⩄","capbrcup":"⩉","capcap":"⩋","cap":"∩","Cap":"⋒","capcup":"⩇","capdot":"⩀","CapitalDifferentialD":"ⅅ","caps":"∩︀","caret":"⁁","caron":"ˇ","Cayleys":"ℭ","ccaps":"⩍","Ccaron":"Č","ccaron":"č","Ccedil":"Ç","ccedil":"ç","Ccirc":"Ĉ","ccirc":"ĉ","Cconint":"∰","ccups":"⩌","ccupssm":"⩐","Cdot":"Ċ","cdot":"ċ","cedil":"¸","Cedilla":"¸","cemptyv":"⦲","cent":"¢","centerdot":"·","CenterDot":"·","cfr":"𝔠","Cfr":"ℭ","CHcy":"Ч","chcy":"ч","check":"✓","checkmark":"✓","Chi":"Χ","chi":"χ","circ":"ˆ","circeq":"≗","circlearrowleft":"↺","circlearrowright":"↻","circledast":"⊛","circledcirc":"⊚","circleddash":"⊝","CircleDot":"⊙","circledR":"®","circledS":"Ⓢ","CircleMinus":"⊖","CirclePlus":"⊕","CircleTimes":"⊗","cir":"○","cirE":"⧃","cire":"≗","cirfnint":"⨐","cirmid":"⫯","cirscir":"⧂","ClockwiseContourIntegral":"∲","CloseCurlyDoubleQuote":"”","CloseCurlyQuote":"’","clubs":"♣","clubsuit":"♣","colon":":","Colon":"∷","Colone":"⩴","colone":"≔","coloneq":"≔","comma":",","commat":"@","comp":"∁","compfn":"∘","complement":"∁","complexes":"ℂ","cong":"≅","congdot":"⩭","Congruent":"≡","conint":"∮","Conint":"∯","ContourIntegral":"∮","copf":"𝕔","Copf":"ℂ","coprod":"∐","Coproduct":"∐","copy":"©","COPY":"©","copysr":"℗","CounterClockwiseContourIntegral":"∳","crarr":"↵","cross":"✗","Cross":"⨯","Cscr":"𝒞","cscr":"𝒸","csub":"⫏","csube":"⫑","csup":"⫐","csupe":"⫒","ctdot":"⋯","cudarrl":"⤸","cudarrr":"⤵","cuepr":"⋞","cuesc":"⋟","cularr":"↶","cularrp":"⤽","cupbrcap":"⩈","cupcap":"⩆","CupCap":"≍","cup":"∪","Cup":"⋓","cupcup":"⩊","cupdot":"⊍","cupor":"⩅","cups":"∪︀","curarr":"↷","curarrm":"⤼","curlyeqprec":"⋞","curlyeqsucc":"⋟","curlyvee":"⋎","curlywedge":"⋏","curren":"¤","curvearrowleft":"↶","curvearrowright":"↷","cuvee":"⋎","cuwed":"⋏","cwconint":"∲","cwint":"∱","cylcty":"⌭","dagger":"†","Dagger":"‡","daleth":"ℸ","darr":"↓","Darr":"↡","dArr":"⇓","dash":"‐","Dashv":"⫤","dashv":"⊣","dbkarow":"⤏","dblac":"˝","Dcaron":"Ď","dcaron":"ď","Dcy":"Д","dcy":"д","ddagger":"‡","ddarr":"⇊","DD":"ⅅ","dd":"ⅆ","DDotrahd":"⤑","ddotseq":"⩷","deg":"°","Del":"∇","Delta":"Δ","delta":"δ","demptyv":"⦱","dfisht":"⥿","Dfr":"𝔇","dfr":"𝔡","dHar":"⥥","dharl":"⇃","dharr":"⇂","DiacriticalAcute":"´","DiacriticalDot":"˙","DiacriticalDoubleAcute":"˝","DiacriticalGrave":"`","DiacriticalTilde":"˜","diam":"⋄","diamond":"⋄","Diamond":"⋄","diamondsuit":"♦","diams":"♦","die":"¨","DifferentialD":"ⅆ","digamma":"ϝ","disin":"⋲","div":"÷","divide":"÷","divideontimes":"⋇","divonx":"⋇","DJcy":"Ђ","djcy":"ђ","dlcorn":"⌞","dlcrop":"⌍","dollar":"$","Dopf":"𝔻","dopf":"𝕕","Dot":"¨","dot":"˙","DotDot":"⃜","doteq":"≐","doteqdot":"≑","DotEqual":"≐","dotminus":"∸","dotplus":"∔","dotsquare":"⊡","doublebarwedge":"⌆","DoubleContourIntegral":"∯","DoubleDot":"¨","DoubleDownArrow":"⇓","DoubleLeftArrow":"⇐","DoubleLeftRightArrow":"⇔","DoubleLeftTee":"⫤","DoubleLongLeftArrow":"⟸","DoubleLongLeftRightArrow":"⟺","DoubleLongRightArrow":"⟹","DoubleRightArrow":"⇒","DoubleRightTee":"⊨","DoubleUpArrow":"⇑","DoubleUpDownArrow":"⇕","DoubleVerticalBar":"∥","DownArrowBar":"⤓","downarrow":"↓","DownArrow":"↓","Downarrow":"⇓","DownArrowUpArrow":"⇵","DownBreve":"̑","downdownarrows":"⇊","downharpoonleft":"⇃","downharpoonright":"⇂","DownLeftRightVector":"⥐","DownLeftTeeVector":"⥞","DownLeftVectorBar":"⥖","DownLeftVector":"↽","DownRightTeeVector":"⥟","DownRightVectorBar":"⥗","DownRightVector":"⇁","DownTeeArrow":"↧","DownTee":"⊤","drbkarow":"⤐","drcorn":"⌟","drcrop":"⌌","Dscr":"𝒟","dscr":"𝒹","DScy":"Ѕ","dscy":"ѕ","dsol":"⧶","Dstrok":"Đ","dstrok":"đ","dtdot":"⋱","dtri":"▿","dtrif":"▾","duarr":"⇵","duhar":"⥯","dwangle":"⦦","DZcy":"Џ","dzcy":"џ","dzigrarr":"⟿","Eacute":"É","eacute":"é","easter":"⩮","Ecaron":"Ě","ecaron":"ě","Ecirc":"Ê","ecirc":"ê","ecir":"≖","ecolon":"≕","Ecy":"Э","ecy":"э","eDDot":"⩷","Edot":"Ė","edot":"ė","eDot":"≑","ee":"ⅇ","efDot":"≒","Efr":"𝔈","efr":"𝔢","eg":"⪚","Egrave":"È","egrave":"è","egs":"⪖","egsdot":"⪘","el":"⪙","Element":"∈","elinters":"⏧","ell":"ℓ","els":"⪕","elsdot":"⪗","Emacr":"Ē","emacr":"ē","empty":"∅","emptyset":"∅","EmptySmallSquare":"◻","emptyv":"∅","EmptyVerySmallSquare":"▫","emsp13":" ","emsp14":" ","emsp":" ","ENG":"Ŋ","eng":"ŋ","ensp":" ","Eogon":"Ę","eogon":"ę","Eopf":"𝔼","eopf":"𝕖","epar":"⋕","eparsl":"⧣","eplus":"⩱","epsi":"ε","Epsilon":"Ε","epsilon":"ε","epsiv":"ϵ","eqcirc":"≖","eqcolon":"≕","eqsim":"≂","eqslantgtr":"⪖","eqslantless":"⪕","Equal":"⩵","equals":"=","EqualTilde":"≂","equest":"≟","Equilibrium":"⇌","equiv":"≡","equivDD":"⩸","eqvparsl":"⧥","erarr":"⥱","erDot":"≓","escr":"ℯ","Escr":"ℰ","esdot":"≐","Esim":"⩳","esim":"≂","Eta":"Η","eta":"η","ETH":"Ð","eth":"ð","Euml":"Ë","euml":"ë","euro":"€","excl":"!","exist":"∃","Exists":"∃","expectation":"ℰ","exponentiale":"ⅇ","ExponentialE":"ⅇ","fallingdotseq":"≒","Fcy":"Ф","fcy":"ф","female":"♀","ffilig":"ﬃ","fflig":"ﬀ","ffllig":"ﬄ","Ffr":"𝔉","ffr":"𝔣","filig":"ﬁ","FilledSmallSquare":"◼","FilledVerySmallSquare":"▪","fjlig":"fj","flat":"♭","fllig":"ﬂ","fltns":"▱","fnof":"ƒ","Fopf":"𝔽","fopf":"𝕗","forall":"∀","ForAll":"∀","fork":"⋔","forkv":"⫙","Fouriertrf":"ℱ","fpartint":"⨍","frac12":"½","frac13":"⅓","frac14":"¼","frac15":"⅕","frac16":"⅙","frac18":"⅛","frac23":"⅔","frac25":"⅖","frac34":"¾","frac35":"⅗","frac38":"⅜","frac45":"⅘","frac56":"⅚","frac58":"⅝","frac78":"⅞","frasl":"⁄","frown":"⌢","fscr":"𝒻","Fscr":"ℱ","gacute":"ǵ","Gamma":"Γ","gamma":"γ","Gammad":"Ϝ","gammad":"ϝ","gap":"⪆","Gbreve":"Ğ","gbreve":"ğ","Gcedil":"Ģ","Gcirc":"Ĝ","gcirc":"ĝ","Gcy":"Г","gcy":"г","Gdot":"Ġ","gdot":"ġ","ge":"≥","gE":"≧","gEl":"⪌","gel":"⋛","geq":"≥","geqq":"≧","geqslant":"⩾","gescc":"⪩","ges":"⩾","gesdot":"⪀","gesdoto":"⪂","gesdotol":"⪄","gesl":"⋛︀","gesles":"⪔","Gfr":"𝔊","gfr":"𝔤","gg":"≫","Gg":"⋙","ggg":"⋙","gimel":"ℷ","GJcy":"Ѓ","gjcy":"ѓ","gla":"⪥","gl":"≷","glE":"⪒","glj":"⪤","gnap":"⪊","gnapprox":"⪊","gne":"⪈","gnE":"≩","gneq":"⪈","gneqq":"≩","gnsim":"⋧","Gopf":"𝔾","gopf":"𝕘","grave":"`","GreaterEqual":"≥","GreaterEqualLess":"⋛","GreaterFullEqual":"≧","GreaterGreater":"⪢","GreaterLess":"≷","GreaterSlantEqual":"⩾","GreaterTilde":"≳","Gscr":"𝒢","gscr":"ℊ","gsim":"≳","gsime":"⪎","gsiml":"⪐","gtcc":"⪧","gtcir":"⩺","gt":">","GT":">","Gt":"≫","gtdot":"⋗","gtlPar":"⦕","gtquest":"⩼","gtrapprox":"⪆","gtrarr":"⥸","gtrdot":"⋗","gtreqless":"⋛","gtreqqless":"⪌","gtrless":"≷","gtrsim":"≳","gvertneqq":"≩︀","gvnE":"≩︀","Hacek":"ˇ","hairsp":" ","half":"½","hamilt":"ℋ","HARDcy":"Ъ","hardcy":"ъ","harrcir":"⥈","harr":"↔","hArr":"⇔","harrw":"↭","Hat":"^","hbar":"ℏ","Hcirc":"Ĥ","hcirc":"ĥ","hearts":"♥","heartsuit":"♥","hellip":"…","hercon":"⊹","hfr":"𝔥","Hfr":"ℌ","HilbertSpace":"ℋ","hksearow":"⤥","hkswarow":"⤦","hoarr":"⇿","homtht":"∻","hookleftarrow":"↩","hookrightarrow":"↪","hopf":"𝕙","Hopf":"ℍ","horbar":"―","HorizontalLine":"─","hscr":"𝒽","Hscr":"ℋ","hslash":"ℏ","Hstrok":"Ħ","hstrok":"ħ","HumpDownHump":"≎","HumpEqual":"≏","hybull":"⁃","hyphen":"‐","Iacute":"Í","iacute":"í","ic":"⁣","Icirc":"Î","icirc":"î","Icy":"И","icy":"и","Idot":"İ","IEcy":"Е","iecy":"е","iexcl":"¡","iff":"⇔","ifr":"𝔦","Ifr":"ℑ","Igrave":"Ì","igrave":"ì","ii":"ⅈ","iiiint":"⨌","iiint":"∭","iinfin":"⧜","iiota":"℩","IJlig":"Ĳ","ijlig":"ĳ","Imacr":"Ī","imacr":"ī","image":"ℑ","ImaginaryI":"ⅈ","imagline":"ℐ","imagpart":"ℑ","imath":"ı","Im":"ℑ","imof":"⊷","imped":"Ƶ","Implies":"⇒","incare":"℅","in":"∈","infin":"∞","infintie":"⧝","inodot":"ı","intcal":"⊺","int":"∫","Int":"∬","integers":"ℤ","Integral":"∫","intercal":"⊺","Intersection":"⋂","intlarhk":"⨗","intprod":"⨼","InvisibleComma":"⁣","InvisibleTimes":"⁢","IOcy":"Ё","iocy":"ё","Iogon":"Į","iogon":"į","Iopf":"𝕀","iopf":"𝕚","Iota":"Ι","iota":"ι","iprod":"⨼","iquest":"¿","iscr":"𝒾","Iscr":"ℐ","isin":"∈","isindot":"⋵","isinE":"⋹","isins":"⋴","isinsv":"⋳","isinv":"∈","it":"⁢","Itilde":"Ĩ","itilde":"ĩ","Iukcy":"І","iukcy":"і","Iuml":"Ï","iuml":"ï","Jcirc":"Ĵ","jcirc":"ĵ","Jcy":"Й","jcy":"й","Jfr":"𝔍","jfr":"𝔧","jmath":"ȷ","Jopf":"𝕁","jopf":"𝕛","Jscr":"𝒥","jscr":"𝒿","Jsercy":"Ј","jsercy":"ј","Jukcy":"Є","jukcy":"є","Kappa":"Κ","kappa":"κ","kappav":"ϰ","Kcedil":"Ķ","kcedil":"ķ","Kcy":"К","kcy":"к","Kfr":"𝔎","kfr":"𝔨","kgreen":"ĸ","KHcy":"Х","khcy":"х","KJcy":"Ќ","kjcy":"ќ","Kopf":"𝕂","kopf":"𝕜","Kscr":"𝒦","kscr":"𝓀","lAarr":"⇚","Lacute":"Ĺ","lacute":"ĺ","laemptyv":"⦴","lagran":"ℒ","Lambda":"Λ","lambda":"λ","lang":"⟨","Lang":"⟪","langd":"⦑","langle":"⟨","lap":"⪅","Laplacetrf":"ℒ","laquo":"«","larrb":"⇤","larrbfs":"⤟","larr":"←","Larr":"↞","lArr":"⇐","larrfs":"⤝","larrhk":"↩","larrlp":"↫","larrpl":"⤹","larrsim":"⥳","larrtl":"↢","latail":"⤙","lAtail":"⤛","lat":"⪫","late":"⪭","lates":"⪭︀","lbarr":"⤌","lBarr":"⤎","lbbrk":"❲","lbrace":"{","lbrack":"[","lbrke":"⦋","lbrksld":"⦏","lbrkslu":"⦍","Lcaron":"Ľ","lcaron":"ľ","Lcedil":"Ļ","lcedil":"ļ","lceil":"⌈","lcub":"{","Lcy":"Л","lcy":"л","ldca":"⤶","ldquo":"“","ldquor":"„","ldrdhar":"⥧","ldrushar":"⥋","ldsh":"↲","le":"≤","lE":"≦","LeftAngleBracket":"⟨","LeftArrowBar":"⇤","leftarrow":"←","LeftArrow":"←","Leftarrow":"⇐","LeftArrowRightArrow":"⇆","leftarrowtail":"↢","LeftCeiling":"⌈","LeftDoubleBracket":"⟦","LeftDownTeeVector":"⥡","LeftDownVectorBar":"⥙","LeftDownVector":"⇃","LeftFloor":"⌊","leftharpoondown":"↽","leftharpoonup":"↼","leftleftarrows":"⇇","leftrightarrow":"↔","LeftRightArrow":"↔","Leftrightarrow":"⇔","leftrightarrows":"⇆","leftrightharpoons":"⇋","leftrightsquigarrow":"↭","LeftRightVector":"⥎","LeftTeeArrow":"↤","LeftTee":"⊣","LeftTeeVector":"⥚","leftthreetimes":"⋋","LeftTriangleBar":"⧏","LeftTriangle":"⊲","LeftTriangleEqual":"⊴","LeftUpDownVector":"⥑","LeftUpTeeVector":"⥠","LeftUpVectorBar":"⥘","LeftUpVector":"↿","LeftVectorBar":"⥒","LeftVector":"↼","lEg":"⪋","leg":"⋚","leq":"≤","leqq":"≦","leqslant":"⩽","lescc":"⪨","les":"⩽","lesdot":"⩿","lesdoto":"⪁","lesdotor":"⪃","lesg":"⋚︀","lesges":"⪓","lessapprox":"⪅","lessdot":"⋖","lesseqgtr":"⋚","lesseqqgtr":"⪋","LessEqualGreater":"⋚","LessFullEqual":"≦","LessGreater":"≶","lessgtr":"≶","LessLess":"⪡","lesssim":"≲","LessSlantEqual":"⩽","LessTilde":"≲","lfisht":"⥼","lfloor":"⌊","Lfr":"𝔏","lfr":"𝔩","lg":"≶","lgE":"⪑","lHar":"⥢","lhard":"↽","lharu":"↼","lharul":"⥪","lhblk":"▄","LJcy":"Љ","ljcy":"љ","llarr":"⇇","ll":"≪","Ll":"⋘","llcorner":"⌞","Lleftarrow":"⇚","llhard":"⥫","lltri":"◺","Lmidot":"Ŀ","lmidot":"ŀ","lmoustache":"⎰","lmoust":"⎰","lnap":"⪉","lnapprox":"⪉","lne":"⪇","lnE":"≨","lneq":"⪇","lneqq":"≨","lnsim":"⋦","loang":"⟬","loarr":"⇽","lobrk":"⟦","longleftarrow":"⟵","LongLeftArrow":"⟵","Longleftarrow":"⟸","longleftrightarrow":"⟷","LongLeftRightArrow":"⟷","Longleftrightarrow":"⟺","longmapsto":"⟼","longrightarrow":"⟶","LongRightArrow":"⟶","Longrightarrow":"⟹","looparrowleft":"↫","looparrowright":"↬","lopar":"⦅","Lopf":"𝕃","lopf":"𝕝","loplus":"⨭","lotimes":"⨴","lowast":"∗","lowbar":"_","LowerLeftArrow":"↙","LowerRightArrow":"↘","loz":"◊","lozenge":"◊","lozf":"⧫","lpar":"(","lparlt":"⦓","lrarr":"⇆","lrcorner":"⌟","lrhar":"⇋","lrhard":"⥭","lrm":"‎","lrtri":"⊿","lsaquo":"‹","lscr":"𝓁","Lscr":"ℒ","lsh":"↰","Lsh":"↰","lsim":"≲","lsime":"⪍","lsimg":"⪏","lsqb":"[","lsquo":"‘","lsquor":"‚","Lstrok":"Ł","lstrok":"ł","ltcc":"⪦","ltcir":"⩹","lt":"<","LT":"<","Lt":"≪","ltdot":"⋖","lthree":"⋋","ltimes":"⋉","ltlarr":"⥶","ltquest":"⩻","ltri":"◃","ltrie":"⊴","ltrif":"◂","ltrPar":"⦖","lurdshar":"⥊","luruhar":"⥦","lvertneqq":"≨︀","lvnE":"≨︀","macr":"¯","male":"♂","malt":"✠","maltese":"✠","Map":"⤅","map":"↦","mapsto":"↦","mapstodown":"↧","mapstoleft":"↤","mapstoup":"↥","marker":"▮","mcomma":"⨩","Mcy":"М","mcy":"м","mdash":"—","mDDot":"∺","measuredangle":"∡","MediumSpace":" ","Mellintrf":"ℳ","Mfr":"𝔐","mfr":"𝔪","mho":"℧","micro":"µ","midast":"*","midcir":"⫰","mid":"∣","middot":"·","minusb":"⊟","minus":"−","minusd":"∸","minusdu":"⨪","MinusPlus":"∓","mlcp":"⫛","mldr":"…","mnplus":"∓","models":"⊧","Mopf":"𝕄","mopf":"𝕞","mp":"∓","mscr":"𝓂","Mscr":"ℳ","mstpos":"∾","Mu":"Μ","mu":"μ","multimap":"⊸","mumap":"⊸","nabla":"∇","Nacute":"Ń","nacute":"ń","nang":"∠⃒","nap":"≉","napE":"⩰̸","napid":"≋̸","napos":"ŉ","napprox":"≉","natural":"♮","naturals":"ℕ","natur":"♮","nbsp":" ","nbump":"≎̸","nbumpe":"≏̸","ncap":"⩃","Ncaron":"Ň","ncaron":"ň","Ncedil":"Ņ","ncedil":"ņ","ncong":"≇","ncongdot":"⩭̸","ncup":"⩂","Ncy":"Н","ncy":"н","ndash":"–","nearhk":"⤤","nearr":"↗","neArr":"⇗","nearrow":"↗","ne":"≠","nedot":"≐̸","NegativeMediumSpace":"​","NegativeThickSpace":"​","NegativeThinSpace":"​","NegativeVeryThinSpace":"​","nequiv":"≢","nesear":"⤨","nesim":"≂̸","NestedGreaterGreater":"≫","NestedLessLess":"≪","NewLine":"\\n","nexist":"∄","nexists":"∄","Nfr":"𝔑","nfr":"𝔫","ngE":"≧̸","nge":"≱","ngeq":"≱","ngeqq":"≧̸","ngeqslant":"⩾̸","nges":"⩾̸","nGg":"⋙̸","ngsim":"≵","nGt":"≫⃒","ngt":"≯","ngtr":"≯","nGtv":"≫̸","nharr":"↮","nhArr":"⇎","nhpar":"⫲","ni":"∋","nis":"⋼","nisd":"⋺","niv":"∋","NJcy":"Њ","njcy":"њ","nlarr":"↚","nlArr":"⇍","nldr":"‥","nlE":"≦̸","nle":"≰","nleftarrow":"↚","nLeftarrow":"⇍","nleftrightarrow":"↮","nLeftrightarrow":"⇎","nleq":"≰","nleqq":"≦̸","nleqslant":"⩽̸","nles":"⩽̸","nless":"≮","nLl":"⋘̸","nlsim":"≴","nLt":"≪⃒","nlt":"≮","nltri":"⋪","nltrie":"⋬","nLtv":"≪̸","nmid":"∤","NoBreak":"⁠","NonBreakingSpace":" ","nopf":"𝕟","Nopf":"ℕ","Not":"⫬","not":"¬","NotCongruent":"≢","NotCupCap":"≭","NotDoubleVerticalBar":"∦","NotElement":"∉","NotEqual":"≠","NotEqualTilde":"≂̸","NotExists":"∄","NotGreater":"≯","NotGreaterEqual":"≱","NotGreaterFullEqual":"≧̸","NotGreaterGreater":"≫̸","NotGreaterLess":"≹","NotGreaterSlantEqual":"⩾̸","NotGreaterTilde":"≵","NotHumpDownHump":"≎̸","NotHumpEqual":"≏̸","notin":"∉","notindot":"⋵̸","notinE":"⋹̸","notinva":"∉","notinvb":"⋷","notinvc":"⋶","NotLeftTriangleBar":"⧏̸","NotLeftTriangle":"⋪","NotLeftTriangleEqual":"⋬","NotLess":"≮","NotLessEqual":"≰","NotLessGreater":"≸","NotLessLess":"≪̸","NotLessSlantEqual":"⩽̸","NotLessTilde":"≴","NotNestedGreaterGreater":"⪢̸","NotNestedLessLess":"⪡̸","notni":"∌","notniva":"∌","notnivb":"⋾","notnivc":"⋽","NotPrecedes":"⊀","NotPrecedesEqual":"⪯̸","NotPrecedesSlantEqual":"⋠","NotReverseElement":"∌","NotRightTriangleBar":"⧐̸","NotRightTriangle":"⋫","NotRightTriangleEqual":"⋭","NotSquareSubset":"⊏̸","NotSquareSubsetEqual":"⋢","NotSquareSuperset":"⊐̸","NotSquareSupersetEqual":"⋣","NotSubset":"⊂⃒","NotSubsetEqual":"⊈","NotSucceeds":"⊁","NotSucceedsEqual":"⪰̸","NotSucceedsSlantEqual":"⋡","NotSucceedsTilde":"≿̸","NotSuperset":"⊃⃒","NotSupersetEqual":"⊉","NotTilde":"≁","NotTildeEqual":"≄","NotTildeFullEqual":"≇","NotTildeTilde":"≉","NotVerticalBar":"∤","nparallel":"∦","npar":"∦","nparsl":"⫽⃥","npart":"∂̸","npolint":"⨔","npr":"⊀","nprcue":"⋠","nprec":"⊀","npreceq":"⪯̸","npre":"⪯̸","nrarrc":"⤳̸","nrarr":"↛","nrArr":"⇏","nrarrw":"↝̸","nrightarrow":"↛","nRightarrow":"⇏","nrtri":"⋫","nrtrie":"⋭","nsc":"⊁","nsccue":"⋡","nsce":"⪰̸","Nscr":"𝒩","nscr":"𝓃","nshortmid":"∤","nshortparallel":"∦","nsim":"≁","nsime":"≄","nsimeq":"≄","nsmid":"∤","nspar":"∦","nsqsube":"⋢","nsqsupe":"⋣","nsub":"⊄","nsubE":"⫅̸","nsube":"⊈","nsubset":"⊂⃒","nsubseteq":"⊈","nsubseteqq":"⫅̸","nsucc":"⊁","nsucceq":"⪰̸","nsup":"⊅","nsupE":"⫆̸","nsupe":"⊉","nsupset":"⊃⃒","nsupseteq":"⊉","nsupseteqq":"⫆̸","ntgl":"≹","Ntilde":"Ñ","ntilde":"ñ","ntlg":"≸","ntriangleleft":"⋪","ntrianglelefteq":"⋬","ntriangleright":"⋫","ntrianglerighteq":"⋭","Nu":"Ν","nu":"ν","num":"#","numero":"№","numsp":" ","nvap":"≍⃒","nvdash":"⊬","nvDash":"⊭","nVdash":"⊮","nVDash":"⊯","nvge":"≥⃒","nvgt":">⃒","nvHarr":"⤄","nvinfin":"⧞","nvlArr":"⤂","nvle":"≤⃒","nvlt":"<⃒","nvltrie":"⊴⃒","nvrArr":"⤃","nvrtrie":"⊵⃒","nvsim":"∼⃒","nwarhk":"⤣","nwarr":"↖","nwArr":"⇖","nwarrow":"↖","nwnear":"⤧","Oacute":"Ó","oacute":"ó","oast":"⊛","Ocirc":"Ô","ocirc":"ô","ocir":"⊚","Ocy":"О","ocy":"о","odash":"⊝","Odblac":"Ő","odblac":"ő","odiv":"⨸","odot":"⊙","odsold":"⦼","OElig":"Œ","oelig":"œ","ofcir":"⦿","Ofr":"𝔒","ofr":"𝔬","ogon":"˛","Ograve":"Ò","ograve":"ò","ogt":"⧁","ohbar":"⦵","ohm":"Ω","oint":"∮","olarr":"↺","olcir":"⦾","olcross":"⦻","oline":"‾","olt":"⧀","Omacr":"Ō","omacr":"ō","Omega":"Ω","omega":"ω","Omicron":"Ο","omicron":"ο","omid":"⦶","ominus":"⊖","Oopf":"𝕆","oopf":"𝕠","opar":"⦷","OpenCurlyDoubleQuote":"“","OpenCurlyQuote":"‘","operp":"⦹","oplus":"⊕","orarr":"↻","Or":"⩔","or":"∨","ord":"⩝","order":"ℴ","orderof":"ℴ","ordf":"ª","ordm":"º","origof":"⊶","oror":"⩖","orslope":"⩗","orv":"⩛","oS":"Ⓢ","Oscr":"𝒪","oscr":"ℴ","Oslash":"Ø","oslash":"ø","osol":"⊘","Otilde":"Õ","otilde":"õ","otimesas":"⨶","Otimes":"⨷","otimes":"⊗","Ouml":"Ö","ouml":"ö","ovbar":"⌽","OverBar":"‾","OverBrace":"⏞","OverBracket":"⎴","OverParenthesis":"⏜","para":"¶","parallel":"∥","par":"∥","parsim":"⫳","parsl":"⫽","part":"∂","PartialD":"∂","Pcy":"П","pcy":"п","percnt":"%","period":".","permil":"‰","perp":"⊥","pertenk":"‱","Pfr":"𝔓","pfr":"𝔭","Phi":"Φ","phi":"φ","phiv":"ϕ","phmmat":"ℳ","phone":"☎","Pi":"Π","pi":"π","pitchfork":"⋔","piv":"ϖ","planck":"ℏ","planckh":"ℎ","plankv":"ℏ","plusacir":"⨣","plusb":"⊞","pluscir":"⨢","plus":"+","plusdo":"∔","plusdu":"⨥","pluse":"⩲","PlusMinus":"±","plusmn":"±","plussim":"⨦","plustwo":"⨧","pm":"±","Poincareplane":"ℌ","pointint":"⨕","popf":"𝕡","Popf":"ℙ","pound":"£","prap":"⪷","Pr":"⪻","pr":"≺","prcue":"≼","precapprox":"⪷","prec":"≺","preccurlyeq":"≼","Precedes":"≺","PrecedesEqual":"⪯","PrecedesSlantEqual":"≼","PrecedesTilde":"≾","preceq":"⪯","precnapprox":"⪹","precneqq":"⪵","precnsim":"⋨","pre":"⪯","prE":"⪳","precsim":"≾","prime":"′","Prime":"″","primes":"ℙ","prnap":"⪹","prnE":"⪵","prnsim":"⋨","prod":"∏","Product":"∏","profalar":"⌮","profline":"⌒","profsurf":"⌓","prop":"∝","Proportional":"∝","Proportion":"∷","propto":"∝","prsim":"≾","prurel":"⊰","Pscr":"𝒫","pscr":"𝓅","Psi":"Ψ","psi":"ψ","puncsp":" ","Qfr":"𝔔","qfr":"𝔮","qint":"⨌","qopf":"𝕢","Qopf":"ℚ","qprime":"⁗","Qscr":"𝒬","qscr":"𝓆","quaternions":"ℍ","quatint":"⨖","quest":"?","questeq":"≟","quot":"\\"","QUOT":"\\"","rAarr":"⇛","race":"∽̱","Racute":"Ŕ","racute":"ŕ","radic":"√","raemptyv":"⦳","rang":"⟩","Rang":"⟫","rangd":"⦒","range":"⦥","rangle":"⟩","raquo":"»","rarrap":"⥵","rarrb":"⇥","rarrbfs":"⤠","rarrc":"⤳","rarr":"→","Rarr":"↠","rArr":"⇒","rarrfs":"⤞","rarrhk":"↪","rarrlp":"↬","rarrpl":"⥅","rarrsim":"⥴","Rarrtl":"⤖","rarrtl":"↣","rarrw":"↝","ratail":"⤚","rAtail":"⤜","ratio":"∶","rationals":"ℚ","rbarr":"⤍","rBarr":"⤏","RBarr":"⤐","rbbrk":"❳","rbrace":"}","rbrack":"]","rbrke":"⦌","rbrksld":"⦎","rbrkslu":"⦐","Rcaron":"Ř","rcaron":"ř","Rcedil":"Ŗ","rcedil":"ŗ","rceil":"⌉","rcub":"}","Rcy":"Р","rcy":"р","rdca":"⤷","rdldhar":"⥩","rdquo":"”","rdquor":"”","rdsh":"↳","real":"ℜ","realine":"ℛ","realpart":"ℜ","reals":"ℝ","Re":"ℜ","rect":"▭","reg":"®","REG":"®","ReverseElement":"∋","ReverseEquilibrium":"⇋","ReverseUpEquilibrium":"⥯","rfisht":"⥽","rfloor":"⌋","rfr":"𝔯","Rfr":"ℜ","rHar":"⥤","rhard":"⇁","rharu":"⇀","rharul":"⥬","Rho":"Ρ","rho":"ρ","rhov":"ϱ","RightAngleBracket":"⟩","RightArrowBar":"⇥","rightarrow":"→","RightArrow":"→","Rightarrow":"⇒","RightArrowLeftArrow":"⇄","rightarrowtail":"↣","RightCeiling":"⌉","RightDoubleBracket":"⟧","RightDownTeeVector":"⥝","RightDownVectorBar":"⥕","RightDownVector":"⇂","RightFloor":"⌋","rightharpoondown":"⇁","rightharpoonup":"⇀","rightleftarrows":"⇄","rightleftharpoons":"⇌","rightrightarrows":"⇉","rightsquigarrow":"↝","RightTeeArrow":"↦","RightTee":"⊢","RightTeeVector":"⥛","rightthreetimes":"⋌","RightTriangleBar":"⧐","RightTriangle":"⊳","RightTriangleEqual":"⊵","RightUpDownVector":"⥏","RightUpTeeVector":"⥜","RightUpVectorBar":"⥔","RightUpVector":"↾","RightVectorBar":"⥓","RightVector":"⇀","ring":"˚","risingdotseq":"≓","rlarr":"⇄","rlhar":"⇌","rlm":"‏","rmoustache":"⎱","rmoust":"⎱","rnmid":"⫮","roang":"⟭","roarr":"⇾","robrk":"⟧","ropar":"⦆","ropf":"𝕣","Ropf":"ℝ","roplus":"⨮","rotimes":"⨵","RoundImplies":"⥰","rpar":")","rpargt":"⦔","rppolint":"⨒","rrarr":"⇉","Rrightarrow":"⇛","rsaquo":"›","rscr":"𝓇","Rscr":"ℛ","rsh":"↱","Rsh":"↱","rsqb":"]","rsquo":"’","rsquor":"’","rthree":"⋌","rtimes":"⋊","rtri":"▹","rtrie":"⊵","rtrif":"▸","rtriltri":"⧎","RuleDelayed":"⧴","ruluhar":"⥨","rx":"℞","Sacute":"Ś","sacute":"ś","sbquo":"‚","scap":"⪸","Scaron":"Š","scaron":"š","Sc":"⪼","sc":"≻","sccue":"≽","sce":"⪰","scE":"⪴","Scedil":"Ş","scedil":"ş","Scirc":"Ŝ","scirc":"ŝ","scnap":"⪺","scnE":"⪶","scnsim":"⋩","scpolint":"⨓","scsim":"≿","Scy":"С","scy":"с","sdotb":"⊡","sdot":"⋅","sdote":"⩦","searhk":"⤥","searr":"↘","seArr":"⇘","searrow":"↘","sect":"§","semi":";","seswar":"⤩","setminus":"∖","setmn":"∖","sext":"✶","Sfr":"𝔖","sfr":"𝔰","sfrown":"⌢","sharp":"♯","SHCHcy":"Щ","shchcy":"щ","SHcy":"Ш","shcy":"ш","ShortDownArrow":"↓","ShortLeftArrow":"←","shortmid":"∣","shortparallel":"∥","ShortRightArrow":"→","ShortUpArrow":"↑","shy":"­","Sigma":"Σ","sigma":"σ","sigmaf":"ς","sigmav":"ς","sim":"∼","simdot":"⩪","sime":"≃","simeq":"≃","simg":"⪞","simgE":"⪠","siml":"⪝","simlE":"⪟","simne":"≆","simplus":"⨤","simrarr":"⥲","slarr":"←","SmallCircle":"∘","smallsetminus":"∖","smashp":"⨳","smeparsl":"⧤","smid":"∣","smile":"⌣","smt":"⪪","smte":"⪬","smtes":"⪬︀","SOFTcy":"Ь","softcy":"ь","solbar":"⌿","solb":"⧄","sol":"/","Sopf":"𝕊","sopf":"𝕤","spades":"♠","spadesuit":"♠","spar":"∥","sqcap":"⊓","sqcaps":"⊓︀","sqcup":"⊔","sqcups":"⊔︀","Sqrt":"√","sqsub":"⊏","sqsube":"⊑","sqsubset":"⊏","sqsubseteq":"⊑","sqsup":"⊐","sqsupe":"⊒","sqsupset":"⊐","sqsupseteq":"⊒","square":"□","Square":"□","SquareIntersection":"⊓","SquareSubset":"⊏","SquareSubsetEqual":"⊑","SquareSuperset":"⊐","SquareSupersetEqual":"⊒","SquareUnion":"⊔","squarf":"▪","squ":"□","squf":"▪","srarr":"→","Sscr":"𝒮","sscr":"𝓈","ssetmn":"∖","ssmile":"⌣","sstarf":"⋆","Star":"⋆","star":"☆","starf":"★","straightepsilon":"ϵ","straightphi":"ϕ","strns":"¯","sub":"⊂","Sub":"⋐","subdot":"⪽","subE":"⫅","sube":"⊆","subedot":"⫃","submult":"⫁","subnE":"⫋","subne":"⊊","subplus":"⪿","subrarr":"⥹","subset":"⊂","Subset":"⋐","subseteq":"⊆","subseteqq":"⫅","SubsetEqual":"⊆","subsetneq":"⊊","subsetneqq":"⫋","subsim":"⫇","subsub":"⫕","subsup":"⫓","succapprox":"⪸","succ":"≻","succcurlyeq":"≽","Succeeds":"≻","SucceedsEqual":"⪰","SucceedsSlantEqual":"≽","SucceedsTilde":"≿","succeq":"⪰","succnapprox":"⪺","succneqq":"⪶","succnsim":"⋩","succsim":"≿","SuchThat":"∋","sum":"∑","Sum":"∑","sung":"♪","sup1":"¹","sup2":"²","sup3":"³","sup":"⊃","Sup":"⋑","supdot":"⪾","supdsub":"⫘","supE":"⫆","supe":"⊇","supedot":"⫄","Superset":"⊃","SupersetEqual":"⊇","suphsol":"⟉","suphsub":"⫗","suplarr":"⥻","supmult":"⫂","supnE":"⫌","supne":"⊋","supplus":"⫀","supset":"⊃","Supset":"⋑","supseteq":"⊇","supseteqq":"⫆","supsetneq":"⊋","supsetneqq":"⫌","supsim":"⫈","supsub":"⫔","supsup":"⫖","swarhk":"⤦","swarr":"↙","swArr":"⇙","swarrow":"↙","swnwar":"⤪","szlig":"ß","Tab":"\\t","target":"⌖","Tau":"Τ","tau":"τ","tbrk":"⎴","Tcaron":"Ť","tcaron":"ť","Tcedil":"Ţ","tcedil":"ţ","Tcy":"Т","tcy":"т","tdot":"⃛","telrec":"⌕","Tfr":"𝔗","tfr":"𝔱","there4":"∴","therefore":"∴","Therefore":"∴","Theta":"Θ","theta":"θ","thetasym":"ϑ","thetav":"ϑ","thickapprox":"≈","thicksim":"∼","ThickSpace":"  ","ThinSpace":" ","thinsp":" ","thkap":"≈","thksim":"∼","THORN":"Þ","thorn":"þ","tilde":"˜","Tilde":"∼","TildeEqual":"≃","TildeFullEqual":"≅","TildeTilde":"≈","timesbar":"⨱","timesb":"⊠","times":"×","timesd":"⨰","tint":"∭","toea":"⤨","topbot":"⌶","topcir":"⫱","top":"⊤","Topf":"𝕋","topf":"𝕥","topfork":"⫚","tosa":"⤩","tprime":"‴","trade":"™","TRADE":"™","triangle":"▵","triangledown":"▿","triangleleft":"◃","trianglelefteq":"⊴","triangleq":"≜","triangleright":"▹","trianglerighteq":"⊵","tridot":"◬","trie":"≜","triminus":"⨺","TripleDot":"⃛","triplus":"⨹","trisb":"⧍","tritime":"⨻","trpezium":"⏢","Tscr":"𝒯","tscr":"𝓉","TScy":"Ц","tscy":"ц","TSHcy":"Ћ","tshcy":"ћ","Tstrok":"Ŧ","tstrok":"ŧ","twixt":"≬","twoheadleftarrow":"↞","twoheadrightarrow":"↠","Uacute":"Ú","uacute":"ú","uarr":"↑","Uarr":"↟","uArr":"⇑","Uarrocir":"⥉","Ubrcy":"Ў","ubrcy":"ў","Ubreve":"Ŭ","ubreve":"ŭ","Ucirc":"Û","ucirc":"û","Ucy":"У","ucy":"у","udarr":"⇅","Udblac":"Ű","udblac":"ű","udhar":"⥮","ufisht":"⥾","Ufr":"𝔘","ufr":"𝔲","Ugrave":"Ù","ugrave":"ù","uHar":"⥣","uharl":"↿","uharr":"↾","uhblk":"▀","ulcorn":"⌜","ulcorner":"⌜","ulcrop":"⌏","ultri":"◸","Umacr":"Ū","umacr":"ū","uml":"¨","UnderBar":"_","UnderBrace":"⏟","UnderBracket":"⎵","UnderParenthesis":"⏝","Union":"⋃","UnionPlus":"⊎","Uogon":"Ų","uogon":"ų","Uopf":"𝕌","uopf":"𝕦","UpArrowBar":"⤒","uparrow":"↑","UpArrow":"↑","Uparrow":"⇑","UpArrowDownArrow":"⇅","updownarrow":"↕","UpDownArrow":"↕","Updownarrow":"⇕","UpEquilibrium":"⥮","upharpoonleft":"↿","upharpoonright":"↾","uplus":"⊎","UpperLeftArrow":"↖","UpperRightArrow":"↗","upsi":"υ","Upsi":"ϒ","upsih":"ϒ","Upsilon":"Υ","upsilon":"υ","UpTeeArrow":"↥","UpTee":"⊥","upuparrows":"⇈","urcorn":"⌝","urcorner":"⌝","urcrop":"⌎","Uring":"Ů","uring":"ů","urtri":"◹","Uscr":"𝒰","uscr":"𝓊","utdot":"⋰","Utilde":"Ũ","utilde":"ũ","utri":"▵","utrif":"▴","uuarr":"⇈","Uuml":"Ü","uuml":"ü","uwangle":"⦧","vangrt":"⦜","varepsilon":"ϵ","varkappa":"ϰ","varnothing":"∅","varphi":"ϕ","varpi":"ϖ","varpropto":"∝","varr":"↕","vArr":"⇕","varrho":"ϱ","varsigma":"ς","varsubsetneq":"⊊︀","varsubsetneqq":"⫋︀","varsupsetneq":"⊋︀","varsupsetneqq":"⫌︀","vartheta":"ϑ","vartriangleleft":"⊲","vartriangleright":"⊳","vBar":"⫨","Vbar":"⫫","vBarv":"⫩","Vcy":"В","vcy":"в","vdash":"⊢","vDash":"⊨","Vdash":"⊩","VDash":"⊫","Vdashl":"⫦","veebar":"⊻","vee":"∨","Vee":"⋁","veeeq":"≚","vellip":"⋮","verbar":"|","Verbar":"‖","vert":"|","Vert":"‖","VerticalBar":"∣","VerticalLine":"|","VerticalSeparator":"❘","VerticalTilde":"≀","VeryThinSpace":" ","Vfr":"𝔙","vfr":"𝔳","vltri":"⊲","vnsub":"⊂⃒","vnsup":"⊃⃒","Vopf":"𝕍","vopf":"𝕧","vprop":"∝","vrtri":"⊳","Vscr":"𝒱","vscr":"𝓋","vsubnE":"⫋︀","vsubne":"⊊︀","vsupnE":"⫌︀","vsupne":"⊋︀","Vvdash":"⊪","vzigzag":"⦚","Wcirc":"Ŵ","wcirc":"ŵ","wedbar":"⩟","wedge":"∧","Wedge":"⋀","wedgeq":"≙","weierp":"℘","Wfr":"𝔚","wfr":"𝔴","Wopf":"𝕎","wopf":"𝕨","wp":"℘","wr":"≀","wreath":"≀","Wscr":"𝒲","wscr":"𝓌","xcap":"⋂","xcirc":"◯","xcup":"⋃","xdtri":"▽","Xfr":"𝔛","xfr":"𝔵","xharr":"⟷","xhArr":"⟺","Xi":"Ξ","xi":"ξ","xlarr":"⟵","xlArr":"⟸","xmap":"⟼","xnis":"⋻","xodot":"⨀","Xopf":"𝕏","xopf":"𝕩","xoplus":"⨁","xotime":"⨂","xrarr":"⟶","xrArr":"⟹","Xscr":"𝒳","xscr":"𝓍","xsqcup":"⨆","xuplus":"⨄","xutri":"△","xvee":"⋁","xwedge":"⋀","Yacute":"Ý","yacute":"ý","YAcy":"Я","yacy":"я","Ycirc":"Ŷ","ycirc":"ŷ","Ycy":"Ы","ycy":"ы","yen":"¥","Yfr":"𝔜","yfr":"𝔶","YIcy":"Ї","yicy":"ї","Yopf":"𝕐","yopf":"𝕪","Yscr":"𝒴","yscr":"𝓎","YUcy":"Ю","yucy":"ю","yuml":"ÿ","Yuml":"Ÿ","Zacute":"Ź","zacute":"ź","Zcaron":"Ž","zcaron":"ž","Zcy":"З","zcy":"з","Zdot":"Ż","zdot":"ż","zeetrf":"ℨ","ZeroWidthSpace":"​","Zeta":"Ζ","zeta":"ζ","zfr":"𝔷","Zfr":"ℨ","ZHcy":"Ж","zhcy":"ж","zigrarr":"⇝","zopf":"𝕫","Zopf":"ℤ","Zscr":"𝒵","zscr":"𝓏","zwj":"‍","zwnj":"‌"}');
+
+/***/ }),
+
+/***/ 9591:
+/***/ ((module) => {
+
+"use strict";
+module.exports = JSON.parse('{"Aacute":"Á","aacute":"á","Acirc":"Â","acirc":"â","acute":"´","AElig":"Æ","aelig":"æ","Agrave":"À","agrave":"à","amp":"&","AMP":"&","Aring":"Å","aring":"å","Atilde":"Ã","atilde":"ã","Auml":"Ä","auml":"ä","brvbar":"¦","Ccedil":"Ç","ccedil":"ç","cedil":"¸","cent":"¢","copy":"©","COPY":"©","curren":"¤","deg":"°","divide":"÷","Eacute":"É","eacute":"é","Ecirc":"Ê","ecirc":"ê","Egrave":"È","egrave":"è","ETH":"Ð","eth":"ð","Euml":"Ë","euml":"ë","frac12":"½","frac14":"¼","frac34":"¾","gt":">","GT":">","Iacute":"Í","iacute":"í","Icirc":"Î","icirc":"î","iexcl":"¡","Igrave":"Ì","igrave":"ì","iquest":"¿","Iuml":"Ï","iuml":"ï","laquo":"«","lt":"<","LT":"<","macr":"¯","micro":"µ","middot":"·","nbsp":" ","not":"¬","Ntilde":"Ñ","ntilde":"ñ","Oacute":"Ó","oacute":"ó","Ocirc":"Ô","ocirc":"ô","Ograve":"Ò","ograve":"ò","ordf":"ª","ordm":"º","Oslash":"Ø","oslash":"ø","Otilde":"Õ","otilde":"õ","Ouml":"Ö","ouml":"ö","para":"¶","plusmn":"±","pound":"£","quot":"\\"","QUOT":"\\"","raquo":"»","reg":"®","REG":"®","sect":"§","shy":"­","sup1":"¹","sup2":"²","sup3":"³","szlig":"ß","THORN":"Þ","thorn":"þ","times":"×","Uacute":"Ú","uacute":"ú","Ucirc":"Û","ucirc":"û","Ugrave":"Ù","ugrave":"ù","uml":"¨","Uuml":"Ü","uuml":"ü","Yacute":"Ý","yacute":"ý","yen":"¥","yuml":"ÿ"}');
+
+/***/ }),
+
+/***/ 2586:
+/***/ ((module) => {
+
+"use strict";
+module.exports = JSON.parse('{"amp":"&","apos":"\'","gt":">","lt":"<","quot":"\\""}');
 
 /***/ })
 
@@ -49249,7 +50008,7 @@ const {
 } = __nccwpck_require__(8209)
 const { merge, head, omit } = __nccwpck_require__(250)
 const tmp = __nccwpck_require__(8517)
-const fs = __nccwpck_require__(5747)
+const fs = __nccwpck_require__(7147)
 
 const IGNORED_TASK_DEFINITION_ATTRIBUTES = [
   'compatibilities',
@@ -49299,11 +50058,13 @@ const getECSService = async ({
 
 async function run() {
 
-  const client = new ECSClient({ region: 'us-east-1' })
 
   const cluster = core.getInput('cluster-name')
   const service = core.getInput('service-name')
   const task = core.getInput('task-name')
+  const region = core.getInput('aws-region') || 'us-east-1'
+
+  const client = new ECSClient({ region })
 
   try {
     if(service !== '') {
